@@ -1,0 +1,16 @@
+{
+    "extends": "@sc-workshop/neko-core/config",
+    "compilerOptions": {
+        "moduleDetection": "force",
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "rootDir": "source/",
+        "outDir": "build/",
+    },
+    "include": [
+        "source/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

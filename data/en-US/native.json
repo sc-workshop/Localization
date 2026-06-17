@@ -1,0 +1,12 @@
+{
+    "invalidFileError": "Invalid file: {{value}}",
+    "notExistingFileError": "Failed to read next file: {{value}}. Try to attach this file too and try again",
+    "genericError": "An unexpected error occurred during execution: {{value}}",
+    "unknownError": "Occurred unknown error while handling operation",
+    "notAnImageError": "Not an image or unsupported format",
+    "notAnScFile": "Not a valid SC1/SC2 file",
+    "notAnSc2File": "Not a valid SC2 file",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Couldn't find anything to convert. Make sure you configured group arguments correctly!"
+    }
+}

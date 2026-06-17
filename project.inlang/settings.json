@@ -1,0 +1,43 @@
+{
+  "$schema": "https://inlang.com/schema/project-settings",
+  "baseLocale": "en-US",
+  "locales": [
+    "en-US"
+  ],
+  "modules": [
+    "node_modules/@sc-workshop/plugin-i18next/build/index.js",
+    "https://cdn.jsdelivr.net/npm/@inlang/plugin-message-format@latest/dist/index.js"
+  ],
+  "plugin.neko.i18next": {
+    "pathPattern": {
+      "common": "./data/{locale}/common.json",
+      "native": "./data/{locale}/native.json",
+      "op": "./data/{locale}/op.json",
+      "args": "./data/{locale}/args.json",
+      "compress": "./data/{locale}/features/compress.json",
+      "decompress": "./data/{locale}/features/decompress.json",
+      "dbinfo": "./data/{locale}/features/dbinfo.json",
+      "download": "./data/{locale}/features/download.json",
+      "find": "./data/{locale}/features/find.json",
+      "imageConverter": "./data/{locale}/features/imageConverter.json",
+      "png2sc": "./data/{locale}/features/png2sc.json",
+      "sc2fla": "./data/{locale}/features/sc2fla.json",
+      "sc2png": "./data/{locale}/features/sc2png.json",
+      "scDowngrade": "./data/{locale}/features/scDowngrade.json",
+      "scInfo": "./data/{locale}/features/scInfo.json"
+    },
+    "functions": [
+      "TextID",
+      "get",
+      "getProgress",
+      "GetString",
+      "GetMap",
+      "causeError",
+      "progressReply",
+      "setDescription"
+    ]
+  },
+  "plugin.inlang.messageFormat": {
+    "pathPattern": "./data/{locale}/dev-inlang.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Downgrades .sc file to older version",
+    "versionOption": "Target version to downgrade to",
+    "signatureOption": "Target signature (compression) for the downgraded file",
+    "externalTextureOption": "Creates separate _tex.sc file",
+    "wrongSignatureError": "Wrong signature! Acceptable signatures: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Wrong version! Acceptable versions: -1.0 (auto-detect), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF is loaded. Saving..."
+    }
+}

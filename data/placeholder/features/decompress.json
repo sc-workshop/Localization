@@ -1,0 +1,5 @@
+{
+    "desc": "Decompresses a file based on source argument or automatically detects file compression type",
+    "sourceOptionDesc": "Name of file compression",
+    "invalidFileError": "Damaged or not-compressed file"
+}

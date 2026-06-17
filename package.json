@@ -1,0 +1,30 @@
+{
+  "name": "@sc-workshop/locale",
+  "version": "1.0.0",
+  "private": "true",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "exports": {
+    ".": {
+      "types": "./build/index.d.mts",
+      "import": "./build/index.mjs",
+      "default": "./build/index.mjs"
+    }
+  },
+  "scripts": {
+    "start:dev": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --watch",
+    "generate": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated",
+    "build": "pnpm generate && tsdown"
+  },
+  "keywords": [],
+  "author": "DaniilSV",
+  "devDependencies": {
+    "@inlang/cli": "^3.1.11",
+    "@inlang/paraglide-js": "github:sc-workshop/paraglide-js#customFormatter",
+    "@sc-workshop/neko-core": "workspace:*",
+    "@sc-workshop/plugin-i18next": "github:sc-workshop/plugin-i18next",
+    "tsdown": "^0.22.2"
+  }
+}

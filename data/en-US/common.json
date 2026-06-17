@@ -1,0 +1,72 @@
+{
+    "name": "English",
+    "gltfIoLinkMessage": "No need for that. Consider using plugin for Blender here: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Replies pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Bot Latency",
+        "apiLatency": "API Latency",
+        "uptime": "Bot uptime"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Invalid command name!",
+        "invalidCommand_suggests": "{{error, emoji}} Invalid command name! Possibly you mean: {{suggests}}",
+        "argumentParseError": "Failed to parse `{{name}}` argument!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "File is too big",
+        "internalError": "Failed to download file! Internal error",
+        "unknown": "Unknown file download error"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Commands",
+        "description": "Sends info about bot commands",
+        "head": "Use `n!<command> [flags]` to execute command\nExample: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "{{sparkles, emoji}} Neko Bot • Type n!help <command> for more details",
+        "commandNameOption": "Optional command name to get help with",
+        "aliases": "{{lookup, emoji}} Aliases: ",
+        "requiredArgs": "{{important, emoji}} Required arguments: ",
+        "optionalArgs": "{{flag, emoji}} Optional arguments: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Command: {{name}}",
+        "variants": "{{folder, emoji}} Variants for `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Other commands",
+        "group_base": "{{gears, emoji}} Base commands",
+        "group_assets": "{{database, emoji}} Asset commands",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Image processing",
+        "group_generic": "{{folder, emoji}} File operations",
+        "notes": {
+            "title": "{{important, emoji}} Syntax notes",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- Bot supports this prefixes: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flags",
+            "flagsDescription": [
+                "- Flags are mostly optional values ​​that you can provide to bot",
+                "- For help message, optional flags are specified in square brackets like `[.flag]`",
+                "- Flags must have this prefix: {{flagPrefix}}",
+                "- Example: `n!sc2fla ui.sc .split_by_name` OR `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset Data",
+            "assetDataDescription": [
+                "- Most of commands requires **`assetData`** argument",
+                "- This is a complex argument that allows you to specify exactly which asset you want to use",
+                "- Its syntax looks like: `filename [version] [game]`",
+                "- Version should start with `v` letter",
+                "- Currently supported games is: {{supportedGames}}",
+                "- Example: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} File search expression",
+            "fileSearchDescription": [
+                "- Bot supports regex-like expressions when you using `filename` in `assetData` arguments",
+                "- \"Starts with\" expression should start with **`^`** character",
+                "- \"Ends with\" expression should end with **`$`** character",
+                "- Several expressions must be combined with **`&&`** or **`|`** characters",
+                "- By default, searches are performed by file names. If you need to search by folders, your main part of the expression should end with **`/`** character",
+                "- Example, searches for files that starts with `melodie_`, ends with `.sctx` and stored in `sc3d/` folder: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Expressions has concept of modifiers. These are special names starting with @ that modify the output",
+                "    - `@any` returns a single random asset"
+            ]
+        }
+    }
+}
