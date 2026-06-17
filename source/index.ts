@@ -106,7 +106,7 @@ export class Locale {
 		return `${emoji} ${base}` as TextIDValue<K>;
 	}
 
-	get Locale() {
+	get Locale(): LocaleName {
 		return this.localeName;
 	}
 }

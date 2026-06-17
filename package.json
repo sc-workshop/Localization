@@ -8,15 +8,16 @@
   ],
   "exports": {
     ".": {
-      "types": "./build/index.d.mts",
-      "import": "./build/index.mjs",
-      "default": "./build/index.mjs"
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js",
+      "default": "./build/index.js"
     }
   },
   "scripts": {
-    "start:dev": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --watch",
-    "generate": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated",
-    "build": "pnpm generate && tsdown"
+    "start:dev": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --emit-ts-declarations --watch",
+    "generate": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --emit-ts-declarations",
+    "build:ts": "tsdown",
+    "build": "pnpm generate && pnpm build:ts"
   },
   "keywords": [],
   "author": "DaniilSV",

@@ -2,7 +2,8 @@ import { defineConfig } from "tsdown";
 
 export default defineConfig({
 	dts: {
-		tsgo: true,
+		oxc: true,
+		cjsReexport: true,
 	},
 	deps: {
 		alwaysBundle: ["*"],
@@ -10,4 +11,7 @@ export default defineConfig({
 	entry: "./source/index.ts",
 	outDir: "./build",
 	tsconfig: "./tsconfig.json",
+	format: ["esm"],
+	fixedExtension: false,
+	minify: true,
 });

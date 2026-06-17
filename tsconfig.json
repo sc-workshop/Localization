@@ -6,6 +6,7 @@
         "moduleResolution": "bundler",
         "rootDir": "source/",
         "outDir": "build/",
+        "isolatedDeclarations": true
     },
     "include": [
         "source/**/*"
