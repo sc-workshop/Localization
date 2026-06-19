@@ -1,0 +1,5 @@
+{
+    "desc": "Baixa assets do banco de dados do jogo e da versão selecionados",
+    "tooBigFiles": "{{important, emoji}} Os arquivos são grandes demais: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Use o link de download abaixo"
+}

@@ -1,0 +1,8 @@
+{
+    "desc": "Nén tệp với kiểu nén đã chọn",
+    "variantDesc": "Tên kiểu nén đích",
+    "variants": "Chưa được triển khai",
+    "variants_zstd": "Nén tệp bằng zstd",
+    "variants_lzma": "Nén tệp bằng lzma",
+    "wrongDestinationError": "Tên kiểu nén đích không hợp lệ! Các kiểu nén được hỗ trợ: {{format}}"
+}

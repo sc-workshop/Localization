@@ -1,0 +1,72 @@
+{
+    "name": "Čeština",
+    "gltfIoLinkMessage": "To není potřeba. Zvažte použití tohoto pluginu pro Blender: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Odpoví pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Latence bota",
+        "apiLatency": "Latence API",
+        "uptime": "Doba běhu bota"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Neplatný název příkazu!",
+        "invalidCommand_suggests": "{{error, emoji}} Neplatný příkaz! Možná jste mysleli: {{suggests}}",
+        "argumentParseError": "Nepodařilo se zpracovat argument `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Soubor je příliš velký",
+        "internalError": "Stažení souboru se nezdařilo! Interní chyba",
+        "unknown": "Neznámá chyba při stahování souboru"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Příkazy",
+        "description": "Odešle informace o příkazech bota",
+        "head": "Použijte `n!<command> [flags]` k provedení příkazu\nPříklad: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Napište n!help <command> pro více podrobností",
+        "commandNameOption": "Volitelný název příkazu, ke kterému chcete získat nápovědu",
+        "aliases": "{{lookup, emoji}} Aliasy: ",
+        "requiredArgs": "{{important, emoji}} Povinné argumenty: ",
+        "optionalArgs": "{{flag, emoji}} Volitelné argumenty: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Příkaz: {{name}}",
+        "variants": "{{folder, emoji}} Varianty pro `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Ostatní příkazy",
+        "group_base": "{{gears, emoji}} Základní příkazy",
+        "group_assets": "{{database, emoji}} Příkazy pro assety",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Zpracování obrázků",
+        "group_generic": "{{folder, emoji}} Operace se soubory",
+        "notes": {
+            "title": "{{important, emoji}} Poznámky k syntaxi",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- Bot podporuje tyto prefixy: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Příznaky",
+            "flagsDescription": [
+                "- Příznaky jsou většinou volitelné hodnoty, které můžete botovi poskytnout",
+                "- V nápovědě jsou volitelné příznaky uvedeny v hranatých závorkách jako `[.flag]`",
+                "- Příznaky musí mít tento prefix: {{flagPrefix}}",
+                "- Příklad: `n!sc2fla ui.sc .split_by_name` NEBO `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Data assetu",
+            "assetDataDescription": [
+                "- Většina příkazů vyžaduje argument **`assetData`**",
+                "- Jde o komplexní argument, který vám umožní přesně určit, který asset chcete použít",
+                "- Jeho syntaxe vypadá takto: `filename [version] [game]`",
+                "- Číslo verze musí začínat písmenem `v`",
+                "- Aktuálně podporované hry jsou: {{supportedGames}}",
+                "- Příklad: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Výraz pro vyhledávání souborů",
+            "fileSearchDescription": [
+                "- Bot podporuje regexové výrazy při použití `filename` v argumentech `assetData`",
+                "- Výraz „začíná na“ musí začínat znakem **`^`**",
+                "- Výraz „končí na“ musí končit znakem **`$`**",
+                "- Více výrazů je nutné kombinovat znaky **`&&`** nebo **`|`**",
+                "- Ve výchozím nastavení se hledá podle názvů souborů. Pokud potřebujete hledat podle složek, hlavní část výrazu musí končit znakem **`/`**",
+                "- Příklad, hledání souborů, které začínají na `melodie_`, končí na `.sctx` a jsou uloženy ve složce `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Výrazy mají koncept modifikátorů. Jde o speciální názvy začínající na @, které upravují výstup",
+                "    - `@any` vrací jeden náhodný asset"
+            ]
+        }
+    }
+}

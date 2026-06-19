@@ -1,0 +1,11 @@
+{
+    "desc": "Neko asset veritabanı bilgisini gönderir",
+    "notFoundError": "{name} adlı veritabanı bulunamadı",
+    "embed": {
+        "title": "📚 Veritabanı: {{dbName}}",
+        "desc": "Veritabanı ve sürümler hakkında genel bilgiler",
+        "size": "💾 Toplam boyut",
+        "versionTitle": "🧩 Sürümler",
+        "footer": "Veritabanı bilgisi"
+    }
+}

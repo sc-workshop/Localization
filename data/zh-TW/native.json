@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "無效檔案：{{value}}",
+    "notExistingFileError": "取得檔案失敗：{{value}}",
+    "genericError": "處理操作時發生例外：{{value}}",
+    "unknownError": "處理操作時發生未知錯誤",
+    "notAnImageError": "不是影像或格式不受支援",
+    "notAnScFile": "不是有效的 SC1/SC2 檔案",
+    "notAnSc2File": "不是有效的 SC2 檔案",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "找不到可轉換的內容。請確認已正確設定群組參數！",
+        "LZMA missing end marker!": "此檔案可能未壓縮或已損毀"
+    }
+}

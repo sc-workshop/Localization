@@ -1,0 +1,72 @@
+{
+    "name": "Magyar",
+    "gltfIoLinkMessage": "Erre nincs szükség. Inkább használd ezt a Blender bővítményt: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Pong választ küld!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Bot késleltetés",
+        "apiLatency": "API késleltetés",
+        "uptime": "Bot üzemidő"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Érvénytelen parancsnév!",
+        "invalidCommand_suggests": "{{error, emoji}} Érvénytelen parancs! Talán erre gondoltál: {{suggests}}",
+        "argumentParseError": "Nem sikerült értelmezni a(z) `{{name}}` argumentumot!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "A fájl túl nagy",
+        "internalError": "Nem sikerült letölteni a fájlt! Belső hiba",
+        "unknown": "Ismeretlen fájlletöltési hiba"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Parancsok",
+        "description": "Elküldi a bot parancsainak leírását",
+        "head": "Használd a `n!<command> [flags]` formát a parancs végrehajtásához\nPélda: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Írd be: n!help <command> a részletekért",
+        "commandNameOption": "Opcionális parancsnév a segítség megjelenítéséhez",
+        "aliases": "{{lookup, emoji}} Aliasok: ",
+        "requiredArgs": "{{important, emoji}} Kötelező argumentumok: ",
+        "optionalArgs": "{{flag, emoji}} Opcionális argumentumok: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Parancs: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` változatai: ",
+        "group": "{{sparkles, emoji}} Egyéb parancsok",
+        "group_base": "{{gears, emoji}} Alapparancsok",
+        "group_assets": "{{database, emoji}} Asset parancsok",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Képfeldolgozás",
+        "group_generic": "{{folder, emoji}} Fájlműveletek",
+        "notes": {
+            "title": "{{important, emoji}} Szintaxis megjegyzések",
+            "prefixTitle": "Előtag",
+            "prefixDescription": "- A bot a következő előtagokat támogatja: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Jelzők",
+            "flagsDescription": [
+                "- A jelzők többnyire opcionális értékek, amelyeket megadhatsz a botnak",
+                "- A súgóüzenetben az opcionális jelzők szögletes zárójelben jelennek meg, például `[.flag]`",
+                "- A jelzőknek ezt az előtagot kell használniuk: {{flagPrefix}}",
+                "- Példa: `n!sc2fla ui.sc .split_by_name` VAGY `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset adatok",
+            "assetDataDescription": [
+                "- A legtöbb parancs igényli az **`assetData`** argumentumot",
+                "- Ez egy összetett argumentum, amely lehetővé teszi, hogy pontosan megadd, melyik assetet szeretnéd használni",
+                "- A szintaxisa így néz ki: `filename [version] [game]`",
+                "- A verziószámnak `v` betűvel kell kezdődnie",
+                "- Jelenleg támogatott játékok: {{supportedGames}}",
+                "- Példa: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Fájlkeresési kifejezés",
+            "fileSearchDescription": [
+                "- A bot regex-szerű kifejezéseket támogat, amikor a `filename` mezőt az `assetData` argumentumokban használod",
+                "- A \"ezzel kezdődik\" kifejezésnek **`^`** karakterrel kell kezdődnie",
+                "- A \"ezzel végződik\" kifejezésnek **`$`** karakterrel kell végződnie",
+                "- Több kifejezést **`&&`** vagy **`|`** karakterekkel kell összekapcsolni",
+                "- Alapértelmezés szerint a keresés fájlnevek alapján történik. Ha mappák alapján akarsz keresni, a kifejezés fő részének **`/`** karakterrel kell végződnie",
+                "- Példa: olyan fájlok keresése, amelyek `melodie_` előtaggal kezdődnek, `.sctx` végződésűek, és a `sc3d/` mappában vannak: `n!find sc3d/|^melodie_|.sctx$`",
+                "- A kifejezések rendelkeznek módosítókkal. Ezek speciális, @-val kezdődő nevek, amelyek módosítják a kimenetet",
+                "    - `@any` egy véletlenszerű assetet ad vissza"
+            ]
+        }
+    }
+}

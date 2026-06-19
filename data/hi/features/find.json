@@ -1,0 +1,8 @@
+{
+    "title": "के लिए खोज परिणाम {{wildcard}}",
+    "title_versioned": "के लिए खोज परिणाम {{wildcard}} {{version}} से",
+    "description": "चुने गए game और version के database में asset खोजता है",
+    "assetOverview": "कुल {{count}} assets मिले ({{size}}~)",
+    "assetOverview_one": "कुल {{count}} assets मिले ({{size}}~)",
+    "wrongDownloadArgsError": "गलत download arguments। सुनिश्चित करें कि आपने सही version दिया है"
+}

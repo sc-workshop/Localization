@@ -1,0 +1,5 @@
+{
+    "desc": "Pakker ut en fil basert på kildeargumentet eller oppdager automatisk filens komprimeringstype",
+    "optionSourceDesc": "Navn på filkomprimering",
+    "invalidFileError": "Skadet eller ukomprimert fil"
+}

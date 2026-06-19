@@ -1,0 +1,14 @@
+{
+    "description": "Henter grunnleggende informasjon om en .sc-fil som versjon, format, antall objekter osv.",
+    "embed": {
+        "title": "Info om .sc-fil",
+        "type": "Type",
+        "signature": "Signatur",
+        "textureCount": "Antall Teksturer",
+        "movieclipCount": "Antall MovieClips",
+        "shapeCount": "Antall Shapes",
+        "textfieldsCount": "Antall Tekstfelt",
+        "externalTexture": "Ekstern teksturfil",
+        "exports": "Eksportnavn"
+    }
+}

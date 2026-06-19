@@ -1,0 +1,8 @@
+{
+    "desc": "選択した圧縮方式でファイルを圧縮します",
+    "variantDesc": "出力先の圧縮形式名",
+    "variants": "未実装",
+    "variants_zstd": "zstdでファイルを圧縮します",
+    "variants_lzma": "lzmaでファイルを圧縮します",
+    "wrongDestinationError": "出力先の圧縮名が正しくありません！対応している圧縮形式: {{format}}"
+}

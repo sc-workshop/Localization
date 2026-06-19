@@ -1,0 +1,11 @@
+{
+    "description": "Face downgrade unui fișier .sc la o versiune mai veche",
+    "versionOption": "Versiunea țintă pentru downgrade",
+    "signatureOption": "Semnătura țintă (compresie) pentru fișierul degradat",
+    "externalTextureOption": "Creează un fișier _tex.sc separat",
+    "wrongSignatureError": "Semnătură greșită! Semnături acceptate: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Versiune greșită! Versiuni acceptate: -1.0 (detectare automată), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF este încărcat. Salvare..."
+    }
+}

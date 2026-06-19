@@ -1,0 +1,19 @@
+{
+    "description": "Converteert .sc naar een Adobe Animate-project",
+    "splitByNameOption": "Splitst .fla op in kleine projecten volgens .sc-exportnamen",
+    "groupsOption": "Een reeks door de gebruiker gedefinieerde reguliere expressies om .fla in projectgroepen te verdelen",
+    "groupsOption_details": "Een reeks door de gebruiker gedefinieerde reguliere expressies om .fla in projectgroepen te verdelen\nBijvoorbeeld: dit commando exporteert alle exportnamen die beginnen met \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nJe kunt ook meerdere expressies gebruiken, maar dan moet je een groepsnaam opgeven, bijvoorbeeld:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Maakt een ActionScript-document voor het .fla-project",
+    "as3DocOption_details": "Maakt een ActionScript-document voor het .fla-project in plaats van het SupercellSWF-document wanneer de SupercellSWF-plugin niet beschikbaar is",
+    "progress": {
+        "swfLoaded": "SupercellSWF is geladen. Converteren...",
+        "groupChange": "Werkt aan groep \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "\"{{filename}}\" opslaan..."
+    },
+    "fallback": {
+        "Progress": "Voortgang",
+        "MovieClips converting": "MovieClip-verwerking",
+        "Shapes converting": "Shape-verwerking"
+    }
+}

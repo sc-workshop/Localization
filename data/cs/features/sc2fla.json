@@ -1,0 +1,19 @@
+{
+    "description": "Převede .sc do projektu Adobe Animate",
+    "splitByNameOption": "Rozdělí .fla na malé projekty podle exportních názvů v .sc",
+    "groupsOption": "Pole uživatelsky definovaných regulárních výrazů pro rozdělení .fla do skupin projektů",
+    "groupsOption_details": "Pole uživatelsky definovaných regulárních výrazů pro rozdělení .fla do skupin projektů\nNapříklad tento příkaz exportuje všechny exportní názvy začínající na \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nMůžete také použít více výrazů, ale pak musíte zadat název skupiny, například:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Vytvoří ActionScript dokument pro projekt .fla",
+    "as3DocOption_details": "Vytvoří ActionScript dokument pro projekt .fla namísto dokumentu SupercellSWF v případech, kdy plugin SupercellSWF není k dispozici",
+    "progress": {
+        "swfLoaded": "SupercellSWF je načten. Převádí se...",
+        "groupChange": "Pracuje se na skupině \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Ukládání \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Průběh",
+        "MovieClips converting": "Zpracování MovieClipů",
+        "Shapes converting": "Zpracování tvarů"
+    }
+}

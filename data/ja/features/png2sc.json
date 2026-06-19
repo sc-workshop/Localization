@@ -1,0 +1,9 @@
+{
+    "description": "png アトラスを受け取り、_tex.sc に変換するか、テクスチャを .sc ファイルに埋め込みます",
+    "invalidFilesError": "変換するものがありません! 有効な画像を添付したことを確認してください",
+    "progress": {
+        "swfLoading": "元の SupercellSWF を読み込み中: {{filepath}}",
+        "imageLoading": "画像を読み込み中: {{filepath}}",
+        "saving": "テクスチャを保存中..."
+    }
+}

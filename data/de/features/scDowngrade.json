@@ -1,0 +1,11 @@
+{
+    "description": "Setzt die Version einer .sc-Datei auf eine ältere Version herab",
+    "versionOption": "Zielversion für das Downgrade",
+    "signatureOption": "Zielsignatur (Komprimierung) für die heruntergestufte Datei",
+    "externalTextureOption": "Erstellt eine separate _tex.sc-Datei",
+    "wrongSignatureError": "Falsche Signatur! Zulässige Signaturen: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Falsche Version! Zulässige Versionen: -1.0 (automatische Erkennung), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF ist geladen. Speichere..."
+    }
+}

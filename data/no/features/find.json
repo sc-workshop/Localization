@@ -1,0 +1,8 @@
+{
+    "title": "Søkeresultater for {{wildcard}}",
+    "title_versioned": "Søkeresultater for {{wildcard}} fra {{version}}",
+    "description": "Søker etter et asset i databasen til valgt spill og versjon",
+    "assetOverview": "Fant totalt {{count}} assets ({{size}}~)",
+    "assetOverview_one": "Fant totalt {{count}} assets ({{size}}~)",
+    "wrongDownloadArgsError": "Feil nedlastingsargumenter. Kontroller at du har oppgitt riktig versjon"
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Prihvaća png atlase i pretvara ih u _tex.sc ili ugrađuje teksture u .sc datoteku",
+    "invalidFilesError": "Nema ništa za pretvoriti! Provjerite jeste li priložili ispravne slike",
+    "progress": {
+        "swfLoading": "Učitavanje izvornog SupercellSWF-a: {{filepath}}",
+        "imageLoading": "Učitavanje slike: {{filepath}}",
+        "saving": "Spremanje tekstura..."
+    }
+}

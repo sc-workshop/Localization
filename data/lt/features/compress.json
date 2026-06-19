@@ -1,0 +1,8 @@
+{
+    "desc": "Suglaudina failą naudodamas pasirinktą glaudinimą",
+    "variantDesc": "Tikslinio glaudinimo tipo pavadinimas",
+    "variants": "Neįgyvendinta",
+    "variants_zstd": "Suspaudžia failą naudojant zstd",
+    "variants_lzma": "Suspaudžia failą naudojant lzma",
+    "wrongDestinationError": "Tikslinio glaudinimo pavadinimas neteisingas! Palaikomi glaudinimai: {{format}}"
+}

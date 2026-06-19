@@ -1,0 +1,9 @@
+{
+    "description": "Godtar png-atlaser og konverterer dem til _tex.sc eller bygger inn teksturer i .sc-filen",
+    "invalidFilesError": "Det er ingenting å konvertere! Pass på at du har lagt ved gyldige bilder",
+    "progress": {
+        "swfLoading": "Laster kilde-SupercellSWF: {{filepath}}",
+        "imageLoading": "Laster bilde: {{filepath}}",
+        "saving": "Lagrer teksturer..."
+    }
+}

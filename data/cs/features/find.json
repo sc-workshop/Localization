@@ -1,0 +1,8 @@
+{
+    "title": "Výsledky hledání pro {{wildcard}}",
+    "title_versioned": "Výsledky hledání pro {{wildcard}} z {{version}}",
+    "description": "Vyhledává asset v databázi vybrané hry a verze",
+    "assetOverview": "Celkem nalezeno {{count}} assetů ({{size}}~)",
+    "assetOverview_one": "Celkem nalezeno {{count}} assetů ({{size}}~)",
+    "wrongDownloadArgsError": "Neplatné argumenty pro stažení. Ujistěte se, že jste zadali správnou verzi"
+}

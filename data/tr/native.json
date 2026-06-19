@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Geçersiz dosya: {{value}}",
+    "notExistingFileError": "Dosya alınamadı: {{value}}",
+    "genericError": "İşlem işlenirken bir istisna oluştu: {{value}}",
+    "unknownError": "İşlem işlenirken bilinmeyen bir hata oluştu",
+    "notAnImageError": "Bir görsel değil veya desteklenmeyen format",
+    "notAnScFile": "Geçerli bir SC1/SC2 dosyası değil",
+    "notAnSc2File": "Geçerli bir SC2 dosyası değil",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Dönüştürülecek hiçbir şey bulunamadı. Grup argümanlarını doğru yapılandırdığınızdan emin olun!",
+        "LZMA missing end marker!": "Bu dosya muhtemelen sıkıştırılmamış veya hasarlı"
+    }
+}

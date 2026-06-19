@@ -1,0 +1,9 @@
+{
+    "description": "Tager imod png-atlasser og konverterer dem til _tex.sc eller indlejrer teksturer i .sc-filen",
+    "invalidFilesError": "Der er intet at konvertere! Sørg for at vedhæfte gyldige billeder",
+    "progress": {
+        "swfLoading": "Indlæser kilde-SupercellSWF: {{filepath}}",
+        "imageLoading": "Indlæser billede: {{filepath}}",
+        "saving": "Gemmer teksturer..."
+    }
+}

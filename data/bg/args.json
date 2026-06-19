@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Описание на файл във формат `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Ключова дума за търсене на ресурс",
+        "versionOption": "version",
+        "versionOptionDesc": "Версия на играта. Приема стойности като \"62\" или \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Име на сървъра за търсене",
+        "notFoundError": "Заявените ресурси не бяха намерени!",
+        "invalidVersionError": "Несъществуваща версия! Използвайте командата dbinfo, за да проверите наличните версии"
+    },
+    "userAssets": {
+        "desc": "Потребителски файлове / zip архиви",
+        "mixedDesc": "Описание на файл във формат `filename [version] [game]` или потребителски файлове / zip архиви",
+        "inputOption": "filename",
+        "inputOptionDesc": "Входен файл за обработка или .zip архив с файлове",
+        "emptyFilesError": "Не сте предоставили никакви файлове. Моля, въведете име на ресурс или предоставете файл или .zip архив"
+    },
+    "assetServer": {
+        "desc": "Име на сървъра за ресурси"
+    }
+}

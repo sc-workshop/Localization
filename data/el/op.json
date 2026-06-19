@@ -1,0 +1,12 @@
+{
+    "create": "Παρακαλώ περιμένετε...",
+    "ready": "{{success, emoji}} Έτοιμο",
+    "takeAWhile": "Μπορεί να πάρει λίγο χρόνο, παρακαλώ περιμένετε. ",
+    "sending": "{{send, emoji}} Αποστολή...",
+    "done": "{{success, emoji}} Έγινε",
+    "fileReady": "{{success, emoji}} Ορίστε **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Ορίστε **`{{filename}}`** από **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Ο σύνδεσμος λήψης θα λήξει {{countdown}}",
+    "download": "Λήψη",
+    "tooManyAssets": "Πάρα πολλά assets! Προσπαθήστε να διευκρινίσετε περισσότερο το αίτημά σας"
+}

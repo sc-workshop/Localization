@@ -1,0 +1,8 @@
+{
+    "title": "検索結果: {{wildcard}}",
+    "title_versioned": "検索結果: {{wildcard}}{{version}} から",
+    "description": "選択したゲームとバージョンのデータベースでアセットを検索します",
+    "assetOverview": "合計 {{count}} 個のアセットが見つかりました ({{size}}~)",
+    "assetOverview_one": "合計 {{count}} 個のアセットが見つかりました ({{size}}~)",
+    "wrongDownloadArgsError": "ダウンロード引数が正しくありません。正しいバージョンを指定してください"
+}

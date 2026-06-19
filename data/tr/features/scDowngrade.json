@@ -1,0 +1,11 @@
+{
+    "description": ".sc dosyasını daha eski bir sürüme düşürür",
+    "versionOption": "Düşürülecek hedef sürüm",
+    "signatureOption": "Düşürülen dosya için hedef imza (sıkıştırma)",
+    "externalTextureOption": "Ayrı bir _tex.sc dosyası oluşturur",
+    "wrongSignatureError": "Yanlış imza! Kabul edilen imzalar: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Yanlış sürüm! Kabul edilen sürümler: -1.0 (otomatik algılama), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF yüklendi. Kaydediliyor..."
+    }
+}

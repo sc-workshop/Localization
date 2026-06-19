@@ -1,0 +1,72 @@
+{
+    "name": "Lietuvių",
+    "gltfIoLinkMessage": "To nereikia. Vietoje to apsvarstykite šį Blender papildinį: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Atsako pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Boto delsa",
+        "apiLatency": "API delsa",
+        "uptime": "Boto veikimo laikas"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Neteisingas komandos pavadinimas!",
+        "invalidCommand_suggests": "{{error, emoji}} Neteisinga komanda! Galbūt turėjote omenyje: {{suggests}}",
+        "argumentParseError": "Nepavyko apdoroti argumento `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Failas per didelis",
+        "internalError": "Nepavyko atsisiųsti failo! Vidinė klaida",
+        "unknown": "Nežinoma failo atsisiuntimo klaida"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Komandos",
+        "description": "Siunčia informaciją apie boto komandas",
+        "head": "Naudokite `n!<command> [flags]` komandai vykdyti\nPavyzdys: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Įveskite n!help <command> išsamesnei informacijai",
+        "commandNameOption": "Pasirenkamas komandos pavadinimas pagalbai gauti",
+        "aliases": "{{lookup, emoji}} Alternatyvūs vardai: ",
+        "requiredArgs": "{{important, emoji}} Privalomi argumentai: ",
+        "optionalArgs": "{{flag, emoji}} Pasirenkami argumentai: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Komanda: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` variantai: ",
+        "group": "{{sparkles, emoji}} Kitos komandos",
+        "group_base": "{{gears, emoji}} Pagrindinės komandos",
+        "group_assets": "{{database, emoji}} Assetų komandos",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Paveikslėlių apdorojimas",
+        "group_generic": "{{folder, emoji}} Failų operacijos",
+        "notes": {
+            "title": "{{important, emoji}} Sintaksės pastabos",
+            "prefixTitle": "Priešdėlis",
+            "prefixDescription": "- Botas palaiko šiuos priešdėlius: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Vėliavėlės",
+            "flagsDescription": [
+                "- Vėliavėlės dažniausiai yra neprivalomos reikšmės, kurias galite pateikti botui",
+                "- Pagalbos pranešime neprivalomos vėliavėlės nurodomos laužtiniuose skliaustuose, pvz., `[.flag]`",
+                "- Vėliavėlės turi naudoti šį priešdėlį: {{flagPrefix}}",
+                "- Pavyzdys: `n!sc2fla ui.sc .split_by_name` ARBA `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asseto duomenys",
+            "assetDataDescription": [
+                "- Daugumai komandų reikia argumento **`assetData`**",
+                "- Tai sudėtingas argumentas, leidžiantis tiksliai nurodyti, kokį assetą norite naudoti",
+                "- Jo sintaksė atrodo taip: `filename [version] [game]`",
+                "- Versijos numeris turi prasidėti raide `v`",
+                "- Šiuo metu palaikomi žaidimai: {{supportedGames}}",
+                "- Pavyzdys: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Failų paieškos išraiška",
+            "fileSearchDescription": [
+                "- Botas palaiko regex tipo išraiškas, kai naudojate `filename` `assetData` argumentuose",
+                "- Išraiška \"prasideda nuo\" turi prasidėti simboliu **`^`**",
+                "- Išraiška \"baigiasi į\" turi baigtis simboliu **`$`**",
+                "- Kelias išraiškas reikia jungti naudojant **`&&`** arba **`|`**",
+                "- Pagal numatytuosius nustatymus paieška atliekama pagal failų pavadinimus. Jei reikia ieškoti pagal aplankus, pagrindinė išraiškos dalis turi baigtis simboliu **`/`**",
+                "- Pavyzdys: ieško failų, kurie prasideda `melodie_`, baigiasi `.sctx` ir yra `sc3d/` aplanke: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Išraiškos turi modifikatorių sąvoką. Tai specialūs pavadinimai, prasidedantys @ ir keičiantys išvestį",
+                "    - `@any` grąžina vieną atsitiktinį assetą"
+            ]
+        }
+    }
+}

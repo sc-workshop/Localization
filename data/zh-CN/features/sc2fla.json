@@ -1,0 +1,19 @@
+{
+    "description": "将 .sc 转换为 Adobe Animate 项目",
+    "splitByNameOption": "根据 .sc 导出名称将 .fla 拆分为小项目",
+    "groupsOption": "一组用户定义的正则表达式，用于将 .fla 拆分为项目分组",
+    "groupsOption_details": "一组用户定义的正则表达式，用于将 .fla 拆分为项目分组\n例如，此命令会导出所有以 \"bgr\" 开头的导出名称：\n`n!sc2fla file.sc .group=^bgr.*`\n你也可以使用多个表达式，但那样就需要指定分组名称，例如：\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "为 .fla 项目创建 ActionScript 文档",
+    "as3DocOption_details": "当 SupercellSWF 插件不可用时，为 .fla 项目创建 ActionScript 文档，而不是 SupercellSWF 文档",
+    "progress": {
+        "swfLoaded": "SupercellSWF 已加载。正在转换...",
+        "groupChange": "正在处理分组 \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "正在保存 \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "进度",
+        "MovieClips converting": "处理 MovieClip",
+        "Shapes converting": "处理 Shape"
+    }
+}

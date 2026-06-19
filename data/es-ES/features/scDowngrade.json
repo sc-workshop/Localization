@@ -1,0 +1,11 @@
+{
+    "description": "Convierte un archivo .sc a una versión anterior",
+    "versionOption": "Versión de destino para la conversión",
+    "signatureOption": "Firma objetivo (compresión) para el archivo convertido",
+    "externalTextureOption": "Crea un archivo _tex.sc separado",
+    "wrongSignatureError": "¡Firma incorrecta! Firmas aceptables: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "¡Versión incorrecta! Versiones aceptables: -1.0 (detección automática), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF está cargado. Guardando..."
+    }
+}

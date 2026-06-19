@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Ongeldig bestand: {{value}}",
+    "notExistingFileError": "Bestand ophalen mislukt: {{value}}",
+    "genericError": "Tijdens het verwerken van de bewerking is een uitzondering opgetreden: {{value}}",
+    "unknownError": "Er is een onbekende fout opgetreden tijdens het verwerken van de bewerking",
+    "notAnImageError": "Geen afbeelding of niet-ondersteund formaat",
+    "notAnScFile": "Geen geldig SC1/SC2-bestand",
+    "notAnSc2File": "Geen geldig SC2-bestand",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Er is niets gevonden om te converteren. Controleer of de groepsargumenten correct zijn ingesteld!",
+        "LZMA missing end marker!": "Dit bestand is waarschijnlijk niet gecomprimeerd of beschadigd"
+    }
+}

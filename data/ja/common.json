@@ -1,0 +1,72 @@
+{
+    "name": "日本語",
+    "gltfIoLinkMessage": "その必要はありません。こちらの Blender 用プラグインの使用をご検討ください: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "pong! と返信します",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Botのレイテンシ",
+        "apiLatency": "APIのレイテンシ",
+        "uptime": "Botの稼働時間"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} 無効なコマンド名です！",
+        "invalidCommand_suggests": "{{error, emoji}} 無効なコマンドです！もしかして: {{suggests}}",
+        "argumentParseError": "引数 `{{name}}` の解析に失敗しました！"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "ファイルが大きすぎます",
+        "internalError": "ファイルのダウンロードに失敗しました！内部エラー",
+        "unknown": "不明なファイルダウンロードエラー"
+    },
+    "help": {
+        "title": "{{guide, emoji}} コマンド",
+        "description": "ボットコマンドの情報を送信します",
+        "head": "`n!<command> [flags]` を使ってコマンドを実行します\n例: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • 詳細は n!help <command> と入力してください",
+        "commandNameOption": "ヘルプを表示する任意のコマンド名",
+        "aliases": "{{lookup, emoji}} エイリアス: ",
+        "requiredArgs": "{{important, emoji}} 必須引数: ",
+        "optionalArgs": "{{flag, emoji}} 任意引数: ",
+        "commandDescriptionTitle": "{{gears, emoji}} コマンド: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` のバリエーション: ",
+        "group": "{{sparkles, emoji}} その他のコマンド",
+        "group_base": "{{gears, emoji}} 基本コマンド",
+        "group_assets": "{{database, emoji}} アセットコマンド",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} 画像処理",
+        "group_generic": "{{folder, emoji}} ファイル操作",
+        "notes": {
+            "title": "{{important, emoji}} 構文メモ",
+            "prefixTitle": "プレフィックス",
+            "prefixDescription": "- ボットは次のプレフィックスをサポートしています: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} フラグ",
+            "flagsDescription": [
+                "- フラグは通常、ボットに渡せる任意の値です",
+                "- ヘルプメッセージでは、任意のフラグは `[.flag]` のように角括弧で示されます",
+                "- フラグは次のプレフィックスを使用する必要があります: {{flagPrefix}}",
+                "- 例: `n!sc2fla ui.sc .split_by_name` または `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} アセットデータ",
+            "assetDataDescription": [
+                "- ほとんどのコマンドでは **`assetData`** 引数が必要です",
+                "- これは、使用したいアセットを正確に指定できる複雑な引数です",
+                "- 構文は次のようになります: `filename [version] [game]`",
+                "- バージョン番号は `v` で始める必要があります",
+                "- 現在対応しているゲーム: {{supportedGames}}",
+                "- 例: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} ファイル検索式",
+            "fileSearchDescription": [
+                "- `assetData` 引数で `filename` を使う場合、ボットは正規表現風の式をサポートします",
+                "- \"〜で始まる\" 式は **`^`** で始まる必要があります",
+                "- \"〜で終わる\" 式は **`$`** で終わる必要があります",
+                "- 複数の式は **`&&`** または **`|`** で結合する必要があります",
+                "- 既定ではファイル名で検索します。フォルダーで検索する場合、式の主要部分は **`/`** で終わる必要があります",
+                "- 例: `melodie_` で始まり、`.sctx` で終わり、`sc3d/` フォルダーに保存されているファイルを検索: `n!find sc3d/|^melodie_|.sctx$`",
+                "- 式には修飾子の概念があります。これは @ で始まり、出力を変更する特別な名前です",
+                "    - `@any` はランダムなアセットを1つ返します"
+            ]
+        }
+    }
+}

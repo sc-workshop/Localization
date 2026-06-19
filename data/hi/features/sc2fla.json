@@ -1,0 +1,19 @@
+{
+    "description": ".sc को Adobe Animate project में बदलता है",
+    "splitByNameOption": ".sc export names के अनुसार .fla को छोटे projects में बांटता है",
+    "groupsOption": ".fla को project groups में बांटने के लिए user-defined regular expressions की array",
+    "groupsOption_details": ".fla को project groups में बांटने के लिए user-defined regular expressions की array\nउदाहरण के लिए, यह command उन सभी export names को export करेगी जो \"bgr\" से शुरू होते हैं:\n`n!sc2fla file.sc .group=^bgr.*`\nआप कई expressions भी उपयोग कर सकते हैं, लेकिन तब आपको group name देना होगा, उदाहरण के लिए:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": ".fla project के लिए ActionScript document बनाता है",
+    "as3DocOption_details": "जब SupercellSWF plugin उपलब्ध न हो, तब SupercellSWF document की जगह .fla project के लिए ActionScript document बनाता है",
+    "progress": {
+        "swfLoaded": "SupercellSWF लोड हो गया है। Convert किया जा रहा है...",
+        "groupChange": "\"{{name}}\" group पर काम किया जा रहा है...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "\"{{filename}}\" सेव किया जा रहा है..."
+    },
+    "fallback": {
+        "Progress": "प्रगति",
+        "MovieClips converting": "MovieClips processing",
+        "Shapes converting": "Shapes processing"
+    }
+}

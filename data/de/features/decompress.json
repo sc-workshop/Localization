@@ -1,0 +1,5 @@
+{
+    "desc": "Dekomprimiert eine Datei anhand des Quellarguments oder erkennt den Komprimierungstyp automatisch",
+    "optionSourceDesc": "Name der Dateikomprimierung",
+    "invalidFileError": "Beschädigte oder nicht komprimierte Datei"
+}

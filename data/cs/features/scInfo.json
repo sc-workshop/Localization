@@ -1,0 +1,14 @@
+{
+    "description": "Získá základní informace o souboru .sc, jako je verze a formát, počet objektů atd.",
+    "embed": {
+        "title": "Informace o .sc souboru",
+        "type": "Typ",
+        "signature": "Podpis",
+        "textureCount": "Počet textur",
+        "movieclipCount": "Počet MovieClipů",
+        "shapeCount": "Počet tvarů",
+        "textfieldsCount": "Počet textových polí",
+        "externalTexture": "Externí soubor textury",
+        "exports": "Názvy exportů"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "description": ".sc を Adobe Animate プロジェクトに変換します",
+    "splitByNameOption": ".sc のエクスポート名に応じて .fla を小さなプロジェクトに分割します",
+    "groupsOption": ".fla をプロジェクトグループに分割するためのユーザー定義正規表現の配列です",
+    "groupsOption_details": ".fla をプロジェクトグループに分割するためのユーザー定義正規表現の配列です\n例: このコマンドは \"bgr\" で始まるすべてのエクスポート名を出力します:\n`n!sc2fla file.sc .group=^bgr.*`\n複数の式も使えますが、その場合はグループ名を指定する必要があります。例:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": ".fla プロジェクト用の ActionScript ドキュメントを作成します",
+    "as3DocOption_details": "SupercellSWF プラグインが利用できない場合、SupercellSWF ドキュメントの代わりに .fla プロジェクト用の ActionScript ドキュメントを作成します",
+    "progress": {
+        "swfLoaded": "SupercellSWF が読み込まれました。変換中...",
+        "groupChange": "グループ \"{{name}}\" を処理中...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "\"{{filename}}\" を保存中..."
+    },
+    "fallback": {
+        "Progress": "進行状況",
+        "MovieClips converting": "MovieClip を処理中",
+        "Shapes converting": "Shape を処理中"
+    }
+}

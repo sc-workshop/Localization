@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "ファイル説明の形式: `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "アセット検索用キーワード",
+        "versionOption": "version",
+        "versionOptionDesc": "ゲームのバージョン。\"62\" や \"62.156\" などの値を受け付けます",
+        "serverOption": "server",
+        "serverOptionDesc": "検索するサーバー名",
+        "notFoundError": "要求されたアセットが見つかりません！",
+        "invalidVersionError": "存在しないバージョンです! 利用可能なバージョンは dbinfo コマンドで確認してください"
+    },
+    "userAssets": {
+        "desc": "ユーザーファイル / zip アーカイブ",
+        "mixedDesc": "ファイル説明 `filename [version] [game]` またはユーザーファイル / zip アーカイブ",
+        "inputOption": "filename",
+        "inputOptionDesc": "処理する入力ファイル、またはファイルを含む .zip アーカイブ",
+        "emptyFilesError": "ファイルが指定されていません。アセット名を入力するか、ファイルまたは .zip アーカイブを送信してください"
+    },
+    "assetServer": {
+        "desc": "アセットサーバー名"
+    }
+}

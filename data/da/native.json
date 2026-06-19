@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Ugyldig fil: {{value}}",
+    "notExistingFileError": "Kunne ikke hente filen: {{value}}",
+    "genericError": "Der opstod en undtagelse under håndtering af operationen: {{value}}",
+    "unknownError": "Der opstod en ukendt fejl under håndtering af operationen",
+    "notAnImageError": "Ikke et billede eller ikke-understøttet format",
+    "notAnScFile": "Ikke en gyldig SC1/SC2-fil",
+    "notAnSc2File": "Ikke en gyldig SC2-fil",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Fandt ikke noget at konvertere. Sørg for, at gruppeargumenterne er konfigureret korrekt!",
+        "LZMA missing end marker!": "Denne fil er sandsynligvis ikke komprimeret eller er beskadiget"
+    }
+}

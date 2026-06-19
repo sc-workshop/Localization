@@ -1,0 +1,8 @@
+{
+    "desc": "A kiválasztott tömörítéssel tömöríti a fájlt",
+    "variantDesc": "A cél tömörítési típus neve",
+    "variants": "Nincs megvalósítva",
+    "variants_zstd": "Fájlt tömörít zstd használatával",
+    "variants_lzma": "Fájlt tömörít lzma használatával",
+    "wrongDestinationError": "A cél tömörítés neve helytelen! Támogatott tömörítések: {{format}}"
+}

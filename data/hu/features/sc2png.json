@@ -1,0 +1,10 @@
+{
+    "description": "Sprite sheeteket olvas be egy .sc fájlból, és .png-vé alakítja őket",
+    "notATextureError": "Úgy tűnik, hogy ez a fájl nem tartalmaz textúraadatot. Ellenőrizd, hogy a fájl SC2-e vagy _tex.sc-re végződik-e",
+    "packToZipOption": "A kimeneti fájlokat zip archívumba csomagolja",
+    "progress": {
+        "doneTextures": "Kész textúrák: {{count}}",
+        "doneTextures_two": "Kész textúrák: {{count}}",
+        "doneTextures_many": "Kész textúrák: {{count}}"
+    }
+}

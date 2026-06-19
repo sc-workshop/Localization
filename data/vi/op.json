@@ -1,0 +1,12 @@
+{
+    "create": "Vui lòng đợi...",
+    "ready": "{{success, emoji}} Xong rồi",
+    "takeAWhile": "Việc này có thể mất một lúc, vui lòng chờ. ",
+    "sending": "{{send, emoji}} Đang gửi...",
+    "done": "{{success, emoji}} Xong",
+    "fileReady": "{{success, emoji}} Đây là **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Đây là **`{{filename}}`** từ **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Liên kết tải xuống sẽ hết hạn {{countdown}}",
+    "download": "Tải xuống",
+    "tooManyAssets": "Có quá nhiều asset! Hãy thử mô tả yêu cầu của bạn chi tiết hơn"
+}

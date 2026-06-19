@@ -1,0 +1,5 @@
+{
+    "desc": "Mengunduh aset dari basis data game dan versi yang dipilih",
+    "tooBigFiles": "{{important, emoji}} File terlalu besar: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Gunakan tautan unduhan di bawah"
+}

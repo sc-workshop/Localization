@@ -1,0 +1,8 @@
+{
+    "desc": "Komprimira datoteku odabranom kompresijom",
+    "variantDesc": "Naziv vrste odredišne kompresije",
+    "variants": "Nije implementirano",
+    "variants_zstd": "Komprimira datoteku pomoću zstd",
+    "variants_lzma": "Komprimira datoteku pomoću lzma",
+    "wrongDestinationError": "Naziv odredišne kompresije nije ispravan! Podržane kompresije: {{format}}"
+}

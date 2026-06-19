@@ -1,0 +1,12 @@
+{
+    "create": "Моля, изчакайте...",
+    "ready": "{{success, emoji}} Готово",
+    "takeAWhile": "Може да отнеме известно време, моля изчакайте. ",
+    "sending": "{{send, emoji}} Изпращане...",
+    "done": "{{success, emoji}} Готово",
+    "fileReady": "{{success, emoji}} Заповядайте **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Заповядайте **`{{filename}}`** от **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Връзката за изтегляне ще изтече {{countdown}}",
+    "download": "Изтегляне",
+    "tooManyAssets": "Твърде много ресурси! Опитайте да уточните заявката си по-подробно"
+}

@@ -1,0 +1,8 @@
+{
+    "desc": "चुने गए compression के साथ फ़ाइल को compress करता है",
+    "variantDesc": "गंतव्य compression type का नाम",
+    "variants": "लागू नहीं किया गया",
+    "variants_zstd": "फ़ाइल को zstd से संपीड़ित करता है",
+    "variants_lzma": "फ़ाइल को lzma से संपीड़ित करता है",
+    "wrongDestinationError": "लक्ष्य compression का नाम गलत है! समर्थित compressions: {{format}}"
+}

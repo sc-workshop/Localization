@@ -1,0 +1,11 @@
+{
+    "description": "Päivittää .sc-tiedoston vanhempaan versioon",
+    "versionOption": "Kohdeversio vanhennukselle",
+    "signatureOption": "Vanhennetun tiedoston kohdesignatuuri (pakkaus)",
+    "externalTextureOption": "Luo erillisen _tex.sc-tiedoston",
+    "wrongSignatureError": "Väärä signatuuri! Hyväksyttävät signatuurit: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Väärä versio! Hyväksyttävät versiot: -1.0 (automaattinen tunnistus), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF on ladattu. Tallennetaan..."
+    }
+}

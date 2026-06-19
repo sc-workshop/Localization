@@ -1,0 +1,14 @@
+{
+    "description": ".sc ファイルのバージョン、形式、オブジェクト数などの基本情報を取得します。",
+    "embed": {
+        "title": ".sc ファイル情報",
+        "type": "タイプ",
+        "signature": "シグネチャ",
+        "textureCount": "テクスチャ数",
+        "movieclipCount": "MovieClip 数",
+        "shapeCount": "Shape 数",
+        "textfieldsCount": "TextField 数",
+        "externalTexture": "外部テクスチャファイル",
+        "exports": "エクスポート名"
+    }
+}

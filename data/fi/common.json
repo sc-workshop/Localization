@@ -1,0 +1,72 @@
+{
+    "name": "Suomi",
+    "gltfIoLinkMessage": "Sille ei ole tarvetta. Harkitse tämän Blender-liitännäisen käyttöä: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Vastaa pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Botin viive",
+        "apiLatency": "API-viive",
+        "uptime": "Botin käyttöaika"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Virheellinen komennon nimi!",
+        "invalidCommand_suggests": "{{error, emoji}} Virheellinen komento! Ehkä tarkoitit: {{suggests}}",
+        "argumentParseError": "Argumentin `{{name}}` jäsentäminen epäonnistui!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Tiedosto on liian suuri",
+        "internalError": "Tiedoston lataus epäonnistui! Sisäinen virhe",
+        "unknown": "Tuntematon tiedoston latausvirhe"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Komennot",
+        "description": "Lähettää tietoa botin komennoista",
+        "head": "Käytä `n!<command> [flags]` suorittaaksesi komennon\nEsimerkki: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Kirjoita n!help <command> saadaksesi lisätietoja",
+        "commandNameOption": "Valinnainen komennon nimi, josta haluat ohjeen",
+        "aliases": "{{lookup, emoji}} Aliakset: ",
+        "requiredArgs": "{{important, emoji}} Pakolliset argumentit: ",
+        "optionalArgs": "{{flag, emoji}} Valinnaiset argumentit: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Komento: {{name}}",
+        "variants": "{{folder, emoji}} Vaihtoehdot komennolle `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Muut komennot",
+        "group_base": "{{gears, emoji}} Peruskomennot",
+        "group_assets": "{{database, emoji}} Asset-komennot",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Kuvankäsittely",
+        "group_generic": "{{folder, emoji}} Tiedostotoiminnot",
+        "notes": {
+            "title": "{{important, emoji}} Syntaksimuistiinpanot",
+            "prefixTitle": "Etuliite",
+            "prefixDescription": "- Botti tukee seuraavia etuliitteitä: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Liput",
+            "flagsDescription": [
+                "- Liput ovat useimmiten valinnaisia arvoja, joita voit antaa botille",
+                "- Ohjeviestissä valinnaiset liput ilmoitetaan hakasulkeissa, kuten `[.flag]`",
+                "- Lippujen on käytettävä tätä etuliitettä: {{flagPrefix}}",
+                "- Esimerkki: `n!sc2fla ui.sc .split_by_name` TAI `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset-data",
+            "assetDataDescription": [
+                "- Useimmat komennot vaativat **`assetData`**-argumentin",
+                "- Tämä on monimutkainen argumentti, jonka avulla voit määrittää tarkasti, mitä assetia haluat käyttää",
+                "- Sen syntaksi näyttää tältä: `filename [version] [game]`",
+                "- Versionumeron pitää alkaa kirjaimella `v`",
+                "- Tällä hetkellä tuetut pelit ovat: {{supportedGames}}",
+                "- Esimerkki: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Tiedostohakuexpression",
+            "fileSearchDescription": [
+                "- Botti tukee regex-tyylisiä lausekkeita, kun käytät `filename`-arvoa `assetData`-argumenteissa",
+                "- \"Alkaa\"-lausekkeen pitää alkaa merkillä **`^`**",
+                "- \"Päättyy\"-lausekkeen pitää päättyä merkillä **`$`**",
+                "- Useita lausekkeita pitää yhdistää merkeillä **`&&`** tai **`|`**",
+                "- Oletuksena haku tehdään tiedostonimien perusteella. Jos sinun täytyy hakea kansioiden perusteella, lausekkeen pääosan pitää päättyä merkkiin **`/`**",
+                "- Esimerkki: hakee tiedostoja, jotka alkavat `melodie_`, päättyvät `.sctx` ja sijaitsevat `sc3d/`-kansiossa: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Lausekkeilla on muokkaimien käsite. Nämä ovat erityisiä nimiä, jotka alkavat @-merkillä ja muuttavat tulostetta",
+                "    - `@any` palauttaa yhden satunnaisen assetin"
+            ]
+        }
+    }
+}

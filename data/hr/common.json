@@ -1,0 +1,72 @@
+{
+    "name": "Hrvatski",
+    "gltfIoLinkMessage": "Nema potrebe za tim. Razmotrite korištenje ovog dodatka za Blender: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Odgovara pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Latencija bota",
+        "apiLatency": "Latencija API-ja",
+        "uptime": "Vrijeme rada bota"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Neispravan naziv naredbe!",
+        "invalidCommand_suggests": "{{error, emoji}} Neispravna naredba! Možda ste mislili: {{suggests}}",
+        "argumentParseError": "Nije moguće obraditi argument `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Datoteka je prevelika",
+        "internalError": "Preuzimanje datoteke nije uspjelo! Interna pogreška",
+        "unknown": "Nepoznata pogreška pri preuzimanju datoteke"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Naredbe",
+        "description": "Šalje informacije o naredbama bota",
+        "head": "Koristite `n!<command> [flags]` za izvršavanje naredbe\nPrimjer: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Upišite n!help <command> za više detalja",
+        "commandNameOption": "Neobavezni naziv naredbe za koju želite pomoć",
+        "aliases": "{{lookup, emoji}} Aliasi: ",
+        "requiredArgs": "{{important, emoji}} Obavezni argumenti: ",
+        "optionalArgs": "{{flag, emoji}} Neobavezni argumenti: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Naredba: {{name}}",
+        "variants": "{{folder, emoji}} Varijante za `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Ostale naredbe",
+        "group_base": "{{gears, emoji}} Osnovne naredbe",
+        "group_assets": "{{database, emoji}} Naredbe za resurse",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Obrada slika",
+        "group_generic": "{{folder, emoji}} Operacije nad datotekama",
+        "notes": {
+            "title": "{{important, emoji}} Napomene o sintaksi",
+            "prefixTitle": "Prefiks",
+            "prefixDescription": "- Bot podržava sljedeće prefikse: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Zastavice",
+            "flagsDescription": [
+                "- Zastavice su uglavnom neobavezne vrijednosti koje možete dati botu",
+                "- U poruci pomoći neobavezne zastavice navedene su u uglatim zagradama poput `[.flag]`",
+                "- Zastavice moraju imati ovaj prefiks: {{flagPrefix}}",
+                "- Primjer: `n!sc2fla ui.sc .split_by_name` ILI `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Podaci o resursu",
+            "assetDataDescription": [
+                "- Većina naredbi zahtijeva argument **`assetData`**",
+                "- To je složen argument koji vam omogućuje da točno navedete koji resurs želite koristiti",
+                "- Sintaksa izgleda ovako: `filename [version] [game]`",
+                "- Broj verzije mora počinjati slovom `v`",
+                "- Trenutno podržane igre su: {{supportedGames}}",
+                "- Primjer: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Izraz za pretraživanje datoteka",
+            "fileSearchDescription": [
+                "- Bot podržava izraze slične regexu kada koristite `filename` u argumentima `assetData`",
+                "- Izraz \"počinje s\" mora počinjati znakom **`^`**",
+                "- Izraz \"završava s\" mora završavati znakom **`$`**",
+                "- Više izraza mora se kombinirati znakovima **`&&`** ili **`|`**",
+                "- Prema zadanim postavkama pretrage se obavljaju po nazivima datoteka. Ako trebate pretraživati po mapama, glavni dio izraza mora završavati znakom **`/`**",
+                "- Primjer, pretraživanje datoteka koje počinju s `melodie_`, završavaju s `.sctx` i pohranjene su u mapi `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Izrazi imaju koncept modifikatora. To su posebni nazivi koji počinju s @ i mijenjaju izlaz",
+                "    - `@any` vraća jedan nasumični resurs"
+            ]
+        }
+    }
+}

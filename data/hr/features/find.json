@@ -1,0 +1,8 @@
+{
+    "title": "Rezultati pretrage za {{wildcard}}",
+    "title_versioned": "Rezultati pretrage za {{wildcard}} iz {{version}}",
+    "description": "Pretražuje resurs u bazi podataka odabrane igre i verzije",
+    "assetOverview": "Ukupno pronađeno {{count}} asseta ({{size}}~)",
+    "assetOverview_one": "Ukupno pronađeno {{count}} asseta ({{size}}~)",
+    "wrongDownloadArgsError": "Neispravni argumenti za preuzimanje. Provjerite jeste li naveli točnu verziju"
+}

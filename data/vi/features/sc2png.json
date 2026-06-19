@@ -1,0 +1,10 @@
+{
+    "description": "Đọc sprite sheet từ tệp .sc và chuyển đổi chúng sang .png",
+    "notATextureError": "Có vẻ như tệp này không chứa dữ liệu texture nào. Hãy đảm bảo rằng đây là tệp SC2 hoặc tên tệp kết thúc bằng _tex.sc",
+    "packToZipOption": "Đóng gói các tệp kết quả vào tệp nén zip",
+    "progress": {
+        "doneTextures": "Texture đã xong: {{count}}",
+        "doneTextures_two": "Texture đã xong: {{count}}",
+        "doneTextures_many": "Texture đã xong: {{count}}"
+    }
+}

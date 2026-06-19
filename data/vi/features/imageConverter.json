@@ -1,0 +1,21 @@
+{
+    "description": "Chuyển đổi texture hoặc hình ảnh giữa các định dạng",
+    "sourceOptionDesc": "Định dạng ảnh đầu vào",
+    "destinationOptionDesc": "Định dạng ảnh đầu ra (png, jpg, v.v.)",
+    "wrongSourceError": "Sai định dạng đầu vào! Các định dạng chấp nhận được: {{formats}}",
+    "wrongDestinationError": "Sai định dạng đầu ra! Các định dạng chấp nhận được: {{formats}}",
+    "format": "Chuyển đổi hình ảnh",
+    "format_sctx": "Chuyển đổi ảnh sang Supercell Texture",
+    "format_png": "Chuyển đổi ảnh sang png",
+    "sctx": {
+        "compressDesc": "Nén dữ liệu tệp bằng ZSTD",
+        "paddingDesc": "Căn dữ liệu texture theo 16 byte",
+        "mipMapsDesc": "Tạo các mức MIP-map cho texture",
+        "typeDesc": "Xác định mức nén và định dạng lưu trữ của texture",
+        "tagsDesc": "Mảng tag để thêm vào texture sctx",
+        "tagsDesc_details": "Mảng tag để thêm vào texture sctx.\nTag là các chuỗi được lưu trong file sctx và có thể được mã game dùng để đánh dấu các texture đặc biệt\n",
+        "proxyDesc": "Tạo một texture proxy có độ phân giải thấp hơn, thường dùng cho việc stream texture trong game",
+        "unknownFlag1": "Cờ không xác định",
+        "unknownFlag2": "Cờ không xác định thứ hai"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Descrizione del file nel formato `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Parola chiave per la ricerca asset",
+        "versionOption": "version",
+        "versionOptionDesc": "Versione del gioco. Accetta valori come \"62\" o \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Nome del server in cui cercare",
+        "notFoundError": "Asset richiesti non trovati!",
+        "invalidVersionError": "Versione inesistente! Usa il comando dbinfo per controllare le versioni disponibili"
+    },
+    "userAssets": {
+        "desc": "File utente / archivi zip",
+        "mixedDesc": "Descrizione del file nel formato `filename [version] [game]` o file utente / archivi zip",
+        "inputOption": "filename",
+        "inputOptionDesc": "File di input da elaborare o archivio .zip contenente file",
+        "emptyFilesError": "Non hai fornito alcun file. Inserisci un nome asset oppure fornisci un file o un archivio .zip"
+    },
+    "assetServer": {
+        "desc": "Nome del server asset"
+    }
+}

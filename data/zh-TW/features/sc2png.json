@@ -1,0 +1,10 @@
+{
+    "description": "從 .sc 檔案讀取精靈圖集並轉換為 .png",
+    "notATextureError": "看起來這個檔案不包含任何紋理資料。請確認該檔案是 SC2，或檔名以 _tex.sc 結尾",
+    "packToZipOption": "將結果檔案打包成 zip 壓縮檔",
+    "progress": {
+        "doneTextures": "已完成紋理：{{count}}",
+        "doneTextures_two": "已完成紋理：{{count}}",
+        "doneTextures_many": "已完成紋理：{{count}}"
+    }
+}

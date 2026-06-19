@@ -1,0 +1,8 @@
+{
+    "title": "Sökresultat för {{wildcard}}",
+    "title_versioned": "Sökresultat för {{wildcard}} från {{version}}",
+    "description": "Söker efter ett asset i databasen för det valda spelet och versionen",
+    "assetOverview": "Totalt hittades {{count}} assets ({{size}}~)",
+    "assetOverview_one": "Totalt hittades {{count}} assets ({{size}}~)",
+    "wrongDownloadArgsError": "Felaktiga nedladdningsargument. Kontrollera att du angav rätt version"
+}

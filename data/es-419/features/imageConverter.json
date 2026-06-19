@@ -1,0 +1,21 @@
+{
+    "description": "Convierte texturas o imágenes entre formatos",
+    "sourceOptionDesc": "Formato de imagen de origen",
+    "destinationOptionDesc": "Formato de imagen de destino (png, jpg, etc.)",
+    "wrongSourceError": "¡Formato de origen incorrecto! Formatos aceptables: {{formats}}",
+    "wrongDestinationError": "¡Formato de destino incorrecto! Formatos aceptables: {{formats}}",
+    "format": "Convierte imagen",
+    "format_sctx": "Convierte la imagen a Supercell Texture",
+    "format_png": "Convierte la imagen a png",
+    "sctx": {
+        "compressDesc": "Comprime los datos del archivo usando ZSTD",
+        "paddingDesc": "Alinea los datos de la textura a 16 bytes",
+        "mipMapsDesc": "Genera niveles MIP-map de la textura",
+        "typeDesc": "Determina el nivel de compresión y el formato de almacenamiento de la textura",
+        "tagsDesc": "Una matriz de etiquetas para añadir a la textura sctx",
+        "tagsDesc_details": "Una matriz de etiquetas para añadir a la textura sctx.\nLas etiquetas son cadenas almacenadas en el archivo sctx y el código del juego puede usarlas para marcar texturas especiales\n",
+        "proxyDesc": "Crea una textura proxy de menor resolución, usada normalmente para streaming de texturas en el juego",
+        "unknownFlag1": "Indicador desconocido",
+        "unknownFlag2": "Segundo indicador desconocido"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Przyjmuje atlasy png i konwertuje je do _tex.sc albo osadza tekstury w pliku .sc",
+    "invalidFilesError": "Nie ma czego konwertować! Upewnij się, że dołączono poprawne obrazy",
+    "progress": {
+        "swfLoading": "Ładowanie źródłowego SupercellSWF: {{filepath}}",
+        "imageLoading": "Ładowanie obrazu: {{filepath}}",
+        "saving": "Zapisywanie tekstur..."
+    }
+}

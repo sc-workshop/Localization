@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Tiedoston kuvaus muodossa `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Avainsana asset-hakuun",
+        "versionOption": "version",
+        "versionOptionDesc": "Peliversio. Hyväksyy arvoja kuten \"62\" tai \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Palvelimen nimi, josta haetaan",
+        "notFoundError": "Pyydettyjä asseteja ei löytynyt!",
+        "invalidVersionError": "Versiota ei ole olemassa! Tarkista saatavilla olevat versiot dbinfo-komennolla"
+    },
+    "userAssets": {
+        "desc": "Käyttäjän tiedostot / zip-arkistot",
+        "mixedDesc": "Tiedoston kuvaus muodossa `filename [version] [game]` tai käyttäjän tiedostot / zip-arkistot",
+        "inputOption": "filename",
+        "inputOptionDesc": "Käsiteltävä syötetiedosto tai .zip-arkisto, joka sisältää tiedostoja",
+        "emptyFilesError": "Et toimittanut tiedostoja. Anna assetin nimi tai lähetä tiedosto tai .zip-arkisto"
+    },
+    "assetServer": {
+        "desc": "Asset-palvelimen nimi"
+    }
+}

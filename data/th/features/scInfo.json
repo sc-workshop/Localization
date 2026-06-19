@@ -1,0 +1,14 @@
+{
+    "description": "ดึงข้อมูลพื้นฐานของไฟล์ .sc เช่น เวอร์ชัน รูปแบบ จำนวนอ็อบเจ็กต์ เป็นต้น",
+    "embed": {
+        "title": "ข้อมูลเกี่ยวกับไฟล์ .sc",
+        "type": "ประเภท",
+        "signature": "ลายเซ็น",
+        "textureCount": "จำนวน Texture",
+        "movieclipCount": "จำนวน MovieClips",
+        "shapeCount": "จำนวน Shapes",
+        "textfieldsCount": "จำนวน TextFields",
+        "externalTexture": "ไฟล์ texture ภายนอก",
+        "exports": "ชื่อ Export"
+    }
+}

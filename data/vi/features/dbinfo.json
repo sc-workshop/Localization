@@ -1,0 +1,11 @@
+{
+    "desc": "Gửi thông tin cơ sở dữ liệu asset của Neko",
+    "notFoundError": "Không tìm thấy cơ sở dữ liệu có tên {name}",
+    "embed": {
+        "title": "📚 Cơ sở dữ liệu: {{dbName}}",
+        "desc": "Thông tin chung về cơ sở dữ liệu và các phiên bản",
+        "size": "💾 Tổng dung lượng",
+        "versionTitle": "🧩 Phiên bản",
+        "footer": "Thông tin cơ sở dữ liệu"
+    }
+}

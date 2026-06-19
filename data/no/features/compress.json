@@ -1,0 +1,8 @@
+{
+    "desc": "Komprimerer en fil med valgt komprimering",
+    "variantDesc": "Navn på målkomprimeringstype",
+    "variants": "Ikke implementert",
+    "variants_zstd": "Komprimerer fil med zstd",
+    "variants_lzma": "Komprimerer fil med lzma",
+    "wrongDestinationError": "Navnet på målkomprimeringen er feil! Støttede komprimeringer: {{format}}"
+}

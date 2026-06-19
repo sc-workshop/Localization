@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Fișier invalid: {{value}}",
+    "notExistingFileError": "Nu s-a putut obține fișierul: {{value}}",
+    "genericError": "A apărut o excepție în timpul procesării operației: {{value}}",
+    "unknownError": "A apărut o eroare necunoscută în timpul procesării operației",
+    "notAnImageError": "Nu este o imagine sau formatul nu este suportat",
+    "notAnScFile": "Nu este un fișier SC1/SC2 valid",
+    "notAnSc2File": "Nu este un fișier SC2 valid",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Nu s-a găsit nimic de convertit. Asigură-te că argumentele grupurilor sunt configurate corect!",
+        "LZMA missing end marker!": "Acest fișier probabil nu este comprimat sau este deteriorat"
+    }
+}

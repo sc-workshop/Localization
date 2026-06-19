@@ -1,0 +1,10 @@
+{
+    "description": "Odczytuje sprite sheety z pliku .sc i konwertuje je do .png",
+    "notATextureError": "Wygląda na to, że ten plik nie zawiera danych tekstury. Upewnij się, że to plik SC2 lub że jego nazwa kończy się na _tex.sc",
+    "packToZipOption": "Pakuje pliki wynikowe do archiwum zip",
+    "progress": {
+        "doneTextures": "Gotowe tekstury: {{count}}",
+        "doneTextures_two": "Gotowe tekstury: {{count}}",
+        "doneTextures_many": "Gotowe tekstury: {{count}}"
+    }
+}

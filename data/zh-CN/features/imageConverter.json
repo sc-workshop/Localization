@@ -1,0 +1,21 @@
+{
+    "description": "在不同格式之间转换纹理或图像",
+    "sourceOptionDesc": "源图像格式",
+    "destinationOptionDesc": "目标图像格式（png、jpg 等）",
+    "wrongSourceError": "错误的源格式！可接受的格式：{{formats}}",
+    "wrongDestinationError": "错误的目标格式！可接受的格式：{{formats}}",
+    "format": "转换图像",
+    "format_sctx": "将图像转换为 Supercell Texture",
+    "format_png": "将图像转换为 png",
+    "sctx": {
+        "compressDesc": "使用 ZSTD 压缩文件数据",
+        "paddingDesc": "按 16 字节对齐纹理数据",
+        "mipMapsDesc": "生成纹理 MIP-map 级别",
+        "typeDesc": "确定纹理的压缩级别和存储格式",
+        "tagsDesc": "要添加到 sctx 纹理中的标签数组",
+        "tagsDesc_details": "要添加到 sctx 纹理中的标签数组。\n标签是存储在 sctx 文件中的字符串，游戏代码可用它们来标记特殊纹理\n",
+        "proxyDesc": "创建一个降低分辨率的代理纹理，通常用于游戏中的纹理流送",
+        "unknownFlag1": "未知标志",
+        "unknownFlag2": "第二个未知标志"
+    }
+}

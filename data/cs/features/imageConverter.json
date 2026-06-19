@@ -1,0 +1,21 @@
+{
+    "description": "Převádí texturu nebo obrázek mezi formáty",
+    "sourceOptionDesc": "Formát zdrojového obrázku",
+    "destinationOptionDesc": "Formát cílového obrázku (png, jpg atd.)",
+    "wrongSourceError": "Nesprávný zdrojový formát! Povolené formáty: {{formats}}",
+    "wrongDestinationError": "Nesprávný cílový formát! Povolené formáty: {{formats}}",
+    "format": "Převádí obrázek",
+    "format_sctx": "Převádí obrázek do Supercell Texture",
+    "format_png": "Převádí obrázek do png",
+    "sctx": {
+        "compressDesc": "Komprimuje data souboru pomocí ZSTD",
+        "paddingDesc": "Zarovná data textury po 16 bajtech",
+        "mipMapsDesc": "Generuje úrovně texturových MIP-map",
+        "typeDesc": "Určuje úroveň komprese a formát ukládání textury",
+        "tagsDesc": "Pole tagů pro přidání do sctx textury",
+        "tagsDesc_details": "Pole tagů pro přidání do sctx textury.\nTagy jsou řetězce uložené v souboru sctx a herní kód je může použít k označení speciálních textur\n",
+        "proxyDesc": "Vytvoří proxy texturu se sníženým rozlišením, obvykle používanou pro streamování textur ve hře",
+        "unknownFlag1": "Neznámý příznak",
+        "unknownFlag2": "Druhý neznámý příznak"
+    }
+}

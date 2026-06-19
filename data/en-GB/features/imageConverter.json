@@ -1,0 +1,21 @@
+{
+    "description": "Converts texture or image between formats",
+    "sourceOptionDesc": "Source image format",
+    "destinationOptionDesc": "Destination image format",
+    "wrongSourceError": "Wrong source format! Acceptable formats: {{formats}}",
+    "wrongDestinationError": "Wrong destination format! Acceptable formats: {{formats}}",
+    "format": "Converts image",
+    "format_sctx": "Converts image to Supercell Texture",
+    "format_png": "Converts image to png",
+    "sctx": {
+        "compressDesc": "Compressed file data using ZSTD",
+        "paddingDesc": "Aligns texture data by 16 bytes",
+        "mipMapsDesc": "Generates texture MIP-map levels",
+        "typeDesc": "Determines compression level and storage format of texture",
+        "tagsDesc": "An array of tags to add to the sctx texture",
+        "tagsDesc_details": "An array of tags to add to the sctx texture.\nTags are strings that stored in sctx file and can be used by game code to mark special textures\n",
+        "proxyDesc": "Creates a lower-resolution proxy texture, usually used for texture streaming in the game",
+        "unknownFlag1": "Unknown flag",
+        "unknownFlag2": "Second unknown flag"
+    }
+}

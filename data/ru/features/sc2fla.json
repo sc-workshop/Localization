@@ -1,0 +1,19 @@
+{
+    "description": "Конвертирует .sc файл в проект Adobe Animate",
+    "splitByNameOption": "Разделяет .fla в проекты поменьше, ориентируясь на экспортные имена",
+    "groupsOption": "Массив пользовательских регулярных выражений для разделения .fla на группы проектов",
+    "groupsOption_details": "Массив пользовательских регулярных выражений для разделения .fla на группы проектов",
+    "as3DocOption": "Создает документ ActionScript для .fla проекта",
+    "as3DocOption_details": "Создает документ ActionScript для .fla проекта, вместо документ SupercellSWF, для случаев использования без плагина SupercellSWF",
+    "progress": {
+        "swfLoaded": "SupercellSWF файл загружен. Конвертация...",
+        "groupChange": "Работаем над \"{{name}}\" группой...",
+        "bar": "Обработка \"{{title}}\": `{{current}} / {{total}}`",
+        "saving": "Сохранение \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Прогресс",
+        "MovieClips converting": "Обработка Мувиклипов",
+        "Shapes converting": "Обработка Шейпов"
+    }
+}

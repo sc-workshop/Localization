@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Érvénytelen fájl: {{value}}",
+    "notExistingFileError": "Nem sikerült lekérni a fájlt: {{value}}",
+    "genericError": "Kivétel történt a művelet feldolgozása közben: {{value}}",
+    "unknownError": "Ismeretlen hiba történt a művelet feldolgozása közben",
+    "notAnImageError": "Nem kép vagy nem támogatott formátum",
+    "notAnScFile": "Nem érvényes SC1/SC2 fájl",
+    "notAnSc2File": "Nem érvényes SC2 fájl",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Nem található semmi konvertálható. Győződj meg róla, hogy a csoportargumentumokat helyesen állítottad be!",
+        "LZMA missing end marker!": "Ez a fájl valószínűleg nincs tömörítve vagy sérült"
+    }
+}

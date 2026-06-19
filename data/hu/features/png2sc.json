@@ -1,0 +1,9 @@
+{
+    "description": "png atlasokat fogad, és _tex.sc-vé alakítja őket, vagy textúrákat ágyaz a .sc fájlba",
+    "invalidFilesError": "Nincs mit konvertálni! Győződj meg róla, hogy érvényes képeket csatoltál",
+    "progress": {
+        "swfLoading": "Forrás SupercellSWF betöltése: {{filepath}}",
+        "imageLoading": "Kép betöltése: {{filepath}}",
+        "saving": "Textúrák mentése..."
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Obniża wersję pliku .sc do starszej wersji",
+    "versionOption": "Docelowa wersja dla obniżenia",
+    "signatureOption": "Docelowy podpis (kompresja) dla obniżonego pliku",
+    "externalTextureOption": "Tworzy osobny plik _tex.sc",
+    "wrongSignatureError": "Nieprawidłowy podpis! Akceptowalne podpisy: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Nieprawidłowa wersja! Akceptowalne wersje: -1.0 (automatyczne wykrywanie), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF został załadowany. Zapisywanie..."
+    }
+}

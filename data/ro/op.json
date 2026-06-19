@@ -1,0 +1,12 @@
+{
+    "create": "Te rog să aștepți...",
+    "ready": "{{success, emoji}} Gata",
+    "takeAWhile": "Poate dura ceva timp, te rog să aștepți. ",
+    "sending": "{{send, emoji}} Se trimite...",
+    "done": "{{success, emoji}} Gata",
+    "fileReady": "{{success, emoji}} Poftim **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Poftim **`{{filename}}`** din **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Linkul de descărcare va expira {{countdown}}",
+    "download": "Descarcă",
+    "tooManyAssets": "Prea multe asseturi! Încearcă să-ți clarifici cererea mai detaliat"
+}

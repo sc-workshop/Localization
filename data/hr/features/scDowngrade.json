@@ -1,0 +1,11 @@
+{
+    "description": "Smanjuje verziju .sc datoteke na stariju verziju",
+    "versionOption": "Ciljana verzija za snižavanje",
+    "signatureOption": "Ciljani potpis (kompresija) za datoteku sa sniženom verzijom",
+    "externalTextureOption": "Stvara zasebnu _tex.sc datoteku",
+    "wrongSignatureError": "Pogrešan potpis! Prihvatljivi potpisi: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Pogrešna verzija! Prihvatljive verzije: -1.0 (automatsko otkrivanje), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF je učitan. Spremanje..."
+    }
+}

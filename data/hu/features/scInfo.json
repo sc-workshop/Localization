@@ -1,0 +1,14 @@
+{
+    "description": "Lekéri egy .sc fájl alapvető adatait, például a verziót, formátumot, objektumszámot stb.",
+    "embed": {
+        "title": "Információ a .sc fájlról",
+        "type": "Típus",
+        "signature": "Aláírás",
+        "textureCount": "Textúrák Száma",
+        "movieclipCount": "MovieClipek Száma",
+        "shapeCount": "Shape-ek Száma",
+        "textfieldsCount": "Szövegmezők Száma",
+        "externalTexture": "Külső textúrafájl",
+        "exports": "Exportnevek"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "File tidak valid: {{value}}",
+    "notExistingFileError": "Gagal mendapatkan file: {{value}}",
+    "genericError": "Terjadi pengecualian saat memproses operasi: {{value}}",
+    "unknownError": "Terjadi kesalahan tidak diketahui saat memproses operasi",
+    "notAnImageError": "Bukan gambar atau format tidak didukung",
+    "notAnScFile": "Bukan file SC1/SC2 yang valid",
+    "notAnSc2File": "Bukan file SC2 yang valid",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Tidak ada yang ditemukan untuk dikonversi. Pastikan argumen grup sudah dikonfigurasi dengan benar!",
+        "LZMA missing end marker!": "File ini kemungkinan tidak dikompresi atau rusak"
+    }
+}

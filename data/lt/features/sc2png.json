@@ -1,0 +1,10 @@
+{
+    "description": "Nuskaito sprite sheetus iš .sc failo ir konvertuoja juos į .png",
+    "notATextureError": "Atrodo, kad šiame faile nėra tekstūros duomenų. Įsitikinkite, kad tai SC2 failas arba kad jo pavadinimas baigiasi _tex.sc",
+    "packToZipOption": "Supakuoja rezultato failus į zip archyvą",
+    "progress": {
+        "doneTextures": "Paruoštos tekstūros: {{count}}",
+        "doneTextures_two": "Paruoštos tekstūros: {{count}}",
+        "doneTextures_many": "Paruoštos tekstūros: {{count}}"
+    }
+}

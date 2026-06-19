@@ -1,0 +1,5 @@
+{
+    "desc": "चुने गए game और version के database से assets डाउनलोड करता है",
+    "tooBigFiles": "{{important, emoji}} फ़ाइलें बहुत बड़ी हैं: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} नीचे दिए गए download link का उपयोग करें"
+}

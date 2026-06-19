@@ -1,0 +1,11 @@
+{
+    "description": "将 .sc 文件降级到更旧的版本",
+    "versionOption": "目标降级版本",
+    "signatureOption": "降级文件的目标签名（压缩方式）",
+    "externalTextureOption": "创建单独的 _tex.sc 文件",
+    "wrongSignatureError": "错误的签名！可接受的签名：Lzma、Lzham、Zstandart",
+    "wrongVersionError": "错误的版本！可接受的版本：-1.0（自动检测）、1.0、0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF 已加载。正在保存..."
+    }
+}

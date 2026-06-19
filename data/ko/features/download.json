@@ -1,0 +1,5 @@
+{
+    "desc": "선택한 게임과 버전의 데이터베이스에서 에셋을 다운로드합니다",
+    "tooBigFiles": "{{important, emoji}} 파일이 너무 큽니다: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} 아래 다운로드 링크를 사용하세요"
+}

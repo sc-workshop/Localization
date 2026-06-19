@@ -1,0 +1,11 @@
+{
+    "description": "Υποβαθμίζει ένα αρχείο .sc σε παλαιότερη έκδοση",
+    "versionOption": "Στόχος έκδοσης για υποβάθμιση",
+    "signatureOption": "Στόχος υπογραφής (συμπίεση) για το υποβαθμισμένο αρχείο",
+    "externalTextureOption": "Δημιουργεί ξεχωριστό αρχείο _tex.sc",
+    "wrongSignatureError": "Λανθασμένη υπογραφή! Αποδεκτές υπογραφές: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Λανθασμένη έκδοση! Αποδεκτές εκδόσεις: -1.0 (αυτόματη ανίχνευση), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "Το SupercellSWF φορτώθηκε. Αποθήκευση..."
+    }
+}

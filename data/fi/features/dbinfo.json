@@ -1,0 +1,11 @@
+{
+    "desc": "Lähettää tiedot Neko-asset-tietokannasta",
+    "notFoundError": "Tietokantaa nimellä {{name}} ei löytynyt",
+    "embed": {
+        "title": "📚 Tietokanta: {{dbName}}",
+        "desc": "Yleistiedot tietokannasta ja versioista",
+        "size": "💾 Kokonaiskoko",
+        "versionTitle": "🧩 Versiot",
+        "footer": "Tietokantatiedot"
+    }
+}

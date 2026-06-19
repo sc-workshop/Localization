@@ -1,0 +1,5 @@
+{
+    "desc": "Preuzima resurse iz baze podataka odabrane igre i verzije",
+    "tooBigFiles": "{{important, emoji}} Datoteke su prevelike: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Upotrijebite vezu za preuzimanje u nastavku"
+}

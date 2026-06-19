@@ -1,0 +1,9 @@
+{
+    "description": "png 아틀라스를 받아 _tex.sc로 변환하거나 텍스처를 .sc 파일에 포함합니다",
+    "invalidFilesError": "변환할 것이 없습니다! 올바른 이미지를 첨부했는지 확인하세요",
+    "progress": {
+        "swfLoading": "원본 SupercellSWF 로딩 중: {{filepath}}",
+        "imageLoading": "이미지 로딩 중: {{filepath}}",
+        "saving": "텍스처 저장 중..."
+    }
+}

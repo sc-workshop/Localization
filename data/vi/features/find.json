@@ -1,0 +1,8 @@
+{
+    "title": "Kết quả tìm kiếm cho {{wildcard}}",
+    "title_versioned": "Kết quả tìm kiếm cho {{wildcard}} từ {{version}}",
+    "description": "Tìm kiếm asset trong cơ sở dữ liệu của trò chơi và phiên bản đã chọn",
+    "assetOverview": "Tổng cộng tìm thấy {{count}} asset ({{size}}~)",
+    "assetOverview_one": "Tổng cộng tìm thấy {{count}} asset ({{size}}~)",
+    "wrongDownloadArgsError": "Đối số tải xuống không đúng. Hãy đảm bảo bạn đã chỉ định đúng phiên bản"
+}

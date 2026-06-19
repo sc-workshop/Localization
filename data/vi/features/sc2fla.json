@@ -1,0 +1,19 @@
+{
+    "description": "Chuyển đổi .sc thành dự án Adobe Animate",
+    "splitByNameOption": "Chia .fla thành các dự án nhỏ theo tên export của .sc",
+    "groupsOption": "Mảng biểu thức chính quy do người dùng định nghĩa để chia .fla thành các nhóm dự án",
+    "groupsOption_details": "Mảng biểu thức chính quy do người dùng định nghĩa để chia .fla thành các nhóm dự án\nVí dụ, lệnh này sẽ xuất tất cả các tên export bắt đầu bằng \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nBạn cũng có thể dùng nhiều biểu thức, nhưng khi đó cần chỉ định tên nhóm, ví dụ:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Tạo tài liệu ActionScript cho dự án .fla",
+    "as3DocOption_details": "Tạo tài liệu ActionScript cho dự án .fla thay cho tài liệu SupercellSWF trong trường hợp plugin SupercellSWF không khả dụng",
+    "progress": {
+        "swfLoaded": "SupercellSWF đã được tải. Đang chuyển đổi...",
+        "groupChange": "Đang xử lý nhóm \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Đang lưu \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Tiến trình",
+        "MovieClips converting": "Đang xử lý MovieClip",
+        "Shapes converting": "Đang xử lý Shape"
+    }
+}

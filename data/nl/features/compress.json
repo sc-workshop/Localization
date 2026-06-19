@@ -1,0 +1,8 @@
+{
+    "desc": "Comprimeert een bestand met de geselecteerde compressie",
+    "variantDesc": "Naam van het doelcompressietype",
+    "variants": "Niet geïmplementeerd",
+    "variants_zstd": "Comprimeert bestand met zstd",
+    "variants_lzma": "Comprimeert bestand met lzma",
+    "wrongDestinationError": "De naam van de doelcompressie is onjuist! Ondersteunde compressies: {{format}}"
+}

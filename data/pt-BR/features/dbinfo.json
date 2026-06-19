@@ -1,0 +1,11 @@
+{
+    "desc": "Envia informações sobre o banco de dados de assets do Neko",
+    "notFoundError": "Banco de dados com o nome {{name}} não encontrado",
+    "embed": {
+        "title": "📚 Banco de dados: {{dbName}}",
+        "desc": "Informações gerais sobre o banco de dados e as versões",
+        "size": "💾 Tamanho total",
+        "versionTitle": "🧩 Versões",
+        "footer": "Informações do banco de dados"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Rezultate căutare pentru {{wildcard}}",
+    "title_versioned": "Rezultate căutare pentru {{wildcard}} din {{version}}",
+    "description": "Caută un asset în baza de date a jocului și versiunii selectate",
+    "assetOverview": "Au fost găsite în total {{count}} asseturi ({{size}}~)",
+    "assetOverview_one": "Au fost găsite în total {{count}} asseturi ({{size}}~)",
+    "wrongDownloadArgsError": "Argumente de descărcare incorecte. Asigură-te că ai specificat versiunea corectă"
+}

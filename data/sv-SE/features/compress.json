@@ -1,0 +1,8 @@
+{
+    "desc": "Komprimerar en fil med vald komprimering",
+    "variantDesc": "Namn på målkomprimeringstypen",
+    "variants": "Inte implementerat",
+    "variants_zstd": "Komprimerar fil med zstd",
+    "variants_lzma": "Komprimerar fil med lzma",
+    "wrongDestinationError": "Namnet på målkomprimeringen är felaktigt! Komprimeringar som stöds: {{format}}"
+}

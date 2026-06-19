@@ -1,0 +1,14 @@
+{
+    "description": "Hakee .sc-tiedoston perustiedot, kuten version, formaatin, objektien määrän jne.",
+    "embed": {
+        "title": "Tietoa .sc-tiedostosta",
+        "type": "Tyyppi",
+        "signature": "Allekirjoitus",
+        "textureCount": "Tekstuurien Määrä",
+        "movieclipCount": "MovieClipien Määrä",
+        "shapeCount": "Shapejen Määrä",
+        "textfieldsCount": "Tekstikenttien Määrä",
+        "externalTexture": "Ulkoinen tekstuuritiedosto",
+        "exports": "Export-nimet"
+    }
+}

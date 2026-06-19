@@ -1,0 +1,8 @@
+{
+    "title": "Keresési eredmények ehhez: {{wildcard}}",
+    "title_versioned": "Keresési eredmények ehhez: {{wildcard}} innen: {{version}}",
+    "description": "Assetet keres a kiválasztott játék és verzió adatbázisában",
+    "assetOverview": "Összesen {{count}} asset található ({{size}}~)",
+    "assetOverview_one": "Összesen {{count}} asset található ({{size}}~)",
+    "wrongDownloadArgsError": "Hibás letöltési argumentumok. Ellenőrizd, hogy a megfelelő verziót adtad-e meg"
+}

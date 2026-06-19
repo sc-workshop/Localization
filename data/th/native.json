@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "ไฟล์ไม่ถูกต้อง: {{value}}",
+    "notExistingFileError": "ไม่สามารถดึงไฟล์ได้: {{value}}",
+    "genericError": "เกิดข้อยกเว้นระหว่างประมวลผลการทำงาน: {{value}}",
+    "unknownError": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุระหว่างประมวลผลการทำงาน",
+    "notAnImageError": "ไม่ใช่รูปภาพหรือเป็นฟอร์แมตที่ไม่รองรับ",
+    "notAnScFile": "ไม่ใช่ไฟล์ SC1/SC2 ที่ถูกต้อง",
+    "notAnSc2File": "ไม่ใช่ไฟล์ SC2 ที่ถูกต้อง",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "ไม่พบสิ่งที่จะให้แปลง โปรดตรวจสอบว่าได้ตั้งค่าอาร์กิวเมนต์กลุ่มอย่างถูกต้อง!",
+        "LZMA missing end marker!": "ไฟล์นี้อาจไม่ได้ถูกบีบอัดหรือเสียหาย"
+    }
+}

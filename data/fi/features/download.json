@@ -1,0 +1,5 @@
+{
+    "desc": "Lataa asseteja valitun pelin ja version tietokannasta",
+    "tooBigFiles": "{{important, emoji}} Tiedostot ovat liian suuria: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Käytä alla olevaa latauslinkkiä"
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Результат для {{wildcard}}",
+    "title_versioned": "Результат для {{wildcard}} з {{version}}",
+    "description": "Шукає ресурс у базі даних вибраної гри та версії",
+    "assetOverview": "Всього знайдено {{count}} ресурсів ({{size}}~)",
+    "assetOverview_one": "Всього знайдено {{count}} ресурс ({{size}}~)",
+    "wrongDownloadArgsError": "Неправильні аргументи завантаження. Переконайтеся, що ви вказали правильну версію."
+}

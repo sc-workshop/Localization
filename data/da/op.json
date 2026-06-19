@@ -1,0 +1,12 @@
+{
+    "create": "Vent venligst...",
+    "ready": "{{success, emoji}} Færdig",
+    "takeAWhile": "Det kan tage lidt tid, vent venligst. ",
+    "sending": "{{send, emoji}} Sender...",
+    "done": "{{success, emoji}} Færdig",
+    "fileReady": "{{success, emoji}} Her er **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Her er **`{{filename}}`** fra **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Downloadlinket udløber {{countdown}}",
+    "download": "Download",
+    "tooManyAssets": "For mange assets! Prøv at præcisere din forespørgsel mere detaljeret"
+}

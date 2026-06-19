@@ -1,0 +1,11 @@
+{
+    "description": "Nedgraderer en .sc-fil til en ældre version",
+    "versionOption": "Målversion for nedgradering",
+    "signatureOption": "Målsignatur (komprimering) for den nedgraderede fil",
+    "externalTextureOption": "Opretter en separat _tex.sc-fil",
+    "wrongSignatureError": "Forkert signatur! Tilladte signaturer: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Forkert version! Tilladte versioner: -1.0 (automatisk registrering), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF er indlæst. Gemmer..."
+    }
+}

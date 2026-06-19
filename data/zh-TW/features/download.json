@@ -1,0 +1,5 @@
+{
+    "desc": "從所選遊戲與版本的資料庫下載資源",
+    "tooBigFiles": "{{important, emoji}} 檔案太大：{{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} 請使用下方的下載連結"
+}

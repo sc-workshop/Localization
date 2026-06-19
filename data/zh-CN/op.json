@@ -1,0 +1,12 @@
+{
+    "create": "请稍候...",
+    "ready": "{{success, emoji}} 好了",
+    "takeAWhile": "这可能需要一点时间，请稍候。 ",
+    "sending": "{{send, emoji}} 发送中...",
+    "done": "{{success, emoji}} 完成",
+    "fileReady": "{{success, emoji}} 给你 **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} 给你 **`{{filename}}`** 来自 **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} 下载链接将于 {{countdown}} 失效",
+    "download": "下载",
+    "tooManyAssets": "资源太多了！请更详细地说明你的请求"
+}

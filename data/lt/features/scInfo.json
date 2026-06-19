@@ -1,0 +1,14 @@
+{
+    "description": "Gauna pagrindinę informaciją apie .sc failą, pvz., versiją, formatą, objektų skaičių ir kt.",
+    "embed": {
+        "title": "Informacija apie .sc failą",
+        "type": "Tipas",
+        "signature": "Parašas",
+        "textureCount": "Tekstūrų Kiekis",
+        "movieclipCount": "MovieClip Kiekis",
+        "shapeCount": "Shape Kiekis",
+        "textfieldsCount": "Teksto Laukų Kiekis",
+        "externalTexture": "Išorinis tekstūros failas",
+        "exports": "Eksportavimo Pavadinimai"
+    }
+}

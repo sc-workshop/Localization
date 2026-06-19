@@ -1,0 +1,12 @@
+{
+    "create": "Prašome palaukti...",
+    "ready": "{{success, emoji}} Paruošta",
+    "takeAWhile": "Tai gali šiek tiek užtrukti, prašome palaukti. ",
+    "sending": "{{send, emoji}} Siunčiama...",
+    "done": "{{success, emoji}} Baigta",
+    "fileReady": "{{success, emoji}} Štai **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Štai **`{{filename}}`** iš **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Atsisiuntimo nuoroda nustos galioti {{countdown}}",
+    "download": "Atsisiųsti",
+    "tooManyAssets": "Per daug assetų! Pabandykite tiksliau apibūdinti užklausą"
+}

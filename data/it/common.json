@@ -1,0 +1,72 @@
+{
+    "name": "Italiano",
+    "gltfIoLinkMessage": "Non ce n'è bisogno. Valuta invece l'uso di questo plugin per Blender: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Risponde pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Latenza del bot",
+        "apiLatency": "Latenza API",
+        "uptime": "Tempo di attività del bot"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Nome comando non valido!",
+        "invalidCommand_suggests": "{{error, emoji}} Comando non valido! Forse intendevi: {{suggests}}",
+        "argumentParseError": "Impossibile analizzare l'argomento `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Il file è troppo grande",
+        "internalError": "Impossibile scaricare il file! Errore interno",
+        "unknown": "Errore sconosciuto durante il download del file"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Comandi",
+        "description": "Invia informazioni sui comandi del bot",
+        "head": "Usa `n!<command> [flags]` per eseguire un comando\nEsempio: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Digita n!help <command> per maggiori dettagli",
+        "commandNameOption": "Nome comando opzionale per ottenere aiuto",
+        "aliases": "{{lookup, emoji}} Alias: ",
+        "requiredArgs": "{{important, emoji}} Argomenti obbligatori: ",
+        "optionalArgs": "{{flag, emoji}} Argomenti opzionali: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Comando: {{name}}",
+        "variants": "{{folder, emoji}} Varianti per `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Altri comandi",
+        "group_base": "{{gears, emoji}} Comandi di base",
+        "group_assets": "{{database, emoji}} Comandi asset",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Elaborazione immagini",
+        "group_generic": "{{folder, emoji}} Operazioni sui file",
+        "notes": {
+            "title": "{{important, emoji}} Note sulla sintassi",
+            "prefixTitle": "Prefisso",
+            "prefixDescription": "- Il bot supporta i seguenti prefissi: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flag",
+            "flagsDescription": [
+                "- I flag sono per lo più valori opzionali che puoi fornire al bot",
+                "- Nel messaggio di aiuto, i flag opzionali sono indicati tra parentesi quadre come `[.flag]`",
+                "- I flag devono avere questo prefisso: {{flagPrefix}}",
+                "- Esempio: `n!sc2fla ui.sc .split_by_name` OPPURE `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Dati asset",
+            "assetDataDescription": [
+                "- La maggior parte dei comandi richiede l'argomento **`assetData`**",
+                "- Si tratta di un argomento complesso che ti permette di specificare esattamente quale asset vuoi usare",
+                "- La sintassi è questa: `filename [version] [game]`",
+                "- Il numero di versione deve iniziare con la lettera `v`",
+                "- I giochi attualmente supportati sono: {{supportedGames}}",
+                "- Esempio: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Espressione di ricerca file",
+            "fileSearchDescription": [
+                "- Il bot supporta espressioni simili alle regex quando usi `filename` negli argomenti `assetData`",
+                "- Un'espressione di tipo \"inizia con\" deve iniziare con il carattere **`^`**",
+                "- Un'espressione di tipo \"termina con\" deve terminare con il carattere **`$`**",
+                "- Più espressioni devono essere combinate con **`&&`** oppure **`|`**",
+                "- Per impostazione predefinita, la ricerca viene eseguita sui nomi dei file. Se devi cercare per cartelle, la parte principale dell'espressione deve terminare con il carattere **`/`**",
+                "- Esempio: cerca file che iniziano con `melodie_`, terminano con `.sctx` e sono memorizzati nella cartella `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Le espressioni hanno il concetto di modificatori. Sono nomi speciali che iniziano con @ e modificano l'output",
+                "    - `@any` restituisce un asset casuale"
+            ]
+        }
+    }
+}

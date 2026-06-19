@@ -1,0 +1,14 @@
+{
+    "description": "取得 .sc 檔案的基本資訊，例如版本、格式、物件數量等。",
+    "embed": {
+        "title": ".sc 檔案資訊",
+        "type": "類型",
+        "signature": "簽章",
+        "textureCount": "紋理數量",
+        "movieclipCount": "MovieClip 數量",
+        "shapeCount": "Shape 數量",
+        "textfieldsCount": "TextField 數量",
+        "externalTexture": "外部紋理檔案",
+        "exports": "匯出名稱"
+    }
+}

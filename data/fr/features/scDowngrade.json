@@ -1,0 +1,11 @@
+{
+    "description": "Rétrograde un fichier .sc vers une version plus ancienne",
+    "versionOption": "Version cible de rétrogradation",
+    "signatureOption": "Signature cible (compression) pour le fichier rétrogradé",
+    "externalTextureOption": "Crée un fichier _tex.sc séparé",
+    "wrongSignatureError": "Signature incorrecte ! Signatures acceptées : Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Version incorrecte ! Versions acceptées : -1.0 (détection automatique), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF est chargé. Enregistrement..."
+    }
+}

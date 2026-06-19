@@ -1,0 +1,5 @@
+{
+    "desc": "Tải asset từ cơ sở dữ liệu của trò chơi và phiên bản đã chọn",
+    "tooBigFiles": "{{important, emoji}} Tệp quá lớn: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Hãy dùng liên kết tải xuống bên dưới"
+}

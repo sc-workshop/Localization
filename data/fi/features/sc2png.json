@@ -1,0 +1,10 @@
+{
+    "description": "Lukee sprite sheetit .sc-tiedostosta ja muuntaa ne .png-muotoon",
+    "notATextureError": "Näyttää siltä, että tämä tiedosto ei sisällä tekstuuridataa. Varmista, että tiedosto on SC2 tai että sen nimi päättyy _tex.sc",
+    "packToZipOption": "Pakkaa tulostiedostot zip-arkistoon",
+    "progress": {
+        "doneTextures": "Valmiit tekstuurit: {{count}}",
+        "doneTextures_two": "Valmiit tekstuurit: {{count}}",
+        "doneTextures_many": "Valmiit tekstuurit: {{count}}"
+    }
+}

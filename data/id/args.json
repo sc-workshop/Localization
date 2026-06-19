@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Deskripsi file dalam format `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Kata kunci untuk pencarian aset",
+        "versionOption": "version",
+        "versionOptionDesc": "Versi game. Menerima nilai seperti \"62\" atau \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Nama server untuk pencarian",
+        "notFoundError": "Aset yang diminta tidak ditemukan!",
+        "invalidVersionError": "Versi tidak ada! Gunakan perintah dbinfo untuk memeriksa versi yang tersedia"
+    },
+    "userAssets": {
+        "desc": "File pengguna / arsip zip",
+        "mixedDesc": "Deskripsi file dalam format `filename [version] [game]` atau file pengguna / arsip zip",
+        "inputOption": "filename",
+        "inputOptionDesc": "File masukan untuk diproses atau arsip .zip dengan file",
+        "emptyFilesError": "Anda belum memberikan file apa pun. Silakan masukkan nama aset atau berikan file atau arsip .zip"
+    },
+    "assetServer": {
+        "desc": "Nama server aset"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "description": "Ruft Basisinfos zu einer .sc-Datei ab, z. B. Version, Format und Objektanzahl.",
+    "embed": {
+        "title": "Info über .sc-Datei",
+        "type": "Typ",
+        "signature": "Signatur",
+        "textureCount": "Anzahl Texturen",
+        "movieclipCount": "Anzahl MovieClips",
+        "shapeCount": "Anzahl Shapes",
+        "textfieldsCount": "Anzahl Textfelder",
+        "externalTexture": "Externe Texturdatei",
+        "exports": "Exportnamen"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "description": "Pretvara teksturu ili sliku između formata",
+    "sourceOptionDesc": "Format izvorne slike",
+    "destinationOptionDesc": "Format odredišne slike (png, jpg itd.)",
+    "wrongSourceError": "Pogrešan izvorni format! Prihvatljivi formati: {{formats}}",
+    "wrongDestinationError": "Pogrešan odredišni format! Prihvatljivi formati: {{formats}}",
+    "format": "Pretvara sliku",
+    "format_sctx": "Pretvara sliku u Supercell Texture",
+    "format_png": "Pretvara sliku u png",
+    "sctx": {
+        "compressDesc": "Komprimira podatke datoteke pomoću ZSTD-a",
+        "paddingDesc": "Poravnava podatke teksture na 16 bajtova",
+        "mipMapsDesc": "Generira MIP-map razine teksture",
+        "typeDesc": "Određuje razinu kompresije i format pohrane teksture",
+        "tagsDesc": "Polje oznaka za dodavanje u sctx teksturu",
+        "tagsDesc_details": "Polje oznaka za dodavanje u sctx teksturu.\nOznake su nizovi znakova pohranjeni u sctx datoteci koje kod igre može koristiti za označavanje posebnih tekstura\n",
+        "proxyDesc": "Stvara proxy teksturu niže rezolucije, koja se obično koristi za streamanje tekstura u igri",
+        "unknownFlag1": "Nepoznata oznaka",
+        "unknownFlag2": "Druga nepoznata oznaka"
+    }
+}

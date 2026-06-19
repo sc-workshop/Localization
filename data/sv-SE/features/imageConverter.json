@@ -1,0 +1,21 @@
+{
+    "description": "Konverterar textur eller bild mellan format",
+    "sourceOptionDesc": "Källformat för bild",
+    "destinationOptionDesc": "Målformat för bild (png, jpg osv.)",
+    "wrongSourceError": "Fel källformat! Godkända format: {{formats}}",
+    "wrongDestinationError": "Fel målformat! Godkända format: {{formats}}",
+    "format": "Konverterar bild",
+    "format_sctx": "Konverterar bilden till Supercell Texture",
+    "format_png": "Konverterar bilden till png",
+    "sctx": {
+        "compressDesc": "Komprimerar fildata med ZSTD",
+        "paddingDesc": "Justerar texturdata till 16 byte",
+        "mipMapsDesc": "Genererar texturens MIP-map-nivåer",
+        "typeDesc": "Bestämmer texturens komprimeringsnivå och lagringsformat",
+        "tagsDesc": "En lista med taggar att lägga till i sctx-texturen",
+        "tagsDesc_details": "En lista med taggar att lägga till i sctx-texturen.\nTaggar är strängar som lagras i sctx-filen och kan användas av spelkoden för att märka särskilda texturer\n",
+        "proxyDesc": "Skapar en proxytextur med lägre upplösning, vanligtvis använd för texturstreaming i spelet",
+        "unknownFlag1": "Okänd flagga",
+        "unknownFlag2": "Andra okända flaggan"
+    }
+}

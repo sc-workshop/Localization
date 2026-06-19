@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "無効なファイル: {{value}}",
+    "notExistingFileError": "ファイルの取得に失敗しました: {{value}}",
+    "genericError": "処理中に例外が発生しました: {{value}}",
+    "unknownError": "処理中に不明なエラーが発生しました",
+    "notAnImageError": "画像ではないか、未対応の形式です",
+    "notAnScFile": "有効な SC1/SC2 ファイルではありません",
+    "notAnSc2File": "有効な SC2 ファイルではありません",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "変換するものが見つかりませんでした。グループ引数が正しく設定されていることを確認してください！",
+        "LZMA missing end marker!": "このファイルは圧縮されていないか、破損している可能性があります"
+    }
+}

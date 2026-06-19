@@ -1,0 +1,5 @@
+{
+    "desc": "Išpakuoja failą pagal šaltinio argumentą arba automatiškai nustato failo glaudinimo tipą",
+    "optionSourceDesc": "Failo glaudinimo pavadinimas",
+    "invalidFileError": "Sugadintas arba nesuglaudintas failas"
+}

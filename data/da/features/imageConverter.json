@@ -1,0 +1,21 @@
+{
+    "description": "Konverterer tekstur eller billede mellem formater",
+    "sourceOptionDesc": "Kildeformat for billede",
+    "destinationOptionDesc": "Destinationsformat for billede (png, jpg osv.)",
+    "wrongSourceError": "Forkert kildeformat! Tilladte formater: {{formats}}",
+    "wrongDestinationError": "Forkert destinationsformat! Tilladte formater: {{formats}}",
+    "format": "Konverterer billede",
+    "format_sctx": "Konverterer billede til Supercell Texture",
+    "format_png": "Konverterer billede til png",
+    "sctx": {
+        "compressDesc": "Komprimerer fildata med ZSTD",
+        "paddingDesc": "Justerer teksturdata til 16 byte",
+        "mipMapsDesc": "Genererer MIP-map-niveauer til teksturen",
+        "typeDesc": "Bestemmer komprimeringsniveau og lagringsformat for teksturen",
+        "tagsDesc": "En liste over tags, der skal tilføjes til sctx-teksturen",
+        "tagsDesc_details": "En liste over tags, der skal tilføjes til sctx-teksturen.\nTags er strenge, der gemmes i sctx-filen og kan bruges af spillets kode til at markere særlige teksturer\n",
+        "proxyDesc": "Opretter en proxytekstur med lavere opløsning, som normalt bruges til teksturstreaming i spillet",
+        "unknownFlag1": "Ukendt flag",
+        "unknownFlag2": "Andet ukendt flag"
+    }
+}

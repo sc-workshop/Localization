@@ -1,0 +1,11 @@
+{
+    "description": ".sc 파일을 더 오래된 버전으로 다운그레이드합니다",
+    "versionOption": "대상 다운그레이드 버전",
+    "signatureOption": "다운그레이드된 파일의 대상 서명(압축 방식)",
+    "externalTextureOption": "별도의 _tex.sc 파일을 만듭니다",
+    "wrongSignatureError": "잘못된 서명입니다! 허용되는 서명: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "잘못된 버전입니다! 허용되는 버전: -1.0(자동 감지), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF 가 로드되었습니다. 저장 중..."
+    }
+}

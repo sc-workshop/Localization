@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Неверный файл: {{value}}",
+    "notExistingFileError": "Не удалось получить файл: {{value}}",
+    "genericError": "Во время выполнения произошла ошибка: {{value}}",
+    "unknownError": "Произошла неизвестная ошибка!",
+    "notAnImageError": "Не изображение или неподдерживаемый формат",
+    "notAnScFile": "Не является допустимым файлом SC1/SC2",
+    "notAnSc2File": "Не является допустимым файлом SC2",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Не удалось найти ничего для конвертации. Убедитесь, что аргументы групп настроены правильно!",
+        "LZMA missing end marker!": "Этот файл, скорее всего, не сжат или повреждён"
+    }
+}

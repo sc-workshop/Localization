@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Virheellinen tiedosto: {{value}}",
+    "notExistingFileError": "Tiedoston hakeminen epäonnistui: {{value}}",
+    "genericError": "Toiminnon käsittelyn aikana tapahtui poikkeus: {{value}}",
+    "unknownError": "Toiminnon käsittelyn aikana tapahtui tuntematon virhe",
+    "notAnImageError": "Ei ole kuva tai formaattia ei tueta",
+    "notAnScFile": "Ei ole kelvollinen SC1/SC2-tiedosto",
+    "notAnSc2File": "Ei ole kelvollinen SC2-tiedosto",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Mitään muunnettavaa ei löytynyt. Varmista, että ryhmäargumentit on määritetty oikein!",
+        "LZMA missing end marker!": "Tämä tiedosto ei todennäköisesti ole pakattu tai se on vaurioitunut"
+    }
+}

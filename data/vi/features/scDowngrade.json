@@ -1,0 +1,11 @@
+{
+    "description": "Hạ cấp tệp .sc xuống phiên bản cũ hơn",
+    "versionOption": "Phiên bản mục tiêu để hạ cấp",
+    "signatureOption": "Chữ ký mục tiêu (nén) cho tệp đã hạ cấp",
+    "externalTextureOption": "Tạo tệp _tex.sc riêng biệt",
+    "wrongSignatureError": "Sai chữ ký! Các chữ ký chấp nhận được: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Sai phiên bản! Các phiên bản chấp nhận được: -1.0 (tự động phát hiện), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF đã được tải. Đang lưu..."
+    }
+}

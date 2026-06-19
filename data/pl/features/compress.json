@@ -1,0 +1,8 @@
+{
+    "desc": "Kompresuje plik wybraną metodą kompresji",
+    "variantDesc": "Nazwa docelowego typu kompresji",
+    "variants": "Nie zaimplementowano",
+    "variants_zstd": "Kompresuje plik za pomocą zstd",
+    "variants_lzma": "Kompresuje plik za pomocą lzma",
+    "wrongDestinationError": "Nazwa docelowej kompresji jest nieprawidłowa! Obsługiwane kompresje: {{format}}"
+}

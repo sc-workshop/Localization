@@ -1,0 +1,9 @@
+{
+    "description": "Δέχεται png atlases και τα μετατρέπει σε _tex.sc ή ενσωματώνει υφές στο αρχείο .sc",
+    "invalidFilesError": "Δεν υπάρχει τίποτα για μετατροπή! Βεβαιωθείτε ότι επισυνάψατε έγκυρες εικόνες",
+    "progress": {
+        "swfLoading": "Φόρτωση πηγής SupercellSWF: {{filepath}}",
+        "imageLoading": "Φόρτωση εικόνας: {{filepath}}",
+        "saving": "Αποθήκευση υφών..."
+    }
+}

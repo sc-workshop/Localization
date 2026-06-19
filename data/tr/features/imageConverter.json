@@ -1,0 +1,21 @@
+{
+    "description": "Doku veya resmi formatlar arasında dönüştürür",
+    "sourceOptionDesc": "Kaynak resim formatı",
+    "destinationOptionDesc": "Hedef resim formatı (png, jpg vb.)",
+    "wrongSourceError": "Yanlış kaynak format! Kabul edilen formatlar: {{formats}}",
+    "wrongDestinationError": "Yanlış hedef format! Kabul edilen formatlar: {{formats}}",
+    "format": "Görüntüyü dönüştürür",
+    "format_sctx": "Resmi Supercell Texture biçimine dönüştürür",
+    "format_png": "Resmi png biçimine dönüştürür",
+    "sctx": {
+        "compressDesc": "Dosya verisini ZSTD kullanarak sıkıştırır",
+        "paddingDesc": "Doku verisini 16 bayta hizalar",
+        "mipMapsDesc": "Doku için MIP-map seviyeleri üretir",
+        "typeDesc": "Dokunun sıkıştırma seviyesini ve depolama formatını belirler",
+        "tagsDesc": "sctx dokusuna eklenecek etiket dizisi",
+        "tagsDesc_details": "sctx dokusuna eklenecek etiket dizisi.\nEtiketler sctx dosyasında saklanan dizelerdir ve oyun kodu tarafından özel dokuları işaretlemek için kullanılabilir\n",
+        "proxyDesc": "Daha düşük çözünürlüklü bir proxy doku oluşturur; bu genelde oyunda doku akışı için kullanılır",
+        "unknownFlag1": "Bilinmeyen bayrak",
+        "unknownFlag2": "İkinci bilinmeyen bayrak"
+    }
+}

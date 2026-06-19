@@ -1,0 +1,14 @@
+{
+    "description": "Λαμβάνει βασικές πληροφορίες για ένα αρχείο .sc, όπως έκδοση και μορφή, αριθμό αντικειμένων κ.λπ.",
+    "embed": {
+        "title": "Πληροφορίες για αρχείο .sc",
+        "type": "Τύπος",
+        "signature": "Υπογραφή",
+        "textureCount": "Πλήθος Υφών",
+        "movieclipCount": "Πλήθος MovieClip",
+        "shapeCount": "Πλήθος Shapes",
+        "textfieldsCount": "Πλήθος Πεδίων Κειμένου",
+        "externalTexture": "Εξωτερικό αρχείο υφής",
+        "exports": "Ονόματα Εξαγωγής"
+    }
+}

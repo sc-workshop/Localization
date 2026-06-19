@@ -1,0 +1,5 @@
+{
+    "desc": "Raspakirava datoteku po izvornom argumentu ili automatski prepoznaje kompresiju datoteke",
+    "optionSourceDesc": "Naziv kompresije datoteke",
+    "invalidFileError": "Oštećena ili nekomprimirana datoteka"
+}

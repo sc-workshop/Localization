@@ -1,0 +1,10 @@
+{
+    "description": "Membaca lembar sprite dari file .sc dan mengonversinya ke .png",
+    "notATextureError": "Sepertinya file ini tidak mengandung data tekstur. Pastikan file ini adalah SC2 atau namanya berakhir dengan _tex.sc",
+    "packToZipOption": "Kemasi file hasil ke dalam arsip zip",
+    "progress": {
+        "doneTextures": "Tekstur selesai: {{count}}",
+        "doneTextures_two": "Tekstur selesai: {{count}}",
+        "doneTextures_many": "Tekstur selesai: {{count}}"
+    }
+}

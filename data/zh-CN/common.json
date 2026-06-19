@@ -1,0 +1,72 @@
+{
+    "name": "简体中文",
+    "gltfIoLinkMessage": "没这个必要。可以考虑使用这个 Blender 插件：https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "回复 pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "机器人延迟",
+        "apiLatency": "API 延迟",
+        "uptime": "机器人运行时间"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} 无效的命令名称！",
+        "invalidCommand_suggests": "{{error, emoji}} 无效的命令！你是不是想输入：{{suggests}}",
+        "argumentParseError": "无法解析参数 `{{name}}`！"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "文件太大了",
+        "internalError": "下载文件失败！内部错误",
+        "unknown": "未知的文件下载错误"
+    },
+    "help": {
+        "title": "{{guide, emoji}} 命令",
+        "description": "发送机器人命令信息",
+        "head": "使用 `n!<command> [flags]` 执行命令\n示例：`n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • 输入 n!help <command> 查看更多详情",
+        "commandNameOption": "要获取帮助的可选命令名称",
+        "aliases": "{{lookup, emoji}} 别名: ",
+        "requiredArgs": "{{important, emoji}} 必需参数: ",
+        "optionalArgs": "{{flag, emoji}} 可选参数: ",
+        "commandDescriptionTitle": "{{gears, emoji}} 命令：{{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` 的变体：",
+        "group": "{{sparkles, emoji}} 其他命令",
+        "group_base": "{{gears, emoji}} 基础命令",
+        "group_assets": "{{database, emoji}} 资源命令",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} 图像处理",
+        "group_generic": "{{folder, emoji}} 文件操作",
+        "notes": {
+            "title": "{{important, emoji}} 语法说明",
+            "prefixTitle": "前缀",
+            "prefixDescription": "- 机器人支持以下前缀：{{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} 标志",
+            "flagsDescription": [
+                "- 标志通常是你可以提供给机器人的可选值",
+                "- 在帮助消息中，可选标志会放在方括号中，例如 `[.flag]`",
+                "- 标志必须使用此前缀：{{flagPrefix}}",
+                "- 示例：`n!sc2fla ui.sc .split_by_name` 或 `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} 资源数据",
+            "assetDataDescription": [
+                "- 大多数命令都需要 **`assetData`** 参数",
+                "- 这是一个复杂参数，可让你准确指定要使用的资源",
+                "- 其语法如下：`filename [version] [game]`",
+                "- 版本号必须以字母 `v` 开头",
+                "- 当前支持的游戏有：{{supportedGames}}",
+                "- 示例：**`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} 文件搜索表达式",
+            "fileSearchDescription": [
+                "- 当你在 `assetData` 参数中使用 `filename` 时，机器人支持类似正则的表达式",
+                "- \"以...开头\" 的表达式必须以字符 **`^`** 开头",
+                "- \"以...结尾\" 的表达式必须以字符 **`$`** 结尾",
+                "- 多个表达式必须使用 **`&&`** 或 **`|`** 组合",
+                "- 默认情况下，搜索按文件名进行。如果你需要按文件夹搜索，表达式主体必须以字符 **`/`** 结尾",
+                "- 示例：搜索以 `melodie_` 开头、以 `.sctx` 结尾并存储在 `sc3d/` 文件夹中的文件：`n!find sc3d/|^melodie_|.sctx$`",
+                "- 表达式支持修饰符概念。这些是以 @ 开头并修改输出的特殊名称",
+                "    - `@any` 返回一个随机资源"
+            ]
+        }
+    }
+}

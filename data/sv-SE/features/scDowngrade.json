@@ -1,0 +1,11 @@
+{
+    "description": "Nedgraderar en .sc-fil till en äldre version",
+    "versionOption": "Målversion för nedgradering",
+    "signatureOption": "Målsignatur (komprimering) för den nedgraderade filen",
+    "externalTextureOption": "Skapar en separat _tex.sc-fil",
+    "wrongSignatureError": "Fel signatur! Godkända signaturer: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Fel version! Godkända versioner: -1.0 (automatisk upptäckt), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF är inläst. Sparar..."
+    }
+}

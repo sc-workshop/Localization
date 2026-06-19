@@ -1,0 +1,9 @@
+{
+    "description": "Accepteert png-atlassen en converteert ze naar _tex.sc of voegt texturen in het .sc-bestand in",
+    "invalidFilesError": "Er is niets om te converteren! Zorg dat je geldige afbeeldingen hebt toegevoegd",
+    "progress": {
+        "swfLoading": "Bron-SupercellSWF laden: {{filepath}}",
+        "imageLoading": "Afbeelding laden: {{filepath}}",
+        "saving": "Texturen opslaan..."
+    }
+}

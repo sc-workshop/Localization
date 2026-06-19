@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Fájlleírás `filename [version] [game]` formátumban",
+        "assetOption": "name",
+        "assetOptionDesc": "Kulcsszó az asset kereséséhez",
+        "versionOption": "version",
+        "versionOptionDesc": "Játékverzió. Olyan értékeket fogad el, mint a \"62\" vagy \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "A kereséshez használt szerver neve",
+        "notFoundError": "A kért assetek nem találhatók!",
+        "invalidVersionError": "A verzió nem létezik! Az elérhető verziókhoz használd a dbinfo parancsot"
+    },
+    "userAssets": {
+        "desc": "Felhasználói fájlok / zip archívumok",
+        "mixedDesc": "Fájlleírás `filename [version] [game]` formátumban vagy felhasználói fájlok / zip archívumok",
+        "inputOption": "filename",
+        "inputOptionDesc": "Bemeneti fájl feldolgozáshoz, vagy .zip archívum fájlokkal",
+        "emptyFilesError": "Nem adtál meg fájlokat. Adj meg egy assetnevet, vagy tölts fel egy fájlt vagy .zip archívumot"
+    },
+    "assetServer": {
+        "desc": "Az asset szerver neve"
+    }
+}

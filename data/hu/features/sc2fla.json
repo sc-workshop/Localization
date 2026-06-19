@@ -1,0 +1,19 @@
+{
+    "description": ".sc fájlt Adobe Animate projektté alakít",
+    "splitByNameOption": "A .fla-t kisebb projektekre bontja a .sc exportnevei alapján",
+    "groupsOption": "Felhasználó által megadott reguláris kifejezések tömbje a .fla projektekre bontásához",
+    "groupsOption_details": "Felhasználó által megadott reguláris kifejezések tömbje a .fla projektekre bontásához\nPéldául ez a parancs minden olyan exportnevet exportál, amely \"bgr\" előtaggal kezdődik:\n`n!sc2fla file.sc .group=^bgr.*`\nTöbb kifejezést is használhatsz, de ekkor meg kell adnod a csoport nevét, például:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "ActionScript dokumentumot hoz létre a .fla projekthez",
+    "as3DocOption_details": "ActionScript dokumentumot hoz létre a .fla projekthez a SupercellSWF dokumentum helyett, ha a SupercellSWF bővítmény nem érhető el",
+    "progress": {
+        "swfLoaded": "A SupercellSWF betöltve. Konvertálás...",
+        "groupChange": "\"{{name}}\" csoport feldolgozása...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "\"{{filename}}\" mentése..."
+    },
+    "fallback": {
+        "Progress": "Folyamat",
+        "MovieClips converting": "MovieClipek feldolgozása",
+        "Shapes converting": "Shape-ek feldolgozása"
+    }
+}

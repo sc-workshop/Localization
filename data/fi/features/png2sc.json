@@ -1,0 +1,9 @@
+{
+    "description": "Hyväksyy png-atlaksia ja muuntaa ne _tex.sc-muotoon tai upottaa tekstuurit .sc-tiedostoon",
+    "invalidFilesError": "Ei mitään muunnettavaa! Varmista, että liitit kelvollisia kuvia",
+    "progress": {
+        "swfLoading": "Ladataan lähde-SupercellSWF: {{filepath}}",
+        "imageLoading": "Ladataan kuva: {{filepath}}",
+        "saving": "Tallennetaan tekstuureja..."
+    }
+}

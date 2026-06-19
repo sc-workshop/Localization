@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Descrierea fișierului în formatul `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Cuvânt-cheie pentru căutarea assetului",
+        "versionOption": "version",
+        "versionOptionDesc": "Versiunea jocului. Acceptă valori precum \"62\" sau \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Numele serverului în care să cauți",
+        "notFoundError": "Asseturile cerute nu au fost găsite!",
+        "invalidVersionError": "Versiunea nu există! Folosește comanda dbinfo pentru a verifica versiunile disponibile"
+    },
+    "userAssets": {
+        "desc": "Fișiere ale utilizatorului / arhive zip",
+        "mixedDesc": "Descriere fișier `filename [version] [game]` sau fișiere utilizator / arhive zip",
+        "inputOption": "filename",
+        "inputOptionDesc": "Fișier de intrare pentru procesare sau arhivă .zip cu fișiere",
+        "emptyFilesError": "Nu ai furnizat niciun fișier. Introdu un nume de asset sau atașează un fișier ori o arhivă .zip"
+    },
+    "assetServer": {
+        "desc": "Numele serverului de asseturi"
+    }
+}

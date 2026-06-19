@@ -1,0 +1,21 @@
+{
+    "description": "Mengonversi tekstur atau gambar antarformat",
+    "sourceOptionDesc": "Format gambar sumber",
+    "destinationOptionDesc": "Format gambar tujuan (png, jpg, dll.)",
+    "wrongSourceError": "Format sumber salah! Format yang diterima: {{formats}}",
+    "wrongDestinationError": "Format tujuan salah! Format yang diterima: {{formats}}",
+    "format": "Mengonversi gambar",
+    "format_sctx": "Mengonversi gambar ke Supercell Texture",
+    "format_png": "Mengonversi gambar ke png",
+    "sctx": {
+        "compressDesc": "Mengompresi data file menggunakan ZSTD",
+        "paddingDesc": "Menyelaraskan data tekstur ke 16 byte",
+        "mipMapsDesc": "Menghasilkan level MIP-map tekstur",
+        "typeDesc": "Menentukan tingkat kompresi dan format penyimpanan tekstur",
+        "tagsDesc": "Array tag untuk ditambahkan ke tekstur sctx",
+        "tagsDesc_details": "Array tag untuk ditambahkan ke tekstur sctx.\nTag adalah string yang disimpan dalam file sctx dan dapat digunakan oleh kode game untuk menandai tekstur khusus\n",
+        "proxyDesc": "Membuat tekstur proxy dengan resolusi lebih rendah, biasanya dipakai untuk streaming tekstur di game",
+        "unknownFlag1": "Flag tidak dikenal",
+        "unknownFlag2": "Flag tidak dikenal kedua"
+    }
+}

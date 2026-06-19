@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "잘못된 파일: {{value}}",
+    "notExistingFileError": "파일을 가져오지 못했습니다: {{value}}",
+    "genericError": "작업을 처리하는 동안 예외가 발생했습니다: {{value}}",
+    "unknownError": "작업을 처리하는 동안 알 수 없는 오류가 발생했습니다",
+    "notAnImageError": "이미지가 아니거나 지원되지 않는 형식입니다",
+    "notAnScFile": "유효한 SC1/SC2 파일이 아닙니다",
+    "notAnSc2File": "유효한 SC2 파일이 아닙니다",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "변환할 항목을 찾을 수 없습니다. 그룹 인수가 올바르게 설정되었는지 확인하세요!",
+        "LZMA missing end marker!": "이 파일은 압축되지 않았거나 손상되었을 수 있습니다"
+    }
+}

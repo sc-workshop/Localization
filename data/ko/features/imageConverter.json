@@ -1,0 +1,21 @@
+{
+    "description": "텍스처 또는 이미지를 형식 간에 변환합니다",
+    "sourceOptionDesc": "원본 이미지 형식",
+    "destinationOptionDesc": "대상 이미지 형식(png, jpg 등)",
+    "wrongSourceError": "잘못된 원본 형식입니다! 허용되는 형식: {{formats}}",
+    "wrongDestinationError": "잘못된 대상 형식입니다! 허용되는 형식: {{formats}}",
+    "format": "이미지를 변환합니다",
+    "format_sctx": "이미지를 Supercell Texture 로 변환합니다",
+    "format_png": "이미지를 png 로 변환합니다",
+    "sctx": {
+        "compressDesc": "ZSTD 를 사용하여 파일 데이터를 압축합니다",
+        "paddingDesc": "텍스처 데이터를 16바이트 기준으로 정렬합니다",
+        "mipMapsDesc": "텍스처 MIP-map 레벨을 생성합니다",
+        "typeDesc": "텍스처의 압축 수준과 저장 형식을 결정합니다",
+        "tagsDesc": "sctx 텍스처에 추가할 태그 배열",
+        "tagsDesc_details": "sctx 텍스처에 추가할 태그 배열입니다.\n태그는 sctx 파일에 저장되는 문자열이며, 게임 코드에서 특수 텍스처를 표시하는 데 사용할 수 있습니다\n",
+        "proxyDesc": "해상도를 낮춘 프록시 텍스처를 생성하며, 보통 게임의 텍스처 스트리밍에 사용됩니다",
+        "unknownFlag1": "알 수 없는 플래그",
+        "unknownFlag2": "두 번째 알 수 없는 플래그"
+    }
+}

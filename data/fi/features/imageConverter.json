@@ -1,0 +1,21 @@
+{
+    "description": "Muuntaa tekstuurin tai kuvan formaatista toiseen",
+    "sourceOptionDesc": "Lähdekuvan formaatti",
+    "destinationOptionDesc": "Kohdekuvan formaatti (png, jpg jne.)",
+    "wrongSourceError": "Väärä lähdeformaatti! Hyväksyttävät formaatit: {{formats}}",
+    "wrongDestinationError": "Väärä kohdeformaatti! Hyväksyttävät formaatit: {{formats}}",
+    "format": "Muuntaa kuvan",
+    "format_sctx": "Muuntaa kuvan muotoon Supercell Texture",
+    "format_png": "Muuntaa kuvan muotoon png",
+    "sctx": {
+        "compressDesc": "Pakkaa tiedostodatan ZSTD:llä",
+        "paddingDesc": "Kohdistaa tekstuuridatan 16 tavuun",
+        "mipMapsDesc": "Generoi tekstuurin MIP-map-tasot",
+        "typeDesc": "Määrittää tekstuurin pakkaustason ja tallennusmuodon",
+        "tagsDesc": "Taulukko tageista, jotka lisätään sctx-tekstuuriin",
+        "tagsDesc_details": "Taulukko tageista, jotka lisätään sctx-tekstuuriin.\nTagit ovat sctx-tiedostoon tallennettuja merkkijonoja, joita pelin koodi voi käyttää erityisten tekstuurien merkitsemiseen\n",
+        "proxyDesc": "Luo matalamman tarkkuuden proxytekstuurin tekstuurien suoratoistoon pelissä",
+        "unknownFlag1": "Tuntematon lippu",
+        "unknownFlag2": "Toinen tuntematon lippu"
+    }
+}

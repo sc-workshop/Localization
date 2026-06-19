@@ -1,0 +1,72 @@
+{
+    "name": "Bahasa Indonesia",
+    "gltfIoLinkMessage": "Tidak perlu. Pertimbangkan untuk menggunakan plugin Blender di sini: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Membalas pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Latensi bot",
+        "apiLatency": "Latensi API",
+        "uptime": "Waktu aktif bot"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Nama perintah tidak valid!",
+        "invalidCommand_suggests": "{{error, emoji}} Perintah tidak valid! Mungkin maksud Anda: {{suggests}}",
+        "argumentParseError": "Gagal mengurai argumen `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "File terlalu besar",
+        "internalError": "Gagal mengunduh file! Kesalahan internal",
+        "unknown": "Kesalahan unduh file tidak diketahui"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Perintah",
+        "description": "Mengirim info tentang perintah bot",
+        "head": "Gunakan `n!<command> [flags]` untuk menjalankan perintah\nContoh: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Ketik n!help <command> untuk detail lebih lanjut",
+        "commandNameOption": "Nama perintah opsional untuk mendapatkan bantuan",
+        "aliases": "{{lookup, emoji}} Alias: ",
+        "requiredArgs": "{{important, emoji}} Argumen wajib: ",
+        "optionalArgs": "{{flag, emoji}} Argumen opsional: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Perintah: {{name}}",
+        "variants": "{{folder, emoji}} Varian untuk `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Perintah lainnya",
+        "group_base": "{{gears, emoji}} Perintah dasar",
+        "group_assets": "{{database, emoji}} Perintah aset",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Pemrosesan gambar",
+        "group_generic": "{{folder, emoji}} Operasi file",
+        "notes": {
+            "title": "{{important, emoji}} Catatan sintaks",
+            "prefixTitle": "Prefiks",
+            "prefixDescription": "- Bot mendukung prefiks berikut: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flag",
+            "flagsDescription": [
+                "- Flag biasanya merupakan nilai opsional yang dapat Anda berikan kepada bot",
+                "- Dalam pesan bantuan, flag opsional ditulis dalam tanda kurung siku seperti `[.flag]`",
+                "- Flag harus memiliki prefiks ini: {{flagPrefix}}",
+                "- Contoh: `n!sc2fla ui.sc .split_by_name` ATAU `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Data aset",
+            "assetDataDescription": [
+                "- Sebagian besar perintah memerlukan argumen **`assetData`**",
+                "- Ini adalah argumen kompleks yang memungkinkan Anda menentukan aset yang ingin digunakan secara tepat",
+                "- Sintaksnya terlihat seperti ini: `filename [version] [game]`",
+                "- Nomor versi harus diawali dengan huruf `v`",
+                "- Game yang didukung saat ini: {{supportedGames}}",
+                "- Contoh: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Ekspresi pencarian file",
+            "fileSearchDescription": [
+                "- Bot mendukung ekspresi mirip regex saat Anda menggunakan `filename` dalam argumen `assetData`",
+                "- Ekspresi \"diawali dengan\" harus dimulai dengan karakter **`^`**",
+                "- Ekspresi \"diakhiri dengan\" harus diakhiri dengan karakter **`$`**",
+                "- Beberapa ekspresi harus digabungkan dengan karakter **`&&`** atau **`|`**",
+                "- Secara default, pencarian dilakukan berdasarkan nama file. Jika Anda perlu mencari berdasarkan folder, bagian utama ekspresi harus diakhiri dengan karakter **`/`**",
+                "- Contoh, mencari file yang diawali dengan `melodie_`, diakhiri dengan `.sctx`, dan disimpan di folder `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Ekspresi memiliki konsep modifier. Ini adalah nama khusus yang diawali dengan @ dan mengubah output",
+                "    - `@any` mengembalikan satu aset acak"
+            ]
+        }
+    }
+}

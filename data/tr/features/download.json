@@ -1,0 +1,5 @@
+{
+    "desc": "Seçilen oyun ve sürümün veritabanından asset indirir",
+    "tooBigFiles": "{{important, emoji}} Dosyalar çok büyük: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Aşağıdaki indirme bağlantısını kullanın"
+}

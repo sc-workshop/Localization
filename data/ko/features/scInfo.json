@@ -1,0 +1,14 @@
+{
+    "description": ".sc 파일의 버전, 형식, 객체 수 등 기본 정보를 가져옵니다.",
+    "embed": {
+        "title": ".sc 파일 정보",
+        "type": "유형",
+        "signature": "서명",
+        "textureCount": "텍스처 개수",
+        "movieclipCount": "MovieClip 개수",
+        "shapeCount": "Shape 개수",
+        "textfieldsCount": "TextField 개수",
+        "externalTexture": "외부 텍스처 파일",
+        "exports": "Export 이름"
+    }
+}

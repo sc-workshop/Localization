@@ -1,0 +1,12 @@
+{
+    "create": "잠시만 기다려 주세요...",
+    "ready": "{{success, emoji}} 완료되었습니다",
+    "takeAWhile": "시간이 조금 걸릴 수 있으니 잠시만 기다려 주세요. ",
+    "sending": "{{send, emoji}} 전송 중...",
+    "done": "{{success, emoji}} 완료",
+    "fileReady": "{{success, emoji}} 여기 있습니다 **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} 여기 있습니다 **`{{filename}}`****`{{version}}`** 에서",
+    "downloadLinkExpire": "{{arrowDown, emoji}} 다운로드 링크는 {{countdown}} 에 만료됩니다",
+    "download": "다운로드",
+    "tooManyAssets": "에셋이 너무 많습니다! 요청을 더 자세히 지정해 주세요"
+}

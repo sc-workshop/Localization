@@ -1,0 +1,8 @@
+{
+    "desc": "Dosyayı seçilen sıkıştırma ile sıkıştırır",
+    "variantDesc": "Hedef sıkıştırma türünün adı",
+    "variants": "Uygulanmadı",
+    "variants_zstd": "Dosyayı zstd ile sıkıştırır",
+    "variants_lzma": "Dosyayı lzma ile sıkıştırır",
+    "wrongDestinationError": "Hedef sıkıştırma adı yanlış! Desteklenen sıkıştırmalar: {{format}}"
+}

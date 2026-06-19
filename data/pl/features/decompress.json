@@ -1,0 +1,5 @@
+{
+    "desc": "Dekompresuje plik na podstawie argumentu źródła lub automatycznie wykrywa typ kompresji pliku",
+    "optionSourceDesc": "Nazwa kompresji pliku",
+    "invalidFileError": "Uszkodzony lub nieskompresowany plik"
+}

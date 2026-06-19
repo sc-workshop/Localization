@@ -1,0 +1,72 @@
+{
+    "name": "ไทย",
+    "gltfIoLinkMessage": "ไม่จำเป็นต้องใช้สิ่งนั้น ลองพิจารณาใช้ปลั๊กอิน Blender นี้แทน: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "ตอบกลับ pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "ความหน่วงของบอต",
+        "apiLatency": "ความหน่วงของ API",
+        "uptime": "เวลาทำงานของบอต"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} ชื่อคำสั่งไม่ถูกต้อง!",
+        "invalidCommand_suggests": "{{error, emoji}} คำสั่งไม่ถูกต้อง! คุณอาจหมายถึง: {{suggests}}",
+        "argumentParseError": "ไม่สามารถแยกวิเคราะห์อาร์กิวเมนต์ `{{name}}` ได้!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "ไฟล์มีขนาดใหญ่เกินไป",
+        "internalError": "ดาวน์โหลดไฟล์ไม่สำเร็จ! เกิดข้อผิดพลาดภายใน",
+        "unknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุระหว่างดาวน์โหลดไฟล์"
+    },
+    "help": {
+        "title": "{{guide, emoji}} คำสั่ง",
+        "description": "ส่งข้อมูลเกี่ยวกับคำสั่งของบอท",
+        "head": "ใช้ `n!<command> [flags]` เพื่อเรียกใช้คำสั่ง\nตัวอย่าง: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • พิมพ์ n!help <command> เพื่อดูรายละเอียดเพิ่มเติม",
+        "commandNameOption": "ชื่อคำสั่งเพิ่มเติมสำหรับดูความช่วยเหลือ",
+        "aliases": "{{lookup, emoji}} ชื่อแทน: ",
+        "requiredArgs": "{{important, emoji}} อาร์กิวเมนต์ที่จำเป็น: ",
+        "optionalArgs": "{{flag, emoji}} อาร์กิวเมนต์เสริม: ",
+        "commandDescriptionTitle": "{{gears, emoji}} คำสั่ง: {{name}}",
+        "variants": "{{folder, emoji}} รูปแบบสำหรับ `{{name}}`: ",
+        "group": "{{sparkles, emoji}} คำสั่งอื่น ๆ",
+        "group_base": "{{gears, emoji}} คำสั่งพื้นฐาน",
+        "group_assets": "{{database, emoji}} คำสั่ง asset",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} การประมวลผลภาพ",
+        "group_generic": "{{folder, emoji}} การทำงานกับไฟล์",
+        "notes": {
+            "title": "{{important, emoji}} หมายเหตุด้านไวยากรณ์",
+            "prefixTitle": "คำนำหน้า",
+            "prefixDescription": "- บอทรองรับคำนำหน้าต่อไปนี้: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} แฟล็ก",
+            "flagsDescription": [
+                "- แฟล็กส่วนใหญ่เป็นค่าทางเลือกที่คุณสามารถส่งให้บอทได้",
+                "- ในข้อความช่วยเหลือ แฟล็กทางเลือกจะอยู่ในวงเล็บเหลี่ยม เช่น `[.flag]`",
+                "- แฟล็กต้องใช้คำนำหน้านี้: {{flagPrefix}}",
+                "- ตัวอย่าง: `n!sc2fla ui.sc .split_by_name` หรือ `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} ข้อมูล asset",
+            "assetDataDescription": [
+                "- คำสั่งส่วนใหญ่ต้องใช้อาร์กิวเมนต์ **`assetData`**",
+                "- นี่คืออาร์กิวเมนต์แบบซับซ้อนที่ช่วยให้คุณระบุ asset ที่ต้องการใช้ได้อย่างแม่นยำ",
+                "- ไวยากรณ์ของมันมีลักษณะดังนี้: `filename [version] [game]`",
+                "- หมายเลขเวอร์ชันต้องขึ้นต้นด้วยตัวอักษร `v`",
+                "- เกมที่รองรับในขณะนี้คือ: {{supportedGames}}",
+                "- ตัวอย่าง: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} นิพจน์ค้นหาไฟล์",
+            "fileSearchDescription": [
+                "- บอทรองรับนิพจน์คล้าย regex เมื่อคุณใช้ `filename` ในอาร์กิวเมนต์ `assetData`",
+                "- นิพจน์ \"ขึ้นต้นด้วย\" ต้องเริ่มด้วยอักขระ **`^`**",
+                "- นิพจน์ \"ลงท้ายด้วย\" ต้องลงท้ายด้วยอักขระ **`$`**",
+                "- หลายนิพจน์ต้องรวมกันด้วย **`&&`** หรือ **`|`**",
+                "- โดยค่าเริ่มต้น การค้นหาจะทำตามชื่อไฟล์ หากคุณต้องการค้นหาตามโฟลเดอร์ ส่วนหลักของนิพจน์ต้องลงท้ายด้วยอักขระ **`/`**",
+                "- ตัวอย่าง: ค้นหาไฟล์ที่ขึ้นต้นด้วย `melodie_` ลงท้ายด้วย `.sctx` และอยู่ในโฟลเดอร์ `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- นิพจน์มีแนวคิดเรื่องตัวปรับแต่ง ซึ่งเป็นชื่อพิเศษที่ขึ้นต้นด้วย @ และเปลี่ยนผลลัพธ์",
+                "    - `@any` จะคืนค่า asset แบบสุ่มหนึ่งรายการ"
+            ]
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "desc": "Atsisiunčia assetus iš pasirinkto žaidimo ir versijos duomenų bazės",
+    "tooBigFiles": "{{important, emoji}} Failai per dideli: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Naudokite žemiau esančią atsisiuntimo nuorodą"
+}

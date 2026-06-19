@@ -1,0 +1,5 @@
+{
+    "desc": "Stahuje assety z databáze vybrané hry a verze",
+    "tooBigFiles": "{{important, emoji}} Soubory jsou příliš velké: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Použijte odkaz ke stažení níže"
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Menurunkan versi file .sc ke versi yang lebih lama",
+    "versionOption": "Versi target untuk diturunkan",
+    "signatureOption": "Tanda tangan target (kompresi) untuk file yang diturunkan versinya",
+    "externalTextureOption": "Membuat file _tex.sc terpisah",
+    "wrongSignatureError": "Tanda tangan salah! Tanda tangan yang diterima: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Versi salah! Versi yang diterima: -1.0 (deteksi otomatis), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF dimuat. Menyimpan..."
+    }
+}

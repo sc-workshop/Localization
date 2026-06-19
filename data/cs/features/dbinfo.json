@@ -1,0 +1,11 @@
+{
+    "desc": "Odešle informace o databázi assetů Neko",
+    "notFoundError": "Databáze s názvem {{name}} nebyla nalezena",
+    "embed": {
+        "title": "📚 Databáze: {{dbName}}",
+        "desc": "Obecné informace o databázi a verzích",
+        "size": "💾 Celková velikost",
+        "versionTitle": "🧩 Verze",
+        "footer": "Informace o databázi"
+    }
+}

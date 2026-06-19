@@ -1,0 +1,9 @@
+{
+    "description": "Accepts atlas png files and converts them to _tex.sc or embeds textures into a .sc file",
+    "invalidFilesError": "There is nothing to convert! Make sure to attach valid images",
+    "progress": {
+        "swfLoading": "Loading source SupercellSWF: {{filepath}}",
+        "imageLoading": "Loading image: {{filepath}}",
+        "saving": "Saving textures..."
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "description": "Bir .sc dosyasının sürüm, format, nesne sayısı gibi temel bilgilerini alır.",
+    "embed": {
+        "title": ".sc dosyası hakkında bilgi",
+        "type": "Tür",
+        "signature": "İmza",
+        "textureCount": "Texture Sayısı",
+        "movieclipCount": "MovieClip Sayısı",
+        "shapeCount": "Shape Sayısı",
+        "textfieldsCount": "TextField Sayısı",
+        "externalTexture": "Harici texture dosyası",
+        "exports": "Export İsimleri"
+    }
+}

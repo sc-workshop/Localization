@@ -1,0 +1,5 @@
+{
+    "desc": "Asseteket tölt le a kiválasztott játék és verzió adatbázisából",
+    "tooBigFiles": "{{important, emoji}} A fájlok túl nagyok: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Használd az alábbi letöltési linket"
+}

@@ -1,0 +1,21 @@
+{
+    "description": "Convertește texturi sau imagini între formate",
+    "sourceOptionDesc": "Formatul imaginii sursă",
+    "destinationOptionDesc": "Formatul imaginii de destinație (png, jpg etc.)",
+    "wrongSourceError": "Format sursă greșit! Formate acceptate: {{formats}}",
+    "wrongDestinationError": "Format destinație greșit! Formate acceptate: {{formats}}",
+    "format": "Convertește imaginea",
+    "format_sctx": "Convertește imaginea în Supercell Texture",
+    "format_png": "Convertește imaginea în png",
+    "sctx": {
+        "compressDesc": "Comprimă datele fișierului folosind ZSTD",
+        "paddingDesc": "Aliniază datele texturii la 16 bytes",
+        "mipMapsDesc": "Generează niveluri MIP-map pentru textură",
+        "typeDesc": "Determină nivelul de compresie și formatul de stocare al texturii",
+        "tagsDesc": "O matrice de etichete de adăugat la textura sctx",
+        "tagsDesc_details": "O matrice de etichete de adăugat la textura sctx.\nEtichetele sunt șiruri stocate în fișierul sctx și pot fi folosite de codul jocului pentru a marca texturi speciale\n",
+        "proxyDesc": "Creează o textură proxy cu rezoluție redusă, folosită de obicei pentru streamingul texturilor în joc",
+        "unknownFlag1": "Indicator necunoscut",
+        "unknownFlag2": "Al doilea indicator necunoscut"
+    }
+}

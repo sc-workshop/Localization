@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "คำอธิบายไฟล์ในรูปแบบ `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "คีย์เวิร์ดสำหรับค้นหา asset",
+        "versionOption": "version",
+        "versionOptionDesc": "เวอร์ชันเกม รองรับค่าเช่น \"62\" หรือ \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "ชื่อเซิร์ฟเวอร์สำหรับค้นหา",
+        "notFoundError": "ไม่พบ asset ที่ร้องขอ!",
+        "invalidVersionError": "ไม่มีเวอร์ชันนี้! ใช้คำสั่ง dbinfo เพื่อตรวจสอบเวอร์ชันที่พร้อมใช้งาน"
+    },
+    "userAssets": {
+        "desc": "ไฟล์ผู้ใช้ / zip archive",
+        "mixedDesc": "คำอธิบายไฟล์ในรูปแบบ `filename [version] [game]` หรือไฟล์ผู้ใช้ / zip archive",
+        "inputOption": "filename",
+        "inputOptionDesc": "ไฟล์อินพุตสำหรับประมวลผล หรือไฟล์ .zip ที่มีไฟล์อยู่ภายใน",
+        "emptyFilesError": "คุณยังไม่ได้ส่งไฟล์ใด ๆ โปรดใส่ชื่อ asset หรือส่งไฟล์หรือไฟล์ .zip"
+    },
+    "assetServer": {
+        "desc": "ชื่อเซิร์ฟเวอร์ asset"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Nhận atlas png và chuyển chúng thành _tex.sc hoặc nhúng texture vào tệp .sc",
+    "invalidFilesError": "Không có gì để chuyển đổi! Hãy chắc rằng bạn đã đính kèm hình ảnh hợp lệ",
+    "progress": {
+        "swfLoading": "Đang tải SupercellSWF nguồn: {{filepath}}",
+        "imageLoading": "Đang tải hình ảnh: {{filepath}}",
+        "saving": "Đang lưu texture..."
+    }
+}

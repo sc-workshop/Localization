@@ -1,0 +1,5 @@
+{
+    "desc": "Decomprimă un fișier după sursă sau detectează automat compresia fișierului",
+    "optionSourceDesc": "Numele compresiei fișierului",
+    "invalidFileError": "Fișier deteriorat sau necomprimat"
+}

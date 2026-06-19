@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Έτοιμες υφές: {{count}}",
+        "doneTextures_two": "Έτοιμες υφές: {{count}}",
+        "doneTextures_many": "Έτοιμες υφές: {{count}}"
+    }
+}

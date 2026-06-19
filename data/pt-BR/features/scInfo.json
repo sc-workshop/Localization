@@ -1,0 +1,14 @@
+{
+    "description": "Obtém informações básicas sobre um arquivo .sc, como versão e formato, quantidade de objetos etc.",
+    "embed": {
+        "title": "Informações sobre o arquivo .sc",
+        "type": "Tipo",
+        "signature": "Assinatura",
+        "textureCount": "Quantidade de Texturas",
+        "movieclipCount": "Quantidade de MovieClips",
+        "shapeCount": "Quantidade de Shapes",
+        "textfieldsCount": "Quantidade de TextFields",
+        "externalTexture": "Arquivo de textura externa",
+        "exports": "Nomes de Exportação"
+    }
+}

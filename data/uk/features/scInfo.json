@@ -1,0 +1,14 @@
+{
+    "description": "Отримує основну інформацію про файл .sc, таку як версія та формат, кількість об'єктів тощо.",
+    "embed": {
+        "title": "Інформація про .sc файл",
+        "type": "Тип",
+        "signature": "Підпис",
+        "textureCount": "Кількість Текстур",
+        "movieclipCount": "Кількість MovieClip",
+        "shapeCount": "Кількість Shape",
+        "textfieldsCount": "Кількість Текстових Полів",
+        "externalTexture": "Файл зовнішньої текстури",
+        "exports": "Єкспортні Імена"
+    }
+}

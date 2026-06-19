@@ -1,0 +1,72 @@
+{
+    "name": "Tiếng Việt",
+    "gltfIoLinkMessage": "Không cần thiết. Hãy cân nhắc dùng plugin Blender này: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Phản hồi pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Độ trễ bot",
+        "apiLatency": "Độ trễ API",
+        "uptime": "Thời gian hoạt động của bot"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Tên lệnh không hợp lệ!",
+        "invalidCommand_suggests": "{{error, emoji}} Lệnh không hợp lệ! Có thể bạn muốn nhập: {{suggests}}",
+        "argumentParseError": "Không thể phân tích đối số `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Tệp quá lớn",
+        "internalError": "Không thể tải tệp! Lỗi nội bộ",
+        "unknown": "Lỗi tải tệp không xác định"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Lệnh",
+        "description": "Gửi thông tin về các lệnh của bot",
+        "head": "Dùng `n!<command> [flags]` để thực thi lệnh\nVí dụ: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Gõ n!help <command> để xem thêm chi tiết",
+        "commandNameOption": "Tên lệnh tùy chọn để xem trợ giúp",
+        "aliases": "{{lookup, emoji}} Bí danh: ",
+        "requiredArgs": "{{important, emoji}} Đối số bắt buộc: ",
+        "optionalArgs": "{{flag, emoji}} Đối số tùy chọn: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Lệnh: {{name}}",
+        "variants": "{{folder, emoji}} Biến thể cho `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Lệnh khác",
+        "group_base": "{{gears, emoji}} Lệnh cơ bản",
+        "group_assets": "{{database, emoji}} Lệnh asset",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Xử lý hình ảnh",
+        "group_generic": "{{folder, emoji}} Thao tác tệp",
+        "notes": {
+            "title": "{{important, emoji}} Ghi chú cú pháp",
+            "prefixTitle": "Tiền tố",
+            "prefixDescription": "- Bot hỗ trợ các tiền tố sau: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Cờ",
+            "flagsDescription": [
+                "- Cờ thường là các giá trị tùy chọn mà bạn có thể cung cấp cho bot",
+                "- Trong thông báo trợ giúp, các cờ tùy chọn được đặt trong dấu ngoặc vuông như `[.flag]`",
+                "- Các cờ phải có tiền tố này: {{flagPrefix}}",
+                "- Ví dụ: `n!sc2fla ui.sc .split_by_name` HOẶC `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Dữ liệu asset",
+            "assetDataDescription": [
+                "- Hầu hết các lệnh đều yêu cầu đối số **`assetData`**",
+                "- Đây là một đối số phức tạp cho phép bạn chỉ định chính xác asset muốn sử dụng",
+                "- Cú pháp của nó như sau: `filename [version] [game]`",
+                "- Số phiên bản phải bắt đầu bằng chữ `v`",
+                "- Các trò chơi hiện được hỗ trợ là: {{supportedGames}}",
+                "- Ví dụ: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Biểu thức tìm kiếm tệp",
+            "fileSearchDescription": [
+                "- Bot hỗ trợ các biểu thức giống regex khi bạn dùng `filename` trong các đối số `assetData`",
+                "- Biểu thức \"bắt đầu bằng\" phải bắt đầu bằng ký tự **`^`**",
+                "- Biểu thức \"kết thúc bằng\" phải kết thúc bằng ký tự **`$`**",
+                "- Nhiều biểu thức phải được kết hợp bằng **`&&`** hoặc **`|`**",
+                "- Mặc định, việc tìm kiếm được thực hiện theo tên tệp. Nếu bạn cần tìm theo thư mục, phần chính của biểu thức phải kết thúc bằng ký tự **`/`**",
+                "- Ví dụ: tìm các tệp bắt đầu bằng `melodie_`, kết thúc bằng `.sctx` và nằm trong thư mục `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Biểu thức có khái niệm bộ sửa đổi. Đây là các tên đặc biệt bắt đầu bằng @ và thay đổi đầu ra",
+                "    - `@any` trả về một asset ngẫu nhiên"
+            ]
+        }
+    }
+}

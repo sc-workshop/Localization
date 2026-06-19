@@ -23,7 +23,7 @@
         "title": "{{guide, emoji}} Commands",
         "description": "Sends info about bot commands",
         "head": "Use `n!<command> [flags]` to execute command\nExample: `n!sc2fla ui.sc .split_by_name`\n\n\n",
-        "footer": "{{sparkles, emoji}} Neko Bot • Type n!help <command> for more details",
+        "footer": "✨ Neko Bot • Type n!help <command> for more details",
         "commandNameOption": "Optional command name to get help with",
         "aliases": "{{lookup, emoji}} Aliases: ",
         "requiredArgs": "{{important, emoji}} Required arguments: ",

@@ -1,0 +1,8 @@
+{
+    "title": "搜索结果：{{wildcard}}",
+    "title_versioned": "搜索结果：{{wildcard}} 来自 {{version}}",
+    "description": "在所选游戏和版本的数据库中搜索资源",
+    "assetOverview": "共找到 {{count}} 个资源（{{size}}~）",
+    "assetOverview_one": "共找到 {{count}} 个资源（{{size}}~）",
+    "wrongDownloadArgsError": "下载参数不正确。请确认你指定了正确的版本"
+}

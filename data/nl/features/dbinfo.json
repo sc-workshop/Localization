@@ -1,0 +1,11 @@
+{
+    "desc": "Verstuurt info over de Neko-assetdatabase",
+    "notFoundError": "Database met de naam {{name}} is niet gevonden",
+    "embed": {
+        "title": "📚 Database: {{dbName}}",
+        "desc": "Algemene info over database en versies",
+        "size": "💾 Totale grootte",
+        "versionTitle": "🧩 Versies",
+        "footer": "Database-info"
+    }
+}

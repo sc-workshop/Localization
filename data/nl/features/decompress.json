@@ -1,0 +1,5 @@
+{
+    "desc": "Pakt een bestand uit via bronargument of detecteert automatisch de compressie",
+    "optionSourceDesc": "Naam van de bestandscompressie",
+    "invalidFileError": "Beschadigd of niet-gecomprimeerd bestand"
+}

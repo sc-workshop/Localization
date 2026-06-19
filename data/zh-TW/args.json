@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "檔案描述格式：`filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "用於搜尋資源的關鍵字",
+        "versionOption": "version",
+        "versionOptionDesc": "遊戲版本。接受如 \"62\" 或 \"62.156\" 的值",
+        "serverOption": "server",
+        "serverOptionDesc": "要搜尋的伺服器名稱",
+        "notFoundError": "找不到要求的資源！",
+        "invalidVersionError": "該版本不存在！請使用 dbinfo 指令查看可用版本"
+    },
+    "userAssets": {
+        "desc": "使用者檔案 / zip 壓縮檔",
+        "mixedDesc": "檔案描述 `filename [version] [game]` 或使用者檔案 / zip 壓縮檔",
+        "inputOption": "filename",
+        "inputOptionDesc": "要處理的輸入檔案，或包含檔案的 .zip 壓縮檔",
+        "emptyFilesError": "你沒有提供任何檔案。請輸入資源名稱，或提供檔案或 .zip 壓縮檔"
+    },
+    "assetServer": {
+        "desc": "資源伺服器名稱"
+    }
+}

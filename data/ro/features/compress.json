@@ -1,0 +1,8 @@
+{
+    "desc": "Comprimă fișierul cu compresia selectată",
+    "variantDesc": "Numele tipului de compresie de destinație",
+    "variants": "Neimplementat",
+    "variants_zstd": "Comprimă fișierul cu zstd",
+    "variants_lzma": "Comprimă fișierul cu lzma",
+    "wrongDestinationError": "Numele compresiei de destinație este incorect! Compresii acceptate: {{format}}"
+}

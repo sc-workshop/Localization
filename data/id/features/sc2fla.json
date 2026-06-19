@@ -1,0 +1,19 @@
+{
+    "description": "Mengonversi .sc menjadi proyek Adobe Animate",
+    "splitByNameOption": "Membagi .fla menjadi proyek kecil sesuai nama ekspor .sc",
+    "groupsOption": "Daftar ekspresi reguler buatan pengguna untuk membagi .fla ke dalam grup proyek",
+    "groupsOption_details": "Daftar ekspresi reguler buatan pengguna untuk membagi .fla ke dalam grup proyek\nContoh, perintah ini akan mengekspor semua nama ekspor yang diawali dengan \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nAnda juga dapat menggunakan beberapa ekspresi, tetapi Anda perlu menentukan nama grup, misalnya:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Membuat dokumen ActionScript untuk proyek .fla",
+    "as3DocOption_details": "Membuat dokumen ActionScript untuk proyek .fla, alih-alih dokumen SupercellSWF, saat plugin SupercellSWF tidak tersedia",
+    "progress": {
+        "swfLoaded": "SupercellSWF dimuat. Mengonversi...",
+        "groupChange": "Mengerjakan grup \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Menyimpan \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Progres",
+        "MovieClips converting": "Memproses MovieClip",
+        "Shapes converting": "Memproses Shape"
+    }
+}

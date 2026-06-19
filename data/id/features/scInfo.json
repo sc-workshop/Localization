@@ -1,0 +1,14 @@
+{
+    "description": "Menampilkan informasi dasar tentang file .sc seperti versi dan format, jumlah objek, dan lain-lain.",
+    "embed": {
+        "title": "Info tentang file .sc",
+        "type": "Jenis",
+        "signature": "Tanda Tangan",
+        "textureCount": "Jumlah Tekstur",
+        "movieclipCount": "Jumlah MovieClip",
+        "shapeCount": "Jumlah Shape",
+        "textfieldsCount": "Jumlah TextField",
+        "externalTexture": "File tekstur eksternal",
+        "exports": "Nama Ekspor"
+    }
+}

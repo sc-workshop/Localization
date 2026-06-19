@@ -1,0 +1,10 @@
+{
+    "description": ".sc file से sprite sheets पढ़ता है और उन्हें .png में बदलता है",
+    "notATextureError": "लगता है इस फ़ाइल में कोई texture data नहीं है। सुनिश्चित करें कि यह फ़ाइल SC2 है या इसका नाम _tex.sc पर समाप्त होता है",
+    "packToZipOption": "Result files को zip archive में पैक करें",
+    "progress": {
+        "doneTextures": "पूरा हुए textures: {{count}}",
+        "doneTextures_two": "पूरा हुए textures: {{count}}",
+        "doneTextures_many": "पूरा हुए textures: {{count}}"
+    }
+}

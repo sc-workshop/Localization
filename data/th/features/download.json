@@ -1,0 +1,5 @@
+{
+    "desc": "ดาวน์โหลด asset จากฐานข้อมูลของเกมและเวอร์ชันที่เลือก",
+    "tooBigFiles": "{{important, emoji}} ไฟล์มีขนาดใหญ่เกินไป: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} ใช้ลิงก์ดาวน์โหลดด้านล่าง"
+}

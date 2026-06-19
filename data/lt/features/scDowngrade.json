@@ -1,0 +1,11 @@
+{
+    "description": "Sumažina .sc failo versiją iki senesnės",
+    "versionOption": "Tikslinė versija sumažinimui",
+    "signatureOption": "Tikslinis parašas (suspaudimas) sumažintam failui",
+    "externalTextureOption": "Sukuria atskirą _tex.sc failą",
+    "wrongSignatureError": "Netinkamas parašas! Priimtini parašai: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Netinkama versija! Priimtinos versijos: -1.0 (automatinis aptikimas), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF įkeltas. Išsaugoma..."
+    }
+}

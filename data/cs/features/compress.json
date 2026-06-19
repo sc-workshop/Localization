@@ -1,0 +1,8 @@
+{
+    "desc": "Komprimuje soubor pomocí zvolené komprese",
+    "variantDesc": "Název cílového typu komprese",
+    "variants": "Není implementováno",
+    "variants_zstd": "Komprimuje soubor pomocí zstd",
+    "variants_lzma": "Komprimuje soubor pomocí lzma",
+    "wrongDestinationError": "Název cílové komprese je nesprávný! Podporované komprese: {{format}}"
+}

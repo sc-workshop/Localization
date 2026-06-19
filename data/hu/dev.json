@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Kész textúrák: {{count}}",
+        "doneTextures_two": "Kész textúrák: {{count}}",
+        "doneTextures_many": "Kész textúrák: {{count}}"
+    }
+}

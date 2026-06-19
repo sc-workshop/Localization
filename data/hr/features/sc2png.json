@@ -1,0 +1,10 @@
+{
+    "description": "Čita sprite sheetove iz .sc datoteke i pretvara ih u .png",
+    "notATextureError": "Izgleda da ova datoteka ne sadrži podatke o teksturi. Provjerite je li ovo SC2 datoteka ili završava s _tex.sc",
+    "packToZipOption": "Spakira rezultate u zip arhivu",
+    "progress": {
+        "doneTextures": "Gotove teksture: {{count}}",
+        "doneTextures_two": "Gotove teksture: {{count}}",
+        "doneTextures_many": "Gotove teksture: {{count}}"
+    }
+}

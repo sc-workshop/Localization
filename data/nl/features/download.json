@@ -1,0 +1,5 @@
+{
+    "desc": "Downloadt assets uit de database van het geselecteerde spel en de geselecteerde versie",
+    "tooBigFiles": "{{important, emoji}} Bestanden zijn te groot: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Gebruik de downloadlink hieronder"
+}

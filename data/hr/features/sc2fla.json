@@ -1,0 +1,19 @@
+{
+    "description": "Pretvara .sc u Adobe Animate projekt",
+    "splitByNameOption": "Dijeli .fla u manje projekte prema izvoznim imenima iz .sc",
+    "groupsOption": "Niz korisnički definiranih regularnih izraza za dijeljenje .fla u grupe projekata",
+    "groupsOption_details": "Niz korisnički definiranih regularnih izraza za dijeljenje .fla u grupe projekata\nNa primjer, ova naredba će izvesti sva izvozna imena koja počinju s \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nMožete koristiti i više izraza, ali tada trebate navesti naziv grupe, na primjer:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Stvara ActionScript dokument za .fla projekt",
+    "as3DocOption_details": "Stvara ActionScript dokument za .fla projekt umjesto SupercellSWF dokumenta kada dodatak SupercellSWF nije dostupan",
+    "progress": {
+        "swfLoaded": "SupercellSWF je učitan. Pretvaranje...",
+        "groupChange": "Radi se na grupi \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Spremanje \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Napredak",
+        "MovieClips converting": "Obrada MovieClipova",
+        "Shapes converting": "Obrada Shapeova"
+    }
+}

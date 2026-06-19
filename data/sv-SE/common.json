@@ -1,0 +1,72 @@
+{
+    "name": "Svenska",
+    "gltfIoLinkMessage": "Det behövs inte. Överväg i stället att använda det här Blender-pluginet: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Svarar pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Botlatens",
+        "apiLatency": "API-latens",
+        "uptime": "Botens drifttid"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Ogiltigt kommandonamn!",
+        "invalidCommand_suggests": "{{error, emoji}} Ogiltigt kommando! Kanske menade du: {{suggests}}",
+        "argumentParseError": "Det gick inte att tolka argumentet `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Filen är för stor",
+        "internalError": "Det gick inte att ladda ner filen! Internt fel",
+        "unknown": "Okänt fel vid filnedladdning"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Kommandon",
+        "description": "Skickar info om botkommandon",
+        "head": "Använd `n!<command> [flags]` för att köra ett kommando\nExempel: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Skriv n!help <command> för mer information",
+        "commandNameOption": "Valfritt kommandonamn för att få hjälp",
+        "aliases": "{{lookup, emoji}} Alias: ",
+        "requiredArgs": "{{important, emoji}} Obligatoriska argument: ",
+        "optionalArgs": "{{flag, emoji}} Valfria argument: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Kommando: {{name}}",
+        "variants": "{{folder, emoji}} Varianter för `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Andra kommandon",
+        "group_base": "{{gears, emoji}} Grundkommandon",
+        "group_assets": "{{database, emoji}} Asset-kommandon",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Bildbehandling",
+        "group_generic": "{{folder, emoji}} Filåtgärder",
+        "notes": {
+            "title": "{{important, emoji}} Syntaxnoteringar",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- Boten stöder följande prefix: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flaggor",
+            "flagsDescription": [
+                "- Flaggor är oftast valfria värden som du kan ge till boten",
+                "- I hjälpmeddelandet anges valfria flaggor i hakparenteser som `[.flag]`",
+                "- Flaggor måste använda detta prefix: {{flagPrefix}}",
+                "- Exempel: `n!sc2fla ui.sc .split_by_name` ELLER `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset-data",
+            "assetDataDescription": [
+                "- De flesta kommandon kräver argumentet **`assetData`**",
+                "- Detta är ett komplext argument som låter dig ange exakt vilket asset du vill använda",
+                "- Syntaxen ser ut så här: `filename [version] [game]`",
+                "- Versionsnumret ska börja med bokstaven `v`",
+                "- Spel som stöds just nu: {{supportedGames}}",
+                "- Exempel: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Filsökuttryck",
+            "fileSearchDescription": [
+                "- Boten stöder regex-liknande uttryck när du använder `filename` i `assetData`-argument",
+                "- Ett uttryck för \"börjar med\" måste börja med tecknet **`^`**",
+                "- Ett uttryck för \"slutar med\" måste sluta med tecknet **`$`**",
+                "- Flera uttryck måste kombineras med **`&&`** eller **`|`**",
+                "- Som standard görs sökningar efter filnamn. Om du behöver söka efter mappar måste huvuddelen av uttrycket sluta med tecknet **`/`**",
+                "- Exempel: söker efter filer som börjar med `melodie_`, slutar på `.sctx` och lagras i mappen `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Uttryck har ett koncept med modifierare. Det här är specialnamn som börjar med @ och ändrar utdata",
+                "    - `@any` returnerar ett slumpmässigt asset"
+            ]
+        }
+    }
+}

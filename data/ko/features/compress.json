@@ -1,0 +1,8 @@
+{
+    "desc": "선택한 압축 방식으로 파일을 압축합니다",
+    "variantDesc": "대상 압축 유형 이름",
+    "variants": "구현되지 않음",
+    "variants_zstd": "zstd로 파일을 압축합니다",
+    "variants_lzma": "lzma로 파일을 압축합니다",
+    "wrongDestinationError": "대상 압축 이름이 올바르지 않습니다! 지원되는 압축 방식: {{format}}"
+}

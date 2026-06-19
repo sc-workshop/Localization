@@ -1,0 +1,5 @@
+{
+    "desc": "根據來源參數解壓縮檔案，或自動偵測檔案的壓縮類型",
+    "optionSourceDesc": "檔案壓縮名稱",
+    "invalidFileError": "損壞的檔案或未壓縮的檔案"
+}

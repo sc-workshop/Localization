@@ -1,0 +1,5 @@
+{
+    "desc": "Giải nén tệp dựa trên đối số nguồn hoặc tự động phát hiện kiểu nén của tệp",
+    "optionSourceDesc": "Tên kiểu nén của tệp",
+    "invalidFileError": "Tệp bị hỏng hoặc chưa được nén"
+}

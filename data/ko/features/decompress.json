@@ -1,0 +1,5 @@
+{
+    "desc": "source 인수를 기준으로 파일을 압축 해제하거나 파일의 압축 유형을 자동으로 감지합니다",
+    "optionSourceDesc": "파일 압축 이름",
+    "invalidFileError": "손상되었거나 압축되지 않은 파일"
+}

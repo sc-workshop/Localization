@@ -1,0 +1,9 @@
+{
+    "description": "png atlases स्वीकार करता है और उन्हें _tex.sc में बदलता है या textures को .sc file में embed करता है",
+    "invalidFilesError": "कन्वर्ट करने के लिए कुछ नहीं है! सुनिश्चित करें कि आपने सही images attach की हैं",
+    "progress": {
+        "swfLoading": "source SupercellSWF लोड हो रहा है: {{filepath}}",
+        "imageLoading": "image लोड हो रही है: {{filepath}}",
+        "saving": "textures सहेजी जा रही हैं..."
+    }
+}

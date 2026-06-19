@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Mô tả tệp theo định dạng `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Từ khóa để tìm kiếm asset",
+        "versionOption": "version",
+        "versionOptionDesc": "Phiên bản trò chơi. Chấp nhận các giá trị như \"62\" hoặc \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Tên máy chủ để tìm kiếm",
+        "notFoundError": "Không tìm thấy asset được yêu cầu!",
+        "invalidVersionError": "Phiên bản không tồn tại! Hãy dùng lệnh dbinfo để kiểm tra các phiên bản hiện có"
+    },
+    "userAssets": {
+        "desc": "Tệp người dùng / zip",
+        "mixedDesc": "Mô tả tệp theo định dạng `filename [version] [game]` hoặc tệp người dùng / zip",
+        "inputOption": "filename",
+        "inputOptionDesc": "Tệp đầu vào để xử lý hoặc tệp nén .zip chứa các tệp",
+        "emptyFilesError": "Bạn chưa cung cấp tệp nào. Hãy nhập tên asset hoặc cung cấp tệp hay tệp nén .zip"
+    },
+    "assetServer": {
+        "desc": "Tên máy chủ asset"
+    }
+}

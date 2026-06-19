@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Paruoštos tekstūros: {{count}}",
+        "doneTextures_two": "Paruoštos tekstūros: {{count}}",
+        "doneTextures_many": "Paruoštos tekstūros: {{count}}"
+    }
+}

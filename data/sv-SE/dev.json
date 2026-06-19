@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Färdiga texturer: {{count}}",
+        "doneTextures_two": "Färdiga texturer: {{count}}",
+        "doneTextures_many": "Färdiga texturer: {{count}}"
+    }
+}

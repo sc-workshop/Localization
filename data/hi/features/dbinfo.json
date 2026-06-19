@@ -1,0 +1,11 @@
+{
+    "desc": "Neko asset database की जानकारी भेजता है",
+    "notFoundError": "{name} नाम का database नहीं मिला",
+    "embed": {
+        "title": "📚 Database: {{dbName}}",
+        "desc": "Database और versions के बारे में सामान्य जानकारी",
+        "size": "💾 कुल आकार",
+        "versionTitle": "🧩 Versions",
+        "footer": "Database info"
+    }
+}

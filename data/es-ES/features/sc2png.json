@@ -1,0 +1,10 @@
+{
+    "description": "Lee sprite sheets de un archivo .sc y los convierte a .png",
+    "notATextureError": "Parece que este archivo no contiene datos de textura. Asegúrate de que sea un archivo SC2 o termine en _tex.sc",
+    "packToZipOption": "Empaqueta los archivos resultantes en un archivo zip",
+    "progress": {
+        "doneTextures": "Texturas completadas: {{count}}",
+        "doneTextures_two": "Texturas completadas: {{count}}",
+        "doneTextures_many": "Texturas completadas: {{count}}"
+    }
+}

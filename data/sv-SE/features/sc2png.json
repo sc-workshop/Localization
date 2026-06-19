@@ -1,0 +1,10 @@
+{
+    "description": "Läser sprite sheets från en .sc-fil och konverterar dem till .png",
+    "notATextureError": "Det ser ut som att den här filen inte innehåller någon texturdata. Se till att filen är SC2 eller slutar med _tex.sc",
+    "packToZipOption": "Packar resultatfiler i ett zip-arkiv",
+    "progress": {
+        "doneTextures": "Färdiga texturer: {{count}}",
+        "doneTextures_two": "Färdiga texturer: {{count}}",
+        "doneTextures_many": "Färdiga texturer: {{count}}"
+    }
+}

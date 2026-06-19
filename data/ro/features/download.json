@@ -1,0 +1,5 @@
+{
+    "desc": "Descarcă asseturi din baza de date a jocului și versiunii selectate",
+    "tooBigFiles": "{{important, emoji}} Fișierele sunt prea mari: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Folosește linkul de descărcare de mai jos"
+}

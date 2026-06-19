@@ -1,0 +1,12 @@
+{
+    "create": "Molimo pričekajte...",
+    "ready": "{{success, emoji}} Gotovo",
+    "takeAWhile": "Može potrajati, molimo pričekajte. ",
+    "sending": "{{send, emoji}} Slanje...",
+    "done": "{{success, emoji}} Gotovo",
+    "fileReady": "{{success, emoji}} Izvolite **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Izvolite **`{{filename}}`** iz **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Veza za preuzimanje istječe {{countdown}}",
+    "download": "Preuzmi",
+    "tooManyAssets": "Previše resursa! Pokušajte detaljnije pojasniti zahtjev"
+}

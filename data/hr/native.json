@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Neispravna datoteka: {{value}}",
+    "notExistingFileError": "Nije moguće dohvatiti datoteku: {{value}}",
+    "genericError": "Dogodila se iznimka tijekom obrade operacije: {{value}}",
+    "unknownError": "Dogodila se nepoznata pogreška tijekom obrade operacije",
+    "notAnImageError": "Nije slika ili format nije podržan",
+    "notAnScFile": "Nije valjana SC1/SC2 datoteka",
+    "notAnSc2File": "Nije valjana SC2 datoteka",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Nije pronađeno ništa za pretvorbu. Provjerite jesu li argumenti grupa ispravno postavljeni!",
+        "LZMA missing end marker!": "Ova datoteka vjerojatno nije komprimirana ili je oštećena"
+    }
+}

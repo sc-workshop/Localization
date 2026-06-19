@@ -1,0 +1,9 @@
+{
+    "description": "Tar emot png-atlaser och konverterar dem till _tex.sc eller bäddar in texturer i .sc-filen",
+    "invalidFilesError": "Det finns inget att konvertera! Se till att du bifogade giltiga bilder",
+    "progress": {
+        "swfLoading": "Laddar käll-SupercellSWF: {{filepath}}",
+        "imageLoading": "Laddar bild: {{filepath}}",
+        "saving": "Sparar texturer..."
+    }
+}

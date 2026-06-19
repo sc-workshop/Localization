@@ -1,0 +1,12 @@
+{
+    "create": "Počkejte prosím...",
+    "ready": "{{success, emoji}} Hotovo",
+    "takeAWhile": "Může to chvíli trvat, prosím čekejte. ",
+    "sending": "{{send, emoji}} Odesílání...",
+    "done": "{{success, emoji}} Hotovo",
+    "fileReady": "{{success, emoji}} Tady máte **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Tady máte **`{{filename}}`** z **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Platnost odkazu ke stažení vyprší {{countdown}}",
+    "download": "Stáhnout",
+    "tooManyAssets": "Příliš mnoho assetů! Zkuste svůj požadavek upřesnit podrobněji"
+}

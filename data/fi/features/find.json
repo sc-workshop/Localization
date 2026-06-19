@@ -1,0 +1,8 @@
+{
+    "title": "Hakutulokset kohteelle {{wildcard}}",
+    "title_versioned": "Hakutulokset kohteelle {{wildcard}} versiosta {{version}}",
+    "description": "Etsii assetia valitun pelin ja version tietokannasta",
+    "assetOverview": "Yhteensä löytyi {{count}} assetia ({{size}}~)",
+    "assetOverview_one": "Yhteensä löytyi {{count}} assetia ({{size}}~)",
+    "wrongDownloadArgsError": "Virheelliset latausargumentit. Varmista, että määritit oikean version"
+}

@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Gotowe tekstury: {{count}}",
+        "doneTextures_two": "Gotowe tekstury: {{count}}",
+        "doneTextures_many": "Gotowe tekstury: {{count}}"
+    }
+}

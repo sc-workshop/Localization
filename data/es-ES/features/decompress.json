@@ -1,0 +1,5 @@
+{
+    "desc": "Descomprime un archivo por origen o detecta automáticamente su compresión",
+    "optionSourceDesc": "Nombre de la compresión del archivo",
+    "invalidFileError": "Archivo dañado o sin comprimir"
+}

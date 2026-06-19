@@ -1,0 +1,10 @@
+{
+    "description": "从 .sc 文件读取精灵图集并转换为 .png",
+    "notATextureError": "看起来这个文件不包含任何纹理数据。请确认该文件是 SC2，或者文件名以 _tex.sc 结尾",
+    "packToZipOption": "将结果文件打包为 zip 压缩包",
+    "progress": {
+        "doneTextures": "已完成纹理：{{count}}",
+        "doneTextures_two": "已完成纹理：{{count}}",
+        "doneTextures_many": "已完成纹理：{{count}}"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "description": "ดาวน์เกรดไฟล์ .sc ไปยังเวอร์ชันที่เก่ากว่า",
+    "versionOption": "เวอร์ชันเป้าหมายสำหรับการดาวน์เกรด",
+    "signatureOption": "ลายเซ็นเป้าหมาย (การบีบอัด) สำหรับไฟล์ที่ถูกดาวน์เกรด",
+    "externalTextureOption": "สร้างไฟล์ _tex.sc แยกต่างหาก",
+    "wrongSignatureError": "ลายเซ็นไม่ถูกต้อง! ลายเซ็นที่ยอมรับได้: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "เวอร์ชันไม่ถูกต้อง! เวอร์ชันที่ยอมรับได้: -1.0 (ตรวจจับอัตโนมัติ), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "โหลด SupercellSWF แล้ว กำลังบันทึก..."
+    }
+}

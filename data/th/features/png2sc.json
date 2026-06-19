@@ -1,0 +1,9 @@
+{
+    "description": "รับ png atlas และแปลงเป็น _tex.sc หรือฝัง texture ลงในไฟล์ .sc",
+    "invalidFilesError": "ไม่มีอะไรให้แปลง! ตรวจสอบว่าคุณแนบภาพที่ถูกต้องแล้ว",
+    "progress": {
+        "swfLoading": "กำลังโหลด SupercellSWF ต้นทาง: {{filepath}}",
+        "imageLoading": "กำลังโหลดภาพ: {{filepath}}",
+        "saving": "กำลังบันทึก texture..."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "अमान्य फ़ाइल: {{value}}",
+    "notExistingFileError": "फ़ाइल प्राप्त नहीं हो सकी: {{value}}",
+    "genericError": "ऑपरेशन संभालते समय एक अपवाद हुआ: {{value}}",
+    "unknownError": "ऑपरेशन संभालते समय एक अज्ञात त्रुटि हुई",
+    "notAnImageError": "Image नहीं है या unsupported format है",
+    "notAnScFile": "मान्य SC1/SC2 file नहीं है",
+    "notAnSc2File": "मान्य SC2 file नहीं है",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "कन्वर्ट करने के लिए कुछ नहीं मिला। सुनिश्चित करें कि आपने समूह आर्गुमेंट सही तरीके से कॉन्फ़िगर किए हैं!",
+        "LZMA missing end marker!": "यह फ़ाइल शायद संपीड़ित नहीं है या क्षतिग्रस्त है"
+    }
+}

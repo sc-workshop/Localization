@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Описание файла в формате `filename [version] [game]`",
+        "assetOption": "filename",
+        "assetOptionDesc": "Ключевое слово для поиска актива",
+        "versionOption": "version",
+        "versionOptionDesc": "Версия игры. Принимает такие значение как \"62\" или \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Имя сервера для поиска",
+        "notFoundError": "Запрашиваемые активы не найдены!",
+        "invalidVersionError": "Несуществующая версия! Используйте команду dbinfo для проверки доступных версий"
+    },
+    "userAssets": {
+        "desc": "Пользовательские файлы / zip-архивы",
+        "mixedDesc": "Описание файла в формате `filename [version] [game]` или пользовательские файлы / zip-архивы",
+        "inputOption": "file",
+        "inputOptionDesc": "Файл для обработки или .zip архив с файлами",
+        "emptyFilesError": "Вы не предоставили файлы. Пожалуйста, введите имя или предоставьте файл или .zip архив"
+    },
+    "assetServer": {
+        "desc": "Имя сервера ресурсов"
+    }
+}

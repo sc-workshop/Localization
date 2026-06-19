@@ -1,0 +1,72 @@
+{
+    "name": "Nederlands",
+    "gltfIoLinkMessage": "Dat is niet nodig. Overweeg deze plugin voor Blender te gebruiken: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Antwoordt pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Botlatentie",
+        "apiLatency": "API-latentie",
+        "uptime": "Uptime van bot"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Ongeldige opdrachtnnaam!",
+        "invalidCommand_suggests": "{{error, emoji}} Ongeldige opdracht! Bedoelde je misschien: {{suggests}}",
+        "argumentParseError": "Kan argument `{{name}}` niet parseren!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Bestand is te groot",
+        "internalError": "Bestand downloaden mislukt! Interne fout",
+        "unknown": "Onbekende fout bij het downloaden van het bestand"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Opdrachten",
+        "description": "Verstuurt info over botopdrachten",
+        "head": "Gebruik `n!<command> [flags]` om een opdracht uit te voeren\nVoorbeeld: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Typ n!help <command> voor meer details",
+        "commandNameOption": "Optionele opdrachtnnaam om hulp voor te krijgen",
+        "aliases": "{{lookup, emoji}} Aliassen: ",
+        "requiredArgs": "{{important, emoji}} Vereiste argumenten: ",
+        "optionalArgs": "{{flag, emoji}} Optionele argumenten: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Opdracht: {{name}}",
+        "variants": "{{folder, emoji}} Varianten voor `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Overige opdrachten",
+        "group_base": "{{gears, emoji}} Basisopdrachten",
+        "group_assets": "{{database, emoji}} Asset-opdrachten",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Afbeeldingsverwerking",
+        "group_generic": "{{folder, emoji}} Bestandsbewerkingen",
+        "notes": {
+            "title": "{{important, emoji}} Syntaxisnotities",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- De bot ondersteunt de volgende prefixes: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Vlaggen",
+            "flagsDescription": [
+                "- Vlaggen zijn meestal optionele waarden die je aan de bot kunt meegeven",
+                "- In het helpbericht worden optionele vlaggen tussen vierkante haken gezet, zoals `[.flag]`",
+                "- Vlaggen moeten dit prefix hebben: {{flagPrefix}}",
+                "- Voorbeeld: `n!sc2fla ui.sc .split_by_name` OF `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Assetgegevens",
+            "assetDataDescription": [
+                "- De meeste opdrachten vereisen het argument **`assetData`**",
+                "- Dit is een complex argument waarmee je precies kunt aangeven welk asset je wilt gebruiken",
+                "- De syntaxis ziet er als volgt uit: `filename [version] [game]`",
+                "- Het versienummer moet beginnen met de letter `v`",
+                "- Momenteel ondersteunde spellen zijn: {{supportedGames}}",
+                "- Voorbeeld: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Bestandszoekexpressie",
+            "fileSearchDescription": [
+                "- De bot ondersteunt regex-achtige expressies wanneer je `filename` gebruikt in `assetData`-argumenten",
+                "- Een expressie voor \"begint met\" moet beginnen met het teken **`^`**",
+                "- Een expressie voor \"eindigt op\" moet eindigen met het teken **`$`**",
+                "- Meerdere expressies moeten worden gecombineerd met **`&&`** of **`|`**",
+                "- Standaard wordt gezocht op bestandsnamen. Als je op mappen wilt zoeken, moet het hoofddeel van de expressie eindigen op het teken **`/`**",
+                "- Voorbeeld: zoekt naar bestanden die beginnen met `melodie_`, eindigen op `.sctx` en zijn opgeslagen in de map `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Expressies hebben het concept van modifiers. Dit zijn speciale namen die met @ beginnen en de uitvoer aanpassen",
+                "    - `@any` geeft één willekeurig asset terug"
+            ]
+        }
+    }
+}

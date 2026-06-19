@@ -1,0 +1,8 @@
+{
+    "title": "Hasil pencarian untuk {{wildcard}}",
+    "title_versioned": "Hasil pencarian untuk {{wildcard}} dari {{version}}",
+    "description": "Mencari aset dalam basis data game dan versi yang dipilih",
+    "assetOverview": "Total ditemukan {{count}} aset ({{size}}~)",
+    "assetOverview_one": "Total ditemukan {{count}} aset ({{size}}~)",
+    "wrongDownloadArgsError": "Argumen unduhan tidak benar. Pastikan Anda menentukan versi yang benar"
+}

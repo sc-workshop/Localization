@@ -1,0 +1,11 @@
+{
+    "desc": "Šalje informacije o Neko bazi resursa",
+    "notFoundError": "Baza podataka s nazivom {{name}} nije pronađena",
+    "embed": {
+        "title": "📚 Baza podataka: {{dbName}}",
+        "desc": "Opće informacije o bazi podataka i verzijama",
+        "size": "💾 Ukupna veličina",
+        "versionTitle": "🧩 Verzije",
+        "footer": "Informacije o bazi podataka"
+    }
+}

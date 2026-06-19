@@ -1,0 +1,21 @@
+{
+    "description": "แปลง texture หรือรูปภาพระหว่างฟอร์แมตต่าง ๆ",
+    "sourceOptionDesc": "ฟอร์แมตรูปภาพต้นทาง",
+    "destinationOptionDesc": "ฟอร์แมตรูปภาพปลายทาง (png, jpg ฯลฯ)",
+    "wrongSourceError": "ฟอร์แมตต้นทางไม่ถูกต้อง! ฟอร์แมตที่ยอมรับได้: {{formats}}",
+    "wrongDestinationError": "ฟอร์แมตปลายทางไม่ถูกต้อง! ฟอร์แมตที่ยอมรับได้: {{formats}}",
+    "format": "แปลงรูปภาพ",
+    "format_sctx": "แปลงรูปภาพเป็น Supercell Texture",
+    "format_png": "แปลงรูปภาพเป็น png",
+    "sctx": {
+        "compressDesc": "บีบอัดข้อมูลไฟล์ด้วย ZSTD",
+        "paddingDesc": "จัดข้อมูล texture ให้ตรงตาม 16 ไบต์",
+        "mipMapsDesc": "สร้างระดับ MIP-map ของ texture",
+        "typeDesc": "กำหนดระดับการบีบอัดและฟอร์แมตการจัดเก็บของ texture",
+        "tagsDesc": "อาร์เรย์ของแท็กสำหรับเพิ่มลงใน texture sctx",
+        "tagsDesc_details": "อาร์เรย์ของแท็กสำหรับเพิ่มลงใน texture sctx\nแท็กคือสตริงที่เก็บไว้ในไฟล์ sctx และ game code สามารถใช้เพื่อทำเครื่องหมาย texture พิเศษได้\n",
+        "proxyDesc": "สร้าง proxy texture ที่มีความละเอียดต่ำลง ซึ่งมักใช้สำหรับ texture streaming ในเกม",
+        "unknownFlag1": "แฟล็กที่ไม่รู้จัก",
+        "unknownFlag2": "แฟล็กที่ไม่รู้จักตัวที่สอง"
+    }
+}

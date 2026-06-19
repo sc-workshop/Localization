@@ -1,0 +1,5 @@
+{
+    "desc": "Downloads assets from the database of selected game and version",
+    "tooBigFiles": "{{important, emoji}} Files are too big: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Use download link below"
+}

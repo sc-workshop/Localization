@@ -1,0 +1,5 @@
+{
+    "desc": "Purkaa tiedoston lähdeargumentin perusteella tai tunnistaa tiedoston pakkaustyypin automaattisesti",
+    "optionSourceDesc": "Tiedoston pakkauksen nimi",
+    "invalidFileError": "Vioittunut tai pakkaamaton tiedosto"
+}

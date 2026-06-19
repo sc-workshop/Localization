@@ -1,0 +1,11 @@
+{
+    "desc": "Siunčia Neko assetų duomenų bazės informaciją",
+    "notFoundError": "Duomenų bazė pavadinimu {{name}} nerasta",
+    "embed": {
+        "title": "📚 Duomenų bazė: {{dbName}}",
+        "desc": "Bendra informacija apie duomenų bazę ir versijas",
+        "size": "💾 Bendras dydis",
+        "versionTitle": "🧩 Versijos",
+        "footer": "Duomenų bazės informacija"
+    }
+}

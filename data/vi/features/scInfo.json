@@ -1,0 +1,14 @@
+{
+    "description": "Lấy thông tin cơ bản về tệp .sc như phiên bản, định dạng, số lượng đối tượng, v.v.",
+    "embed": {
+        "title": "Thông tin về tệp .sc",
+        "type": "Loại",
+        "signature": "Chữ ký",
+        "textureCount": "Số lượng Texture",
+        "movieclipCount": "Số lượng MovieClip",
+        "shapeCount": "Số lượng Shape",
+        "textfieldsCount": "Số lượng TextField",
+        "externalTexture": "Tệp texture ngoài",
+        "exports": "Tên Export"
+    }
+}

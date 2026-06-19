@@ -1,0 +1,11 @@
+{
+    "description": "Egy .sc fájlt régebbi verzióra állít vissza",
+    "versionOption": "A visszaállítás célverziója",
+    "signatureOption": "A visszaállított fájl cél-aláírása (tömörítése)",
+    "externalTextureOption": "Külön _tex.sc fájlt hoz létre",
+    "wrongSignatureError": "Hibás aláírás! Elfogadott aláírások: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Hibás verzió! Elfogadott verziók: -1.0 (automatikus felismerés), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "A SupercellSWF betöltve. Mentés..."
+    }
+}

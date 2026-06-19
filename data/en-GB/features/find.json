@@ -1,0 +1,8 @@
+{
+    "title": "Search results for {{wildcard}}",
+    "title_versioned": "Search results for {{wildcard}} from {{version}}",
+    "description": "Searches for an asset in the database of the selected game and version",
+    "assetOverview": "Total found {{count}} assets ({{size}}~)",
+    "assetOverview_one": "Total found {{count}} assets ({{size}}~)",
+    "wrongDownloadArgsError": "Incorrect download arguments. Make sure that you specified correct version"
+}

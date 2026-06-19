@@ -1,0 +1,5 @@
+{
+    "desc": "Pobiera assety z bazy danych wybranej gry i wersji",
+    "tooBigFiles": "{{important, emoji}} Pliki są zbyt duże: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Użyj poniższego linku do pobrania"
+}

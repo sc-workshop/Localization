@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Opis datoteke u formatu `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Ključna riječ za pretraživanje resursa",
+        "versionOption": "version",
+        "versionOptionDesc": "Verzija igre. Prihvaća vrijednosti poput \"62\" ili \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Naziv poslužitelja za pretraživanje",
+        "notFoundError": "Traženi resursi nisu pronađeni!",
+        "invalidVersionError": "Verzija ne postoji! Upotrijebite naredbu dbinfo za provjeru dostupnih verzija"
+    },
+    "userAssets": {
+        "desc": "Korisničke datoteke / zip arhive",
+        "mixedDesc": "Opis datoteke u formatu `filename [version] [game]` ili korisničke datoteke / zip arhive",
+        "inputOption": "filename",
+        "inputOptionDesc": "Ulazna datoteka za obradu ili .zip arhiva s datotekama",
+        "emptyFilesError": "Niste priložili nijednu datoteku. Unesite naziv resursa ili priložite datoteku ili .zip arhivu"
+    },
+    "assetServer": {
+        "desc": "Naziv poslužitelja resursa"
+    }
+}

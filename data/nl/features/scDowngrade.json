@@ -1,0 +1,11 @@
+{
+    "description": "Zet een .sc-bestand terug naar een oudere versie",
+    "versionOption": "Doelversie om naar terug te zetten",
+    "signatureOption": "Doelsignatuur (compressie) voor het gedowngradede bestand",
+    "externalTextureOption": "Maakt een apart _tex.sc-bestand",
+    "wrongSignatureError": "Verkeerde signatuur! Toegestane signaturen: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Verkeerde versie! Toegestane versies: -1.0 (automatische detectie), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF is geladen. Opslaan..."
+    }
+}

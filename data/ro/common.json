@@ -1,0 +1,72 @@
+{
+    "name": "Română",
+    "gltfIoLinkMessage": "Nu este nevoie de asta. Ia în considerare folosirea acestui plugin pentru Blender: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Răspunde cu pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Latența botului",
+        "apiLatency": "Latența API",
+        "uptime": "Timp de funcționare al botului"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Nume de comandă invalid!",
+        "invalidCommand_suggests": "{{error, emoji}} Comandă invalidă! Poate ai vrut să spui: {{suggests}}",
+        "argumentParseError": "Nu s-a putut procesa argumentul `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Fișierul este prea mare",
+        "internalError": "Descărcarea fișierului a eșuat! Eroare internă",
+        "unknown": "Eroare necunoscută la descărcarea fișierului"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Comenzi",
+        "description": "Trimite informații despre comenzile botului",
+        "head": "Folosește `n!<command> [flags]` pentru a executa o comandă\nExemplu: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Scrie n!help <command> pentru mai multe detalii",
+        "commandNameOption": "Nume opțional al comenzii pentru care vrei ajutor",
+        "aliases": "{{lookup, emoji}} Aliasuri: ",
+        "requiredArgs": "{{important, emoji}} Argumente obligatorii: ",
+        "optionalArgs": "{{flag, emoji}} Argumente opționale: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Comandă: {{name}}",
+        "variants": "{{folder, emoji}} Variante pentru `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Alte comenzi",
+        "group_base": "{{gears, emoji}} Comenzi de bază",
+        "group_assets": "{{database, emoji}} Comenzi pentru asseturi",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Procesare imagini",
+        "group_generic": "{{folder, emoji}} Operații pe fișiere",
+        "notes": {
+            "title": "{{important, emoji}} Note de sintaxă",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- Botul suportă următoarele prefixe: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flaguri",
+            "flagsDescription": [
+                "- Flagurile sunt de obicei valori opționale pe care le poți oferi botului",
+                "- În mesajul de ajutor, flagurile opționale sunt indicate între paranteze pătrate, precum `[.flag]`",
+                "- Flagurile trebuie să folosească acest prefix: {{flagPrefix}}",
+                "- Exemplu: `n!sc2fla ui.sc .split_by_name` SAU `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Date asset",
+            "assetDataDescription": [
+                "- Majoritatea comenzilor cer argumentul **`assetData`**",
+                "- Acesta este un argument complex care îți permite să specifici exact ce asset vrei să folosești",
+                "- Sintaxa este următoarea: `filename [version] [game]`",
+                "- Numărul versiunii trebuie să înceapă cu litera `v`",
+                "- Jocurile suportate în prezent sunt: {{supportedGames}}",
+                "- Exemplu: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Expresie de căutare a fișierelor",
+            "fileSearchDescription": [
+                "- Botul suportă expresii de tip regex atunci când folosești `filename` în argumentele `assetData`",
+                "- O expresie de tip \"începe cu\" trebuie să înceapă cu caracterul **`^`**",
+                "- O expresie de tip \"se termină cu\" trebuie să se termine cu caracterul **`$`**",
+                "- Mai multe expresii trebuie combinate cu **`&&`** sau **`|`**",
+                "- Implicit, căutările se fac după numele fișierelor. Dacă ai nevoie să cauți după foldere, partea principală a expresiei trebuie să se termine cu caracterul **`/`**",
+                "- Exemplu: caută fișiere care încep cu `melodie_`, se termină în `.sctx` și sunt stocate în folderul `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Expresiile au conceptul de modificatori. Acestea sunt nume speciale care încep cu @ și modifică rezultatul",
+                "    - `@any` returnează un asset aleatoriu"
+            ]
+        }
+    }
+}

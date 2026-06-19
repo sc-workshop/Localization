@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Dosya açıklaması `filename [version] [game]` biçiminde",
+        "assetOption": "name",
+        "assetOptionDesc": "Asset araması için anahtar kelime",
+        "versionOption": "version",
+        "versionOptionDesc": "Oyun sürümü. \"62\" veya \"62.156\" gibi değerleri kabul eder",
+        "serverOption": "server",
+        "serverOptionDesc": "Aranacak sunucu adı",
+        "notFoundError": "İstenen assetler bulunamadı!",
+        "invalidVersionError": "Böyle bir sürüm yok! Kullanılabilir sürümleri görmek için dbinfo komutunu kullanın"
+    },
+    "userAssets": {
+        "desc": "Kullanıcı dosyaları / zip arşivleri",
+        "mixedDesc": "Dosya açıklaması `filename [version] [game]` biçiminde veya kullanıcı dosyaları / zip arşivleri",
+        "inputOption": "filename",
+        "inputOptionDesc": "İşlenecek giriş dosyası veya dosyalar içeren .zip arşivi",
+        "emptyFilesError": "Herhangi bir dosya sağlamadınız. Lütfen bir asset adı girin veya bir dosya ya da .zip arşivi yükleyin"
+    },
+    "assetServer": {
+        "desc": "Asset sunucusunun adı"
+    }
+}

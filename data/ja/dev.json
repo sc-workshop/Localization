@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "完了したテクスチャ: {{count}}",
+        "doneTextures_two": "完了したテクスチャ: {{count}}",
+        "doneTextures_many": "完了したテクスチャ: {{count}}"
+    }
+}

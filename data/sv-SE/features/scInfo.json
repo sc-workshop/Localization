@@ -1,0 +1,14 @@
+{
+    "description": "Hämtar grundläggande information om en .sc-fil, som version och format, antal objekt osv.",
+    "embed": {
+        "title": "Info om .sc-fil",
+        "type": "Typ",
+        "signature": "Signatur",
+        "textureCount": "Antal Texturer",
+        "movieclipCount": "Antal MovieClips",
+        "shapeCount": "Antal Shapes",
+        "textfieldsCount": "Antal TextFields",
+        "externalTexture": "Extern texturfil",
+        "exports": "Exportnamn"
+    }
+}

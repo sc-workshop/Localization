@@ -1,0 +1,21 @@
+{
+    "description": "Texture या image को formats के बीच convert करता है",
+    "sourceOptionDesc": "Source image format",
+    "destinationOptionDesc": "Destination image format (png, jpg आदि)",
+    "wrongSourceError": "गलत source format! स्वीकार्य formats: {{formats}}",
+    "wrongDestinationError": "गलत destination format! स्वीकार्य formats: {{formats}}",
+    "format": "छवि परिवर्तित करता है",
+    "format_sctx": "Image को Supercell Texture में convert करता है",
+    "format_png": "Image को png में convert करता है",
+    "sctx": {
+        "compressDesc": "ZSTD का उपयोग करके file data compress करता है",
+        "paddingDesc": "Texture data को 16 bytes के अनुसार align करता है",
+        "mipMapsDesc": "Texture MIP-map levels generate करता है",
+        "typeDesc": "Texture का compression level और storage format तय करता है",
+        "tagsDesc": "sctx texture में जोड़ने के लिए tags की array",
+        "tagsDesc_details": "sctx texture में जोड़ने के लिए tags की array.\nTags वे strings हैं जो sctx file में stored रहते हैं और game code द्वारा special textures को mark करने के लिए उपयोग किए जा सकते हैं\n",
+        "proxyDesc": "कम resolution वाली proxy texture बनाता है, जो game में texture streaming के काम आती है",
+        "unknownFlag1": "अज्ञात फ्लैग",
+        "unknownFlag2": "दूसरा अज्ञात फ्लैग"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "description": "Textúrát vagy képet konvertál formátumok között",
+    "sourceOptionDesc": "Forrás képfájlformátum",
+    "destinationOptionDesc": "Cél képfájlformátum (png, jpg stb.)",
+    "wrongSourceError": "Hibás forrásformátum! Elfogadott formátumok: {{formats}}",
+    "wrongDestinationError": "Hibás célformátum! Elfogadott formátumok: {{formats}}",
+    "format": "Képet konvertál",
+    "format_sctx": "Képet konvertál erre: Supercell Texture",
+    "format_png": "Képet konvertál erre: png",
+    "sctx": {
+        "compressDesc": "A fájl adatait ZSTD segítségével tömöríti",
+        "paddingDesc": "A textúraadatokat 16 bájtra igazítja",
+        "mipMapsDesc": "MIP-map szinteket generál a textúrához",
+        "typeDesc": "Meghatározza a textúra tömörítési szintjét és tárolási formátumát",
+        "tagsDesc": "A sctx textúrához hozzáadandó tagek tömbje",
+        "tagsDesc_details": "A sctx textúrához hozzáadandó tagek tömbje.\nA tagek a sctx fájlban tárolt karakterláncok, amelyeket a játék kódja speciális textúrák megjelölésére használhat\n",
+        "proxyDesc": "Alacsonyabb felbontású proxy textúrát hoz létre a játék textúra-streameléséhez",
+        "unknownFlag1": "Ismeretlen jelző",
+        "unknownFlag2": "Második ismeretlen jelző"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Přijímá png atlasy a převádí je na _tex.sc nebo vkládá textury do .sc souboru",
+    "invalidFilesError": "Není co převádět! Ujistěte se, že jste přiložili platné obrázky",
+    "progress": {
+        "swfLoading": "Načítání zdrojového SupercellSWF: {{filepath}}",
+        "imageLoading": "Načítání obrázku: {{filepath}}",
+        "saving": "Ukládání textur..."
+    }
+}

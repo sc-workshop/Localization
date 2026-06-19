@@ -1,0 +1,11 @@
+{
+    "description": "Понижує версію файлу .sc до старішої",
+    "versionOption": "Цільова версія для зниження до попередньої версії",
+    "signatureOption": "Цільовий підпис (стиснення) для файлу зниженої версії",
+    "externalTextureOption": "Створює окремий _tex.sc файл",
+    "wrongSignatureError": "Неправильний підпис! Допустимі підписи: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Неправильна версія! Прийнятні версії: -1.0 (автоматичне визначення), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF завантажено. Збереження..."
+    }
+}

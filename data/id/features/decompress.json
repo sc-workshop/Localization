@@ -1,0 +1,5 @@
+{
+    "desc": "Mendekompresi file berdasarkan argumen sumber atau mendeteksi jenis kompresi file secara otomatis",
+    "optionSourceDesc": "Nama kompresi file",
+    "invalidFileError": "File rusak atau tidak terkompresi"
+}

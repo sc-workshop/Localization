@@ -1,0 +1,9 @@
+{
+    "description": "Menerima atlas png dan mengubahnya ke _tex.sc atau menyematkan tekstur ke file .sc",
+    "invalidFilesError": "Tidak ada yang bisa dikonversi! Pastikan Anda melampirkan gambar yang valid",
+    "progress": {
+        "swfLoading": "Memuat SupercellSWF sumber: {{filepath}}",
+        "imageLoading": "Memuat gambar: {{filepath}}",
+        "saving": "Menyimpan tekstur..."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "desc": "Pakkaa tiedoston valitulla pakkauksella",
+    "variantDesc": "Kohdepakkaustyypin nimi",
+    "variants": "Ei toteutettu",
+    "variants_zstd": "Pakkaa tiedoston zstd:llä",
+    "variants_lzma": "Pakkaa tiedoston lzma:lla",
+    "wrongDestinationError": "Kohdepakkauksen nimi on virheellinen! Tuetut pakkaukset: {{format}}"
+}

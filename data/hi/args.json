@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "फ़ाइल विवरण `filename [version] [game]` फ़ॉर्मेट में",
+        "assetOption": "name",
+        "assetOptionDesc": "Asset search के लिए keyword",
+        "versionOption": "version",
+        "versionOptionDesc": "Game version। \"62\" या \"62.156\" जैसे values स्वीकार करता है",
+        "serverOption": "server",
+        "serverOptionDesc": "Search के लिए server name",
+        "notFoundError": "मांगे गए assets नहीं मिले!",
+        "invalidVersionError": "यह version मौजूद नहीं है! उपलब्ध versions देखने के लिए dbinfo command का उपयोग करें"
+    },
+    "userAssets": {
+        "desc": "user files / zip archives",
+        "mixedDesc": "फ़ाइल विवरण `filename [version] [game]` फ़ॉर्मेट में या user files / zip archives",
+        "inputOption": "filename",
+        "inputOptionDesc": "Process करने के लिए input file या files वाली .zip archive",
+        "emptyFilesError": "आपने कोई फ़ाइल नहीं दी है। कृपया asset का नाम दर्ज करें या कोई फ़ाइल या .zip archive दें"
+    },
+    "assetServer": {
+        "desc": "asset server का नाम"
+    }
+}

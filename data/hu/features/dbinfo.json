@@ -1,0 +1,11 @@
+{
+    "desc": "Elküldi a Neko asset-adatbázis adatait",
+    "notFoundError": "{name} nevű adatbázis nem található",
+    "embed": {
+        "title": "📚 Adatbázis: {{dbName}}",
+        "desc": "Általános információ az adatbázisról és a verziókról",
+        "size": "💾 Teljes méret",
+        "versionTitle": "🧩 Verziók",
+        "footer": "Adatbázis-információ"
+    }
+}

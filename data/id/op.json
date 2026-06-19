@@ -1,0 +1,12 @@
+{
+    "create": "Mohon tunggu...",
+    "ready": "{{success, emoji}} Berikut hasilnya",
+    "takeAWhile": "Ini mungkin memerlukan waktu, mohon tunggu. ",
+    "sending": "{{send, emoji}} Mengirim...",
+    "done": "{{success, emoji}} Selesai",
+    "fileReady": "{{success, emoji}} Berikut **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Berikut **`{{filename}}`** dari **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Tautan unduhan akan kedaluwarsa {{countdown}}",
+    "download": "Unduh",
+    "tooManyAssets": "Terlalu banyak aset! Coba jelaskan permintaan Anda dengan lebih rinci"
+}

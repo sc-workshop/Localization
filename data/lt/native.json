@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Neteisingas failas: {{value}}",
+    "notExistingFileError": "Nepavyko gauti failo: {{value}}",
+    "genericError": "Apdorojant operaciją įvyko išimtis: {{value}}",
+    "unknownError": "Apdorojant operaciją įvyko nežinoma klaida",
+    "notAnImageError": "Ne paveikslėlis arba nepalaikomas formatas",
+    "notAnScFile": "Netinkamas SC1/SC2 failas",
+    "notAnSc2File": "Netinkamas SC2 failas",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Nerasta nieko konvertuoti. Įsitikinkite, kad grupių argumentai nustatyti teisingai!",
+        "LZMA missing end marker!": "Šis failas tikriausiai nėra suspaustas arba yra sugadintas"
+    }
+}

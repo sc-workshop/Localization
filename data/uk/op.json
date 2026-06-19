@@ -1,0 +1,12 @@
+{
+    "create": "Будь-ласка заждіть...",
+    "ready": "{{success, emoji}} Готово",
+    "takeAWhile": "Це може зайняти деякий час, будь ласка, зачекайте. ",
+    "sending": "{{send, emoji}} Надсилання...",
+    "done": "{{success, emoji}} Готово",
+    "fileReady": "{{success, emoji}} Тримайте **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Тримайте **`{{filename}}`** з **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Посилання для завантаження перестане діяти {{countdown}}",
+    "download": "Завантажити",
+    "tooManyAssets": "Занадто багато файлів! Спробуйте уточнити свій запит детальніше"
+}

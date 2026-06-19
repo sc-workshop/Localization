@@ -1,0 +1,8 @@
+{
+    "desc": "使用所選壓縮方式壓縮檔案",
+    "variantDesc": "目標壓縮類型名稱",
+    "variants": "尚未實作",
+    "variants_zstd": "使用 zstd 壓縮檔案",
+    "variants_lzma": "使用 lzma 壓縮檔案",
+    "wrongDestinationError": "目標壓縮名稱不正確！支援的壓縮格式：{{format}}"
+}

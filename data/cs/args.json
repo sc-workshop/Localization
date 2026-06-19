@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Popis souboru ve formátu `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Klíčové slovo pro vyhledání assetu",
+        "versionOption": "version",
+        "versionOptionDesc": "Verze hry. Přijímá hodnoty jako \"62\" nebo \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Název serveru pro vyhledávání",
+        "notFoundError": "Požadované assety nebyly nalezeny!",
+        "invalidVersionError": "Neexistující verze! Pomocí příkazu dbinfo zkontrolujte dostupné verze"
+    },
+    "userAssets": {
+        "desc": "Uživatelské soubory / zip archivy",
+        "mixedDesc": "Popis souboru ve formátu `filename [version] [game]` nebo uživatelské soubory / zip archivy",
+        "inputOption": "filename",
+        "inputOptionDesc": "Vstupní soubor ke zpracování nebo archiv .zip se soubory",
+        "emptyFilesError": "Neposkytli jste žádné soubory. Zadejte prosím název assetu nebo přiložte soubor či archiv .zip"
+    },
+    "assetServer": {
+        "desc": "Název asset serveru"
+    }
+}

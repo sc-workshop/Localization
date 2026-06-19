@@ -1,0 +1,5 @@
+{
+    "desc": "Kicsomagol egy fájlt forrásargumentum alapján, vagy automatikusan felismeri a tömörítését",
+    "optionSourceDesc": "A fájltömörítés neve",
+    "invalidFileError": "Sérült vagy nem tömörített fájl"
+}

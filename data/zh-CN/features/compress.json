@@ -1,0 +1,8 @@
+{
+    "desc": "使用所选压缩方式压缩文件",
+    "variantDesc": "目标压缩类型名称",
+    "variants": "未实现",
+    "variants_zstd": "使用 zstd 压缩文件",
+    "variants_lzma": "使用 lzma 压缩文件",
+    "wrongDestinationError": "目标压缩名称不正确！支持的压缩格式：{{format}}"
+}

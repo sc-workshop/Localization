@@ -7,6 +7,7 @@
     "notAnScFile": "Not a valid SC1/SC2 file",
     "notAnSc2File": "Not a valid SC2 file",
     "fallback": {
-        "There is nothing to convert! Make sure to properly setting up groups settings": "Couldn't find anything to convert. Make sure you configured group arguments correctly!"
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Couldn't find anything to convert. Make sure you configured group arguments correctly!",
+        "LZMA missing end marker!": "This file likely is not compressed or damaged"
     }
 }

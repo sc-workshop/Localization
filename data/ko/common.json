@@ -1,0 +1,72 @@
+{
+    "name": "한국어",
+    "gltfIoLinkMessage": "그럴 필요는 없습니다. 대신 이 Blender 플러그인을 사용해 보세요: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "pong! 으로 응답합니다",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "봇 지연 시간",
+        "apiLatency": "API 지연 시간",
+        "uptime": "봇 가동 시간"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} 잘못된 명령 이름입니다!",
+        "invalidCommand_suggests": "{{error, emoji}} 잘못된 명령입니다! 혹시 다음을 의미하셨나요: {{suggests}}",
+        "argumentParseError": "`{{name}}` 인수를 해석하지 못했습니다!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "파일이 너무 큽니다",
+        "internalError": "파일 다운로드에 실패했습니다! 내부 오류",
+        "unknown": "알 수 없는 파일 다운로드 오류"
+    },
+    "help": {
+        "title": "{{guide, emoji}} 명령어",
+        "description": "봇 명령어 정보를 보냅니다",
+        "head": "`n!<command> [flags]` 를 사용해 명령어를 실행하세요\n예시: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • 자세한 내용은 n!help <command> 를 입력하세요",
+        "commandNameOption": "도움말을 볼 선택적 명령어 이름",
+        "aliases": "{{lookup, emoji}} 별칭: ",
+        "requiredArgs": "{{important, emoji}} 필수 인수: ",
+        "optionalArgs": "{{flag, emoji}} 선택 인수: ",
+        "commandDescriptionTitle": "{{gears, emoji}} 명령어: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}`의 변형: ",
+        "group": "{{sparkles, emoji}} 기타 명령어",
+        "group_base": "{{gears, emoji}} 기본 명령어",
+        "group_assets": "{{database, emoji}} 에셋 명령어",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} 이미지 처리",
+        "group_generic": "{{folder, emoji}} 파일 작업",
+        "notes": {
+            "title": "{{important, emoji}} 문법 메모",
+            "prefixTitle": "접두사",
+            "prefixDescription": "- 봇은 다음 접두사를 지원합니다: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} 플래그",
+            "flagsDescription": [
+                "- 플래그는 일반적으로 봇에 전달할 수 있는 선택 값입니다",
+                "- 도움말 메시지에서는 선택 플래그를 `[.flag]` 와 같이 대괄호로 표시합니다",
+                "- 플래그는 다음 접두사를 사용해야 합니다: {{flagPrefix}}",
+                "- 예시: `n!sc2fla ui.sc .split_by_name` 또는 `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} 에셋 데이터",
+            "assetDataDescription": [
+                "- 대부분의 명령어는 **`assetData`** 인수를 필요로 합니다",
+                "- 이것은 사용하려는 에셋을 정확히 지정할 수 있게 해 주는 복합 인수입니다",
+                "- 문법은 다음과 같습니다: `filename [version] [game]`",
+                "- 버전 번호는 `v` 로 시작해야 합니다",
+                "- 현재 지원되는 게임: {{supportedGames}}",
+                "- 예시: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} 파일 검색 표현식",
+            "fileSearchDescription": [
+                "- `assetData` 인수에서 `filename` 을 사용할 때 봇은 정규식 비슷한 표현식을 지원합니다",
+                "- \"~로 시작\" 표현식은 **`^`** 문자로 시작해야 합니다",
+                "- \"~로 끝남\" 표현식은 **`$`** 문자로 끝나야 합니다",
+                "- 여러 표현식은 **`&&`** 또는 **`|`** 로 결합해야 합니다",
+                "- 기본적으로 검색은 파일 이름 기준으로 수행됩니다. 폴더 기준으로 검색하려면 표현식의 주요 부분이 **`/`** 문자로 끝나야 합니다",
+                "- 예시: `melodie_` 로 시작하고 `.sctx` 로 끝나며 `sc3d/` 폴더에 저장된 파일을 검색: `n!find sc3d/|^melodie_|.sctx$`",
+                "- 표현식에는 수정자 개념이 있습니다. 이는 @ 로 시작해 출력을 수정하는 특수 이름입니다",
+                "    - `@any` 는 무작위 에셋 하나를 반환합니다"
+            ]
+        }
+    }
+}

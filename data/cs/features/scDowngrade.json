@@ -1,0 +1,11 @@
+{
+    "description": "Sníží verzi souboru .sc na starší verzi",
+    "versionOption": "Cílová verze pro downgrade",
+    "signatureOption": "Cílový podpis (komprese) pro downgradovaný soubor",
+    "externalTextureOption": "Vytvoří samostatný soubor _tex.sc",
+    "wrongSignatureError": "Nesprávný podpis! Povolené podpisy: Lzma, Lzham, Zstandart",
+    "wrongVersionError": "Nesprávná verze! Povolené verze: -1.0 (automatická detekce), 1.0, 0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF je načten. Ukládání..."
+    }
+}

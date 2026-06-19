@@ -1,0 +1,14 @@
+{
+    "description": "Dohvaća osnovne informacije o .sc datoteci, poput verzije i formata, broja objekata itd.",
+    "embed": {
+        "title": "Informacije o .sc datoteci",
+        "type": "Vrsta",
+        "signature": "Potpis",
+        "textureCount": "Broj tekstura",
+        "movieclipCount": "Broj MovieClipova",
+        "shapeCount": "Broj Shapeova",
+        "textfieldsCount": "Broj tekstualnih polja",
+        "externalTexture": "Vanjska teksturna datoteka",
+        "exports": "Nazivi izvoza"
+    }
+}

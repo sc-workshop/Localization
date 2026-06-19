@@ -1,0 +1,14 @@
+{
+    "description": "Geeft basisinformatie over een .sc-bestand, zoals versie en formaat, aantal objecten, enzovoort.",
+    "embed": {
+        "title": "Info over .sc-bestand",
+        "type": "Type",
+        "signature": "Handtekening",
+        "textureCount": "Aantal Textures",
+        "movieclipCount": "Aantal MovieClips",
+        "shapeCount": "Aantal Shapes",
+        "textfieldsCount": "Aantal TextFields",
+        "externalTexture": "Extern texturebestand",
+        "exports": "Exportnamen"
+    }
+}

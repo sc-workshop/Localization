@@ -1,0 +1,5 @@
+{
+    "desc": "source आर्ग्युमेंट से फ़ाइल डिकम्प्रेस करता है या उसका compression type खुद पहचानता है",
+    "optionSourceDesc": "फ़ाइल compression का नाम",
+    "invalidFileError": "क्षतिग्रस्त या अनकम्प्रेस्ड फ़ाइल"
+}

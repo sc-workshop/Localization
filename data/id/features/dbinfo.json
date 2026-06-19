@@ -1,0 +1,11 @@
+{
+    "desc": "Mengirim info basis data aset Neko",
+    "notFoundError": "Basis data dengan nama {{name}} tidak ditemukan",
+    "embed": {
+        "title": "📚 Basis data: {{dbName}}",
+        "desc": "Informasi umum tentang basis data dan versi",
+        "size": "💾 Ukuran total",
+        "versionTitle": "🧩 Versi",
+        "footer": "Info basis data"
+    }
+}

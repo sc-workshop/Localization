@@ -1,0 +1,21 @@
+{
+    "description": "Konvertuoja tekstūrą arba paveikslėlį tarp formatų",
+    "sourceOptionDesc": "Pradinio paveikslėlio formatas",
+    "destinationOptionDesc": "Galutinio paveikslėlio formatas (png, jpg ir kt.)",
+    "wrongSourceError": "Netinkamas pradinio failo formatas! Priimtini formatai: {{formats}}",
+    "wrongDestinationError": "Netinkamas galutinio failo formatas! Priimtini formatai: {{formats}}",
+    "format": "Konvertuoja vaizdą",
+    "format_sctx": "Konvertuoja paveikslėlį į Supercell Texture",
+    "format_png": "Konvertuoja paveikslėlį į png",
+    "sctx": {
+        "compressDesc": "Suglaudina failo duomenis naudodamas ZSTD",
+        "paddingDesc": "Sulygiuoja tekstūros duomenis pagal 16 baitų",
+        "mipMapsDesc": "Sugeneruoja tekstūros MIP-map lygius",
+        "typeDesc": "Nustato tekstūros glaudinimo lygį ir saugojimo formatą",
+        "tagsDesc": "Žymų masyvas, skirtas pridėti prie sctx tekstūros",
+        "tagsDesc_details": "Žymų masyvas, skirtas pridėti prie sctx tekstūros.\nŽymos yra eilutės, saugomos sctx faile, kurias žaidimo kodas gali naudoti specialioms tekstūroms pažymėti\n",
+        "proxyDesc": "Sukuria mažesnės raiškos proxy tekstūrą, paprastai naudojamą tekstūrų transliavimui žaidime",
+        "unknownFlag1": "Nežinoma žyma",
+        "unknownFlag2": "Antra nežinoma žyma"
+    }
+}

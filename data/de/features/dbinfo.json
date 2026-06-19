@@ -1,0 +1,11 @@
+{
+    "desc": "Sendet Informationen zur Neko-Asset-Datenbank",
+    "notFoundError": "Datenbank mit dem Namen {{name}} wurde nicht gefunden",
+    "embed": {
+        "title": "📚 Datenbank: {{dbName}}",
+        "desc": "Allgemeine Informationen über die Datenbank und Versionen",
+        "size": "💾 Gesamtgröße",
+        "versionTitle": "🧩 Versionen",
+        "footer": "Datenbankinfo"
+    }
+}

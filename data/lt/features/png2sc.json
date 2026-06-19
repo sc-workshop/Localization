@@ -1,0 +1,9 @@
+{
+    "description": "Priima png atlasus ir paverčia juos į _tex.sc arba įterpia tekstūras į .sc failą",
+    "invalidFilesError": "Nėra ko konvertuoti! Įsitikinkite, kad pridėjote tinkamus paveikslėlius",
+    "progress": {
+        "swfLoading": "Įkeliamas šaltinio SupercellSWF: {{filepath}}",
+        "imageLoading": "Įkeliamas paveikslėlis: {{filepath}}",
+        "saving": "Išsaugomos tekstūros..."
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "Voltooide textures: {{count}}",
+        "doneTextures_two": "Voltooide textures: {{count}}",
+        "doneTextures_many": "Voltooide textures: {{count}}"
+    }
+}

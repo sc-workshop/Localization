@@ -1,0 +1,5 @@
+{
+    "desc": "Laster ned assets fra databasen til valgt spill og versjon",
+    "tooBigFiles": "{{important, emoji}} Filene er for store: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} Bruk nedlastingslenken nedenfor"
+}

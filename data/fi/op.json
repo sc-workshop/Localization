@@ -1,0 +1,12 @@
+{
+    "create": "Odota hetki...",
+    "ready": "{{success, emoji}} Valmis",
+    "takeAWhile": "Tämä voi kestää hetken, odota ystävällisesti. ",
+    "sending": "{{send, emoji}} Lähetetään...",
+    "done": "{{success, emoji}} Valmis",
+    "fileReady": "{{success, emoji}} Ole hyvä **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Ole hyvä **`{{filename}}`** versiosta **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} Latauslinkki vanhenee {{countdown}}",
+    "download": "Lataa",
+    "tooManyAssets": "Liian paljon asseteja! Yritä tarkentaa pyyntöäsi"
+}

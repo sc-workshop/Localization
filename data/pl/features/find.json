@@ -1,0 +1,8 @@
+{
+    "title": "Wyniki wyszukiwania dla {{wildcard}}",
+    "title_versioned": "Wyniki wyszukiwania dla {{wildcard}} z {{version}}",
+    "description": "Wyszukuje asset w bazie danych wybranej gry i wersji",
+    "assetOverview": "Łącznie znaleziono {{count}} assetów ({{size}}~)",
+    "assetOverview_one": "Łącznie znaleziono {{count}} assetów ({{size}}~)",
+    "wrongDownloadArgsError": "Nieprawidłowe argumenty pobierania. Upewnij się, że podano właściwą wersję"
+}

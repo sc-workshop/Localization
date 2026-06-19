@@ -13,7 +13,7 @@
     "userAssets": {
         "desc": "User provided files (also accepts multiple zip files)",
         "mixedDesc": "File description `filename [version] [game]` or user files / zip archives",
-        "inputOption": "filename",
+        "inputOption": "files",
         "inputOptionDesc": "Input file to process or .zip archive with files",
         "emptyFilesError": "You have not provided any files. Please enter an asset name or provide a file or .zip archive"
     },

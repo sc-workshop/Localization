@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Tệp không hợp lệ: {{value}}",
+    "notExistingFileError": "Không thể lấy tệp: {{value}}",
+    "genericError": "Đã xảy ra ngoại lệ khi xử lý thao tác: {{value}}",
+    "unknownError": "Đã xảy ra lỗi không xác định khi xử lý thao tác",
+    "notAnImageError": "Không phải hình ảnh hoặc định dạng không được hỗ trợ",
+    "notAnScFile": "Không phải tệp SC1/SC2 hợp lệ",
+    "notAnSc2File": "Không phải tệp SC2 hợp lệ",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Không tìm thấy gì để chuyển đổi. Hãy chắc chắn rằng bạn đã cấu hình đúng các đối số nhóm!",
+        "LZMA missing end marker!": "Tệp này có thể chưa được nén hoặc đã bị hỏng"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "description": "Μετατρέπει .sc σε έργο Adobe Animate",
+    "splitByNameOption": "Διαχωρίζει το .fla σε μικρά έργα σύμφωνα με τα ονόματα εξαγωγής του .sc",
+    "groupsOption": "Ένας πίνακας με κανονικές εκφράσεις ορισμένες από τον χρήστη για διαχωρισμό του .fla σε ομάδες έργων",
+    "groupsOption_details": "Ένας πίνακας με κανονικές εκφράσεις ορισμένες από τον χρήστη για διαχωρισμό του .fla σε ομάδες έργων\nΠαράδειγμα: αυτή η εντολή θα εξάγει όλα τα ονόματα εξαγωγής που ξεκινούν με \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nΜπορείτε επίσης να χρησιμοποιήσετε πολλές εκφράσεις, αλλά τότε πρέπει να ορίσετε όνομα ομάδας, για παράδειγμα:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Δημιουργεί ένα έγγραφο ActionScript για το έργο .fla",
+    "as3DocOption_details": "Δημιουργεί ένα έγγραφο ActionScript για το έργο .fla αντί για το έγγραφο SupercellSWF, όταν το πρόσθετο SupercellSWF δεν είναι διαθέσιμο",
+    "progress": {
+        "swfLoaded": "Το SupercellSWF φορτώθηκε. Μετατροπή...",
+        "groupChange": "Εργασία στην ομάδα \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Αποθήκευση \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Πρόοδος",
+        "MovieClips converting": "Επεξεργασία MovieClips",
+        "Shapes converting": "Επεξεργασία Shapes"
+    }
+}

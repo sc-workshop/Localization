@@ -1,0 +1,10 @@
+{
+    "description": "Načte sprite sheety ze souboru .sc a převede je do .png",
+    "notATextureError": "Vypadá to, že tento soubor neobsahuje žádná data textury. Ujistěte se, že je to soubor SC2 nebo že název končí na _tex.sc",
+    "packToZipOption": "Zabalí výsledné soubory do zip archivu",
+    "progress": {
+        "doneTextures": "Hotové textury: {{count}}",
+        "doneTextures_two": "Hotové textury: {{count}}",
+        "doneTextures_many": "Hotové textury: {{count}}"
+    }
+}

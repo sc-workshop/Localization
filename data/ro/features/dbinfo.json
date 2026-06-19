@@ -1,0 +1,11 @@
+{
+    "desc": "Trimite informații despre baza de date de asseturi Neko",
+    "notFoundError": "Nu a fost găsită nicio bază de date cu numele {name}",
+    "embed": {
+        "title": "📚 Bază de date: {{dbName}}",
+        "desc": "Informații generale despre baza de date și versiuni",
+        "size": "💾 Dimensiune totală",
+        "versionTitle": "🧩 Versiuni",
+        "footer": "Informații bază de date"
+    }
+}

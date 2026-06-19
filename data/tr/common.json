@@ -1,0 +1,72 @@
+{
+    "name": "Türkçe",
+    "gltfIoLinkMessage": "Buna gerek yok. Bunun yerine Blender için şu eklentiyi kullanmayı düşünebilirsiniz: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "pong! diye cevap verir",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Bot gecikmesi",
+        "apiLatency": "API gecikmesi",
+        "uptime": "Bot çalışma süresi"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Geçersiz komut adı!",
+        "invalidCommand_suggests": "{{error, emoji}} Geçersiz komut! Belki şunu demek istediniz: {{suggests}}",
+        "argumentParseError": "`{{name}}` argümanı ayrıştırılamadı!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Dosya çok büyük",
+        "internalError": "Dosya indirilemedi! Dahili hata",
+        "unknown": "Bilinmeyen dosya indirme hatası"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Komutlar",
+        "description": "Bot komutları hakkında bilgi gönderir",
+        "head": "Bir komutu çalıştırmak için `n!<command> [flags]` kullanın\nÖrnek: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Daha fazla ayrıntı için n!help <command> yazın",
+        "commandNameOption": "Yardım almak için isteğe bağlı komut adı",
+        "aliases": "{{lookup, emoji}} Takma adlar: ",
+        "requiredArgs": "{{important, emoji}} Gerekli argümanlar: ",
+        "optionalArgs": "{{flag, emoji}} İsteğe bağlı argümanlar: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Komut: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` için varyantlar: ",
+        "group": "{{sparkles, emoji}} Diğer komutlar",
+        "group_base": "{{gears, emoji}} Temel komutlar",
+        "group_assets": "{{database, emoji}} Asset komutları",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Görsel işleme",
+        "group_generic": "{{folder, emoji}} Dosya işlemleri",
+        "notes": {
+            "title": "{{important, emoji}} Söz dizimi notları",
+            "prefixTitle": "Önek",
+            "prefixDescription": "- Bot şu önekleri destekler: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Bayraklar",
+            "flagsDescription": [
+                "- Bayraklar çoğunlukla bota verebileceğiniz isteğe bağlı değerlerdir",
+                "- Yardım mesajında isteğe bağlı bayraklar `[.flag]` gibi köşeli parantez içinde gösterilir",
+                "- Bayraklar şu öneki kullanmalıdır: {{flagPrefix}}",
+                "- Örnek: `n!sc2fla ui.sc .split_by_name` VEYA `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset verileri",
+            "assetDataDescription": [
+                "- Çoğu komut **`assetData`** argümanını gerektirir",
+                "- Bu, hangi asseti kullanmak istediğinizi tam olarak belirtmenize olanak tanıyan karmaşık bir argümandır",
+                "- Söz dizimi şöyledir: `filename [version] [game]`",
+                "- Sürüm numarası `v` harfiyle başlamalıdır",
+                "- Şu anda desteklenen oyunlar: {{supportedGames}}",
+                "- Örnek: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Dosya arama ifadesi",
+            "fileSearchDescription": [
+                "- Bot, `assetData` argümanlarında `filename` kullandığınızda regex benzeri ifadeleri destekler",
+                "- \"ile başlar\" ifadesi **`^`** karakteriyle başlamalıdır",
+                "- \"ile biter\" ifadesi **`$`** karakteriyle bitmelidir",
+                "- Birden fazla ifade **`&&`** veya **`|`** ile birleştirilmelidir",
+                "- Varsayılan olarak aramalar dosya adlarına göre yapılır. Klasörlere göre arama yapmanız gerekiyorsa ifadenin ana kısmı **`/`** karakteriyle bitmelidir",
+                "- Örnek: `melodie_` ile başlayan, `.sctx` ile biten ve `sc3d/` klasöründe bulunan dosyaları arar: `n!find sc3d/|^melodie_|.sctx$`",
+                "- İfadelerin değiştirici kavramı vardır. Bunlar @ ile başlayan ve çıktıyı değiştiren özel adlardır",
+                "    - `@any` rastgele bir asset döndürür"
+            ]
+        }
+    }
+}

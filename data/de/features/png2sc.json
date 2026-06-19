@@ -1,0 +1,9 @@
+{
+    "description": "Nimmt png-Atlanten an und konvertiert sie zu _tex.sc oder bettet Texturen in die .sc-Datei ein",
+    "invalidFilesError": "Nichts zu konvertieren! Stelle sicher, dass du gültige Bilder angehängt hast",
+    "progress": {
+        "swfLoading": "Lade Quell-SupercellSWF: {{filepath}}",
+        "imageLoading": "Lade Bild: {{filepath}}",
+        "saving": "Speichere Texturen..."
+    }
+}

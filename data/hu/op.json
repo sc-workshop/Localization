@@ -1,0 +1,12 @@
+{
+    "create": "Kérlek, várj...",
+    "ready": "{{success, emoji}} Kész",
+    "takeAWhile": "Ez eltarthat egy ideig, kérlek várj. ",
+    "sending": "{{send, emoji}} Küldés...",
+    "done": "{{success, emoji}} Kész",
+    "fileReady": "{{success, emoji}} Tessék **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Tessék **`{{filename}}`** innen: **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} A letöltési link lejár {{countdown}}",
+    "download": "Letöltés",
+    "tooManyAssets": "Túl sok asset! Próbáld pontosabban megadni a kérésedet"
+}

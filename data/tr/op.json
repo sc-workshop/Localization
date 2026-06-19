@@ -1,0 +1,12 @@
+{
+    "create": "Lütfen bekleyin...",
+    "ready": "{{success, emoji}} Hazır",
+    "takeAWhile": "Bu biraz zaman alabilir, lütfen bekleyin. ",
+    "sending": "{{send, emoji}} Gönderiliyor...",
+    "done": "{{success, emoji}} Tamamlandı",
+    "fileReady": "{{success, emoji}} Buyurun **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Buyurun **`{{filename}}`** **`{{version}}`** sürümünden",
+    "downloadLinkExpire": "{{arrowDown, emoji}} İndirme bağlantısının süresi {{countdown}} içinde dolacak",
+    "download": "İndir",
+    "tooManyAssets": "Çok fazla asset var! İsteğinizi daha ayrıntılı belirtmeyi deneyin"
+}

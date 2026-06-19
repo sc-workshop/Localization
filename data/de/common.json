@@ -1,0 +1,72 @@
+{
+    "name": "Deutsch",
+    "gltfIoLinkMessage": "Das ist nicht nötig. Ziehen Sie dieses Blender-Plugin in Betracht: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Antwortet mit pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Bot-Latenz",
+        "apiLatency": "API-Latenz",
+        "uptime": "Bot-Laufzeit"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Ungültiger Befehlsname!",
+        "invalidCommand_suggests": "{{error, emoji}} Ungültiger Befehl! Meinten Sie vielleicht: {{suggests}}",
+        "argumentParseError": "Das Argument `{{name}}` konnte nicht verarbeitet werden!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Datei ist zu groß",
+        "internalError": "Datei konnte nicht heruntergeladen werden! Interner Fehler",
+        "unknown": "Unbekannter Fehler beim Herunterladen der Datei"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Befehle",
+        "description": "Sendet Informationen zu den Bot-Befehlen",
+        "head": "Verwenden Sie `n!<command> [flags]`, um einen Befehl auszuführen\nBeispiel: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Geben Sie n!help <command> für weitere Details ein",
+        "commandNameOption": "Optionaler Befehlsname, zu dem Hilfe angezeigt werden soll",
+        "aliases": "{{lookup, emoji}} Aliase: ",
+        "requiredArgs": "{{important, emoji}} Erforderliche Argumente: ",
+        "optionalArgs": "{{flag, emoji}} Optionale Argumente: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Befehl: {{name}}",
+        "variants": "{{folder, emoji}} Varianten für `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Andere Befehle",
+        "group_base": "{{gears, emoji}} Grundbefehle",
+        "group_assets": "{{database, emoji}} Asset-Befehle",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Bildverarbeitung",
+        "group_generic": "{{folder, emoji}} Dateioperationen",
+        "notes": {
+            "title": "{{important, emoji}} Syntaxhinweise",
+            "prefixTitle": "Präfix",
+            "prefixDescription": "- Der Bot unterstützt folgende Präfixe: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flags",
+            "flagsDescription": [
+                "- Flags sind meist optionale Werte, die Sie dem Bot übergeben können",
+                "- In der Hilfemeldung werden optionale Flags in eckigen Klammern wie `[.flag]` angegeben",
+                "- Flags müssen dieses Präfix haben: {{flagPrefix}}",
+                "- Beispiel: `n!sc2fla ui.sc .split_by_name` ODER `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset-Daten",
+            "assetDataDescription": [
+                "- Die meisten Befehle erfordern das Argument **`assetData`**",
+                "- Dies ist ein komplexes Argument, mit dem Sie genau angeben können, welches Asset Sie verwenden möchten",
+                "- Die Syntax sieht so aus: `filename [version] [game]`",
+                "- Die Versionsnummer muss mit dem Buchstaben `v` beginnen",
+                "- Derzeit unterstützte Spiele sind: {{supportedGames}}",
+                "- Beispiel: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Dateisuchausdruck",
+            "fileSearchDescription": [
+                "- Der Bot unterstützt regex-ähnliche Ausdrücke, wenn Sie `filename` in `assetData`-Argumenten verwenden",
+                "- Ein Ausdruck für \"beginnt mit\" muss mit dem Zeichen **`^`** beginnen",
+                "- Ein Ausdruck für \"endet mit\" muss mit dem Zeichen **`$`** enden",
+                "- Mehrere Ausdrücke müssen mit **`&&`** oder **`|`** kombiniert werden",
+                "- Standardmäßig wird nach Dateinamen gesucht. Wenn Sie nach Ordnern suchen möchten, muss der Hauptteil des Ausdrucks mit dem Zeichen **`/`** enden",
+                "- Beispiel: Sucht nach Dateien, die mit `melodie_` beginnen, mit `.sctx` enden und im Ordner `sc3d/` gespeichert sind: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Ausdrücke haben das Konzept von Modifikatoren. Das sind spezielle Namen, die mit @ beginnen und die Ausgabe verändern",
+                "    - `@any` gibt ein zufälliges Asset zurück"
+            ]
+        }
+    }
+}

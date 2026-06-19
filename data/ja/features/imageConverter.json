@@ -1,0 +1,21 @@
+{
+    "description": "テクスチャまたは画像を別の形式に変換します",
+    "sourceOptionDesc": "変換元画像形式",
+    "destinationOptionDesc": "変換先画像形式 (png、jpg など)",
+    "wrongSourceError": "入力形式が正しくありません！使用可能な形式: {{formats}}",
+    "wrongDestinationError": "出力形式が正しくありません！使用可能な形式: {{formats}}",
+    "format": "画像を変換します",
+    "format_sctx": "画像を Supercell Texture に変換します",
+    "format_png": "画像を png に変換します",
+    "sctx": {
+        "compressDesc": "ZSTD を使用してファイルデータを圧縮します",
+        "paddingDesc": "テクスチャデータを 16 バイト境界に揃えます",
+        "mipMapsDesc": "テクスチャの MIP-map レベルを生成します",
+        "typeDesc": "テクスチャの圧縮レベルと保存形式を決定します",
+        "tagsDesc": "sctx テクスチャに追加するタグの配列",
+        "tagsDesc_details": "sctx テクスチャに追加するタグの配列です。\nタグは sctx ファイルに保存される文字列で、特別なテクスチャを示すためにゲームコードから使用できます\n",
+        "proxyDesc": "解像度を下げたプロキシテクスチャを作成します。通常はゲーム内のテクスチャストリーミングに使われます",
+        "unknownFlag1": "不明なフラグ",
+        "unknownFlag2": "2番目の不明なフラグ"
+    }
+}

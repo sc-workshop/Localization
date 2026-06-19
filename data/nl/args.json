@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Bestandsbeschrijving in het formaat `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Trefwoord voor assetzoekopdracht",
+        "versionOption": "version",
+        "versionOptionDesc": "Spelversie. Accepteert waarden zoals \"62\" of \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Servernaam om in te zoeken",
+        "notFoundError": "Gevraagde assets niet gevonden!",
+        "invalidVersionError": "Versie bestaat niet! Gebruik de opdracht dbinfo om beschikbare versies te bekijken"
+    },
+    "userAssets": {
+        "desc": "Gebruikersbestanden / zip-archieven",
+        "mixedDesc": "Bestandsbeschrijving `filename [version] [game]` of gebruikersbestanden / zip-archieven",
+        "inputOption": "filename",
+        "inputOptionDesc": "Invoerbestand om te verwerken of .zip-archief met bestanden",
+        "emptyFilesError": "Je hebt geen bestanden opgegeven. Voer een assetnaam in of lever een bestand of .zip-archief aan"
+    },
+    "assetServer": {
+        "desc": "Naam van de assetserver"
+    }
+}

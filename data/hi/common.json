@@ -1,0 +1,72 @@
+{
+    "name": "हिन्दी",
+    "gltfIoLinkMessage": "इसकी आवश्यकता नहीं है। इसके बजाय Blender के लिए यह प्लगइन इस्तेमाल करने पर विचार करें: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "pong! के साथ उत्तर देता है",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "बॉट विलंबता",
+        "apiLatency": "API विलंबता",
+        "uptime": "बॉट अपटाइम"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} अमान्य कमांड नाम!",
+        "invalidCommand_suggests": "{{error, emoji}} अमान्य कमांड! शायद आपका मतलब था: {{suggests}}",
+        "argumentParseError": "`{{name}}` आर्ग्युमेंट को पार्स नहीं किया जा सका!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "फ़ाइल बहुत बड़ी है",
+        "internalError": "फ़ाइल डाउनलोड नहीं हो सकी! आंतरिक त्रुटि",
+        "unknown": "अज्ञात फ़ाइल डाउनलोड त्रुटि"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Commands",
+        "description": "Bot commands की जानकारी भेजता है",
+        "head": "Command चलाने के लिए `n!<command> [flags]` का उपयोग करें\nउदाहरण: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • अधिक जानकारी के लिए n!help <command> लिखें",
+        "commandNameOption": "मदद पाने के लिए वैकल्पिक command name",
+        "aliases": "{{lookup, emoji}} उपनाम: ",
+        "requiredArgs": "{{important, emoji}} आवश्यक आर्गुमेंट: ",
+        "optionalArgs": "{{flag, emoji}} वैकल्पिक आर्गुमेंट: ",
+        "commandDescriptionTitle": "{{gears, emoji}} कमांड: {{name}}",
+        "variants": "{{folder, emoji}} `{{name}}` के लिए वेरिएंट: ",
+        "group": "{{sparkles, emoji}} Other commands",
+        "group_base": "{{gears, emoji}} Base commands",
+        "group_assets": "{{database, emoji}} Asset commands",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Image processing",
+        "group_generic": "{{folder, emoji}} फ़ाइल संचालन",
+        "notes": {
+            "title": "{{important, emoji}} Syntax notes",
+            "prefixTitle": "Prefix",
+            "prefixDescription": "- Bot निम्न prefixes को support करता है: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flags",
+            "flagsDescription": [
+                "- Flags आमतौर पर वैकल्पिक values होती हैं जिन्हें आप bot को दे सकते हैं",
+                "- Help message में optional flags square brackets में दिखाए जाते हैं, जैसे `[.flag]`",
+                "- Flags में यह prefix होना चाहिए: {{flagPrefix}}",
+                "- उदाहरण: `n!sc2fla ui.sc .split_by_name` या `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Asset Data",
+            "assetDataDescription": [
+                "- अधिकतर commands को **`assetData`** argument की आवश्यकता होती है",
+                "- यह एक complex argument है जो आपको यह बताने देता है कि आप कौन सा asset उपयोग करना चाहते हैं",
+                "- इसका syntax इस प्रकार है: `filename [version] [game]`",
+                "- Version number `v` अक्षर से शुरू होना चाहिए",
+                "- वर्तमान में supported games: {{supportedGames}}",
+                "- उदाहरण: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} File search expression",
+            "fileSearchDescription": [
+                "- जब आप `assetData` arguments में `filename` का उपयोग करते हैं, तब bot regex-जैसी expressions को support करता है",
+                "- \"Starts with\" expression को **`^`** character से शुरू होना चाहिए",
+                "- \"Ends with\" expression को **`$`** character पर खत्म होना चाहिए",
+                "- कई expressions को **`&&`** या **`|`** से जोड़ना चाहिए",
+                "- Default रूप से search file names पर होती है। यदि आपको folders के अनुसार search करना है, तो expression का मुख्य भाग **`/`** character पर समाप्त होना चाहिए",
+                "- उदाहरण: उन files को खोजता है जो `melodie_` से शुरू होती हैं, `.sctx` पर खत्म होती हैं और `sc3d/` folder में रखी होती हैं: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Expressions में modifiers की अवधारणा होती है। ये विशेष names होते हैं जो @ से शुरू होते हैं और output बदलते हैं",
+                "    - `@any` एक random asset लौटाता है"
+            ]
+        }
+    }
+}

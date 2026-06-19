@@ -1,0 +1,5 @@
+{
+    "desc": "選択したゲームとバージョンのデータベースからアセットをダウンロードします",
+    "tooBigFiles": "{{important, emoji}} ファイルが大きすぎます: {{estimatedSize}}",
+    "useLink": "{{arrowDown, emoji}} 下のダウンロードリンクを使用してください"
+}

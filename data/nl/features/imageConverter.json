@@ -1,0 +1,21 @@
+{
+    "description": "Converteert een textuur of afbeelding tussen formaten",
+    "sourceOptionDesc": "Bronformaat van de afbeelding",
+    "destinationOptionDesc": "Doelformaat van de afbeelding (png, jpg, enz.)",
+    "wrongSourceError": "Verkeerd bronformaat! Toegestane formaten: {{formats}}",
+    "wrongDestinationError": "Verkeerd doelformaat! Toegestane formaten: {{formats}}",
+    "format": "Converteert afbeelding",
+    "format_sctx": "Converteert afbeelding naar Supercell Texture",
+    "format_png": "Converteert afbeelding naar png",
+    "sctx": {
+        "compressDesc": "Comprimeert bestandsgegevens met ZSTD",
+        "paddingDesc": "Lijnt textuurgegevens uit op 16 bytes",
+        "mipMapsDesc": "Genereert textuur-MIP-mapniveaus",
+        "typeDesc": "Bepaalt compressieniveau en opslagformaat van de textuur",
+        "tagsDesc": "Een array met tags om aan de sctx-textuur toe te voegen",
+        "tagsDesc_details": "Een array met tags om aan de sctx-textuur toe te voegen.\nTags zijn strings die in het sctx-bestand worden opgeslagen en door gamecode kunnen worden gebruikt om speciale texturen te markeren\n",
+        "proxyDesc": "Maakt een proxytextuur met lagere resolutie, meestal gebruikt voor texture streaming in de game",
+        "unknownFlag1": "Onbekende vlag",
+        "unknownFlag2": "Tweede onbekende vlag"
+    }
+}

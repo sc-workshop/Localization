@@ -1,0 +1,8 @@
+{
+    "desc": "Comprime un file con la compressione selezionata",
+    "variantDesc": "Nome del tipo di compressione di destinazione",
+    "variants": "Non implementato",
+    "variants_zstd": "Comprime il file con zstd",
+    "variants_lzma": "Comprime il file con lzma",
+    "wrongDestinationError": "Il nome della compressione di destinazione non è corretto! Compressioni supportate: {{format}}"
+}

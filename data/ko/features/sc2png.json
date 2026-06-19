@@ -1,0 +1,10 @@
+{
+    "description": ".sc 파일에서 스프라이트 시트를 읽어 .png 로 변환합니다",
+    "notATextureError": "이 파일에는 텍스처 데이터가 없는 것 같습니다. 이 파일이 SC2인지 또는 이름이 _tex.sc로 끝나는지 확인하세요",
+    "packToZipOption": "결과 파일을 zip 압축 파일로 묶습니다",
+    "progress": {
+        "doneTextures": "완료된 텍스처: {{count}}",
+        "doneTextures_two": "완료된 텍스처: {{count}}",
+        "doneTextures_many": "완료된 텍스처: {{count}}"
+    }
+}

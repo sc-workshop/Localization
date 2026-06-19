@@ -1,0 +1,19 @@
+{
+    "description": "Muuntaa .sc-tiedoston Adobe Animate -projektiksi",
+    "splitByNameOption": "Jakaa .fla:n pieniin projekteihin .sc:n vientinimien mukaan",
+    "groupsOption": "Taulukko käyttäjän määrittämiä säännöllisiä lausekkeita .fla:n jakamiseen projektiryhmiin",
+    "groupsOption_details": "Taulukko käyttäjän määrittämiä säännöllisiä lausekkeita .fla:n jakamiseen projektiryhmiin\nEsimerkki: tämä komento vie kaikki vientinimet, jotka alkavat \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nVoit käyttää myös useita lausekkeita, mutta silloin sinun täytyy määrittää ryhmän nimi, esimerkiksi:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Luo ActionScript-dokumentin .fla-projektille",
+    "as3DocOption_details": "Luo ActionScript-dokumentin .fla-projektille SupercellSWF-dokumentin sijaan tilanteissa, joissa SupercellSWF-liitännäistä ei ole saatavilla",
+    "progress": {
+        "swfLoaded": "SupercellSWF on ladattu. Muunnetaan...",
+        "groupChange": "Työstetään ryhmää \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Tallennetaan \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Edistyminen",
+        "MovieClips converting": "Käsitellään MovieClipejä",
+        "Shapes converting": "Käsitellään Shapeja"
+    }
+}

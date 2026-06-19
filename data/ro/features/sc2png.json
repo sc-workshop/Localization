@@ -1,0 +1,10 @@
+{
+    "description": "Citește sprite sheet-uri dintr-un fișier .sc și le convertește în .png",
+    "notATextureError": "Se pare că acest fișier nu conține date de textură. Asigură-te că acest fișier este SC2 sau că numele lui se termină în _tex.sc",
+    "packToZipOption": "Împachetează fișierele rezultate într-o arhivă zip",
+    "progress": {
+        "doneTextures": "Texturi finalizate: {{count}}",
+        "doneTextures_two": "Texturi finalizate: {{count}}",
+        "doneTextures_many": "Texturi finalizate: {{count}}"
+    }
+}

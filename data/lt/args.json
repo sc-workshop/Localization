@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Failo aprašymas formatu `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Raktinis žodis assetų paieškai",
+        "versionOption": "version",
+        "versionOptionDesc": "Žaidimo versija. Priima tokias reikšmes kaip \"62\" arba \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Serverio pavadinimas paieškai",
+        "notFoundError": "Prašomi assetai nerasti!",
+        "invalidVersionError": "Tokios versijos nėra! Galimas versijas patikrinkite naudodami komandą dbinfo"
+    },
+    "userAssets": {
+        "desc": "Naudotojo failai / zip archyvai",
+        "mixedDesc": "Failo aprašymas formatu `filename [version] [game]` arba naudotojo failai / zip archyvai",
+        "inputOption": "filename",
+        "inputOptionDesc": "Įvesties failas apdorojimui arba .zip archyvas su failais",
+        "emptyFilesError": "Nepateikėte jokių failų. Įveskite asseto pavadinimą arba pridėkite failą ar .zip archyvą"
+    },
+    "assetServer": {
+        "desc": "Asset serverio pavadinimas"
+    }
+}

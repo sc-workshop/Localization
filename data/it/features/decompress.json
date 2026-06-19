@@ -1,0 +1,5 @@
+{
+    "desc": "Decomprime un file dall'argomento sorgente o rileva automaticamente la sua compressione",
+    "optionSourceDesc": "Nome della compressione del file",
+    "invalidFileError": "File danneggiato o non compresso"
+}

@@ -1,0 +1,5 @@
+{
+    "desc": "Kaynak argümanına göre dosyanın sıkıştırmasını açar veya dosya sıkıştırma türünü otomatik algılar",
+    "optionSourceDesc": "Dosya sıkıştırmasının adı",
+    "invalidFileError": "Bozuk veya sıkıştırılmamış dosya"
+}

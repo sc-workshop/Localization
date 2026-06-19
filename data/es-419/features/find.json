@@ -1,0 +1,8 @@
+{
+    "title": "Resultados de búsqueda para {{wildcard}}",
+    "title_versioned": "Resultados de búsqueda para {{wildcard}} de {{version}}",
+    "description": "Busca un asset en la base de datos del juego y la versión seleccionados",
+    "assetOverview": "Se encontraron {{count}} assets en total ({{size}}~)",
+    "assetOverview_one": "Se encontraron {{count}} assets en total ({{size}}~)",
+    "wrongDownloadArgsError": "Argumentos de descarga incorrectos. Asegúrate de indicar la versión correcta"
+}

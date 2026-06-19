@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Μη έγκυρο αρχείο: {{value}}",
+    "notExistingFileError": "Αποτυχία λήψης αρχείου: {{value}}",
+    "genericError": "Προέκυψε εξαίρεση κατά την επεξεργασία της λειτουργίας: {{value}}",
+    "unknownError": "Προέκυψε άγνωστο σφάλμα κατά την επεξεργασία της λειτουργίας",
+    "notAnImageError": "Δεν είναι εικόνα ή δεν υποστηρίζεται η μορφή",
+    "notAnScFile": "Δεν είναι έγκυρο αρχείο SC1/SC2",
+    "notAnSc2File": "Δεν είναι έγκυρο αρχείο SC2",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Δεν βρέθηκε τίποτα για μετατροπή. Βεβαιωθείτε ότι έχετε ρυθμίσει σωστά τα ορίσματα ομάδων!",
+        "LZMA missing end marker!": "Αυτό το αρχείο πιθανότατα δεν είναι συμπιεσμένο ή είναι κατεστραμμένο"
+    }
+}

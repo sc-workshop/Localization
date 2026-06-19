@@ -1,0 +1,11 @@
+{
+    "desc": "发送 Neko 资源数据库信息",
+    "notFoundError": "未找到名为 {{name}} 的数据库",
+    "embed": {
+        "title": "📚 数据库：{{dbName}}",
+        "desc": "关于数据库和版本的常规信息",
+        "size": "💾 总大小",
+        "versionTitle": "🧩 版本",
+        "footer": "数据库信息"
+    }
+}

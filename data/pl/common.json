@@ -1,0 +1,72 @@
+{
+    "name": "Polski",
+    "gltfIoLinkMessage": "Nie ma takiej potrzeby. Rozważ użycie tej wtyczki do Blendera: https://github.com/Daniil-SV/gltf-Supercell-IO",
+    "ping": {
+        "description": "Odpowiada pong!",
+        "title": "Pong nya~{{pong, emoji}}",
+        "botLatency": "Opóźnienie bota",
+        "apiLatency": "Opóźnienie API",
+        "uptime": "Czas działania bota"
+    },
+    "commandSelector": {
+        "invalidCommand": "{{error, emoji}} Nieprawidłowa nazwa komendy!",
+        "invalidCommand_suggests": "{{error, emoji}} Nieprawidłowa komenda! Być może chodziło Ci o: {{suggests}}",
+        "argumentParseError": "Nie udało się przetworzyć argumentu `{{name}}`!"
+    },
+    "fs": {
+        "fileError": "{{reason}}: {{filename}}",
+        "fileTooBigError": "Plik jest zbyt duży",
+        "internalError": "Nie udało się pobrać pliku! Błąd wewnętrzny",
+        "unknown": "Nieznany błąd pobierania pliku"
+    },
+    "help": {
+        "title": "{{guide, emoji}} Komendy",
+        "description": "Wysyła informacje o komendach bota",
+        "head": "Użyj `n!<command> [flags]`, aby wykonać komendę\nPrzykład: `n!sc2fla ui.sc .split_by_name`\n\n\n",
+        "footer": "✨ Neko Bot • Wpisz n!help <command>, aby zobaczyć więcej szczegółów",
+        "commandNameOption": "Opcjonalna nazwa komendy, dla której chcesz uzyskać pomoc",
+        "aliases": "{{lookup, emoji}} Aliasy: ",
+        "requiredArgs": "{{important, emoji}} Wymagane argumenty: ",
+        "optionalArgs": "{{flag, emoji}} Opcjonalne argumenty: ",
+        "commandDescriptionTitle": "{{gears, emoji}} Polecenie: {{name}}",
+        "variants": "{{folder, emoji}} Warianty dla `{{name}}`: ",
+        "group": "{{sparkles, emoji}} Inne komendy",
+        "group_base": "{{gears, emoji}} Podstawowe komendy",
+        "group_assets": "{{database, emoji}} Komendy assetów",
+        "group_flash": "{{animate, emoji}} Supercell Flash",
+        "group_imaging": "{{image, emoji}} Przetwarzanie obrazów",
+        "group_generic": "{{folder, emoji}} Operacje na plikach",
+        "notes": {
+            "title": "{{important, emoji}} Uwagi dotyczące składni",
+            "prefixTitle": "Prefiks",
+            "prefixDescription": "- Bot obsługuje następujące prefiksy: {{prefixes}}",
+            "flagsTitle": "{{flag, emoji}} Flagi",
+            "flagsDescription": [
+                "- Flagi to zazwyczaj opcjonalne wartości, które możesz przekazać botowi",
+                "- W wiadomości pomocy opcjonalne flagi są podawane w nawiasach kwadratowych, np. `[.flag]`",
+                "- Flagi muszą mieć ten prefiks: {{flagPrefix}}",
+                "- Przykład: `n!sc2fla ui.sc .split_by_name` LUB `n!sc2fla ui.sc -split_by_name`"
+            ],
+            "assetDataTitle": "{{data, emoji}} Dane assetu",
+            "assetDataDescription": [
+                "- Większość komend wymaga argumentu **`assetData`**",
+                "- To złożony argument, który pozwala dokładnie wskazać, którego assetu chcesz użyć",
+                "- Składnia wygląda tak: `filename [version] [game]`",
+                "- Numer wersji powinien zaczynać się od litery `v`",
+                "- Aktualnie obsługiwane gry to: {{supportedGames}}",
+                "- Przykład: **`n!download sc/ui.sc v59 bs`**"
+            ],
+            "fileSearchTitle": "{{lookup, emoji}} Wyrażenie wyszukiwania plików",
+            "fileSearchDescription": [
+                "- Bot obsługuje wyrażenia podobne do regexów, gdy używasz `filename` w argumentach `assetData`",
+                "- Wyrażenie \"zaczyna się od\" powinno zaczynać się znakiem **`^`**",
+                "- Wyrażenie \"kończy się na\" powinno kończyć się znakiem **`$`**",
+                "- Kilka wyrażeń należy łączyć znakami **`&&`** lub **`|`**",
+                "- Domyślnie wyszukiwanie odbywa się po nazwach plików. Jeśli chcesz wyszukiwać po folderach, główna część wyrażenia powinna kończyć się znakiem **`/`**",
+                "- Przykład: wyszukuje pliki zaczynające się od `melodie_`, kończące się na `.sctx` i zapisane w folderze `sc3d/`: `n!find sc3d/|^melodie_|.sctx$`",
+                "- Wyrażenia mają pojęcie modyfikatorów. Są to specjalne nazwy zaczynające się od @, które modyfikują wynik",
+                "    - `@any` zwraca jeden losowy asset"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "desc": "Sender informasjon om Neko sin asset-database",
+    "notFoundError": "Fant ingen database med navnet {name}",
+    "embed": {
+        "title": "📚 Database: {{dbName}}",
+        "desc": "Generell info om databasen og versjoner",
+        "size": "💾 Total størrelse",
+        "versionTitle": "🧩 Versjoner",
+        "footer": "Databaseinfo"
+    }
+}

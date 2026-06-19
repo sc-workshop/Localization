@@ -1,0 +1,21 @@
+{
+    "description": "Konverterer tekstur eller bilde mellom formater",
+    "sourceOptionDesc": "Kildeformat for bilde",
+    "destinationOptionDesc": "Målformat for bilde (png, jpg osv.)",
+    "wrongSourceError": "Feil kildeformat! Godkjente formater: {{formats}}",
+    "wrongDestinationError": "Feil målformat! Godkjente formater: {{formats}}",
+    "format": "Konverterer bilde",
+    "format_sctx": "Konverterer bilde til Supercell Texture",
+    "format_png": "Konverterer bilde til png",
+    "sctx": {
+        "compressDesc": "Komprimerer fildata med ZSTD",
+        "paddingDesc": "Justerer teksturdata til 16 byte",
+        "mipMapsDesc": "Genererer tekstur-MIP-map-nivåer",
+        "typeDesc": "Bestemmer komprimeringsnivå og lagringsformat for teksturen",
+        "tagsDesc": "En liste med tagger som skal legges til i sctx-teksturen",
+        "tagsDesc_details": "En liste med tagger som skal legges til i sctx-teksturen.\nTagger er strenger som lagres i sctx-filen og kan brukes av spillkoden til å markere spesielle teksturer\n",
+        "proxyDesc": "Lager en proxytekstur med lavere oppløsning, vanligvis brukt til teksturstrømming i spillet",
+        "unknownFlag1": "Ukjent flagg",
+        "unknownFlag2": "Andre ukjente flagg"
+    }
+}

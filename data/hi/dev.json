@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "पूरा हुए textures: {{count}}",
+        "doneTextures_two": "पूरा हुए textures: {{count}}",
+        "doneTextures_many": "पूरा हुए textures: {{count}}"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "description": "Obține informații de bază despre un fișier .sc: versiune, format, număr de obiecte etc.",
+    "embed": {
+        "title": "Informații despre fișierul .sc",
+        "type": "Tip",
+        "signature": "Semnătură",
+        "textureCount": "Număr de Texturi",
+        "movieclipCount": "Număr de MovieClip-uri",
+        "shapeCount": "Număr de Shape-uri",
+        "textfieldsCount": "Număr de Câmpuri Text",
+        "externalTexture": "Fișier de textură externă",
+        "exports": "Nume de Export"
+    }
+}

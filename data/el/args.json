@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Περιγραφή αρχείου στη μορφή `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Λέξη-κλειδί για αναζήτηση asset",
+        "versionOption": "version",
+        "versionOptionDesc": "Έκδοση παιχνιδιού. Δέχεται τιμές όπως \"62\" ή \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Όνομα διακομιστή για αναζήτηση",
+        "notFoundError": "Τα ζητούμενα assets δεν βρέθηκαν!",
+        "invalidVersionError": "Η έκδοση δεν υπάρχει! Χρησιμοποιήστε την εντολή dbinfo για διαθέσιμες εκδόσεις"
+    },
+    "userAssets": {
+        "desc": "Αρχεία χρήστη / zip αρχεία",
+        "mixedDesc": "Περιγραφή αρχείου στη μορφή `filename [version] [game]` ή αρχεία χρήστη / zip αρχεία",
+        "inputOption": "filename",
+        "inputOptionDesc": "Αρχείο εισόδου για επεξεργασία ή αρχείο .zip με αρχεία",
+        "emptyFilesError": "Δεν δώσατε κανένα αρχείο. Εισαγάγετε όνομα asset ή ανεβάστε ένα αρχείο ή ένα αρχείο .zip"
+    },
+    "assetServer": {
+        "desc": "Όνομα διακομιστή assets"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Acceptă atlasuri png și le convertește în _tex.sc sau integrează texturi în fișierul .sc",
+    "invalidFilesError": "Nu există nimic de convertit! Asigură-te că ai atașat imagini valide",
+    "progress": {
+        "swfLoading": "Se încarcă SupercellSWF sursă: {{filepath}}",
+        "imageLoading": "Se încarcă imaginea: {{filepath}}",
+        "saving": "Se salvează texturile..."
+    }
+}

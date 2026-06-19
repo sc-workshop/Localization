@@ -1,0 +1,12 @@
+{
+    "create": "Even geduld...",
+    "ready": "{{success, emoji}} Klaar",
+    "takeAWhile": "Dit kan even duren, een moment geduld. ",
+    "sending": "{{send, emoji}} Verzenden...",
+    "done": "{{success, emoji}} Klaar",
+    "fileReady": "{{success, emoji}} Hier is **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Hier is **`{{filename}}`** van **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} De downloadlink verloopt {{countdown}}",
+    "download": "Downloaden",
+    "tooManyAssets": "Te veel assets! Probeer je verzoek nauwkeuriger te beschrijven"
+}

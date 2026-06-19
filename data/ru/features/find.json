@@ -1,0 +1,8 @@
+{
+    "title": "Результаты для {{wildcard}}",
+    "title_versioned": "Результаты для {{wildcard}} из {{version}}",
+    "description": "Проводит поиск актива в базе данных выбранной игры и версии",
+    "assetOverview": "Всего найдено {{count}} активов ({{size}}~)",
+    "assetOverview_one": "Всего найден {{count}} актив ({{size}}~)",
+    "wrongDownloadArgsError": "Неверные аргументы загрузки. Убедитесь что вы выбрали верную версию"
+}

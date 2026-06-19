@@ -1,0 +1,19 @@
+{
+    "description": "Konverterar .sc till ett Adobe Animate-projekt",
+    "splitByNameOption": "Delar upp .fla i små projekt enligt .sc-exportnamn",
+    "groupsOption": "En lista med användardefinierade reguljära uttryck för att dela upp .fla i projektgrupper",
+    "groupsOption_details": "En lista med användardefinierade reguljära uttryck för att dela upp .fla i projektgrupper\nExempel: det här kommandot exporterar alla exportnamn som börjar med \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nDu kan också använda flera uttryck, men då måste du ange ett gruppnamn, till exempel:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "as3DocOption": "Skapar ett ActionScript-dokument för .fla-projektet",
+    "as3DocOption_details": "Skapar ett ActionScript-dokument för .fla-projektet i stället för SupercellSWF-dokumentet när SupercellSWF-pluginet inte är tillgängligt",
+    "progress": {
+        "swfLoaded": "SupercellSWF är inläst. Konverterar...",
+        "groupChange": "Arbetar med gruppen \"{{name}}\"...",
+        "bar": "{{title}}: `{{current}} / {{total}}`",
+        "saving": "Sparar \"{{filename}}\"..."
+    },
+    "fallback": {
+        "Progress": "Förlopp",
+        "MovieClips converting": "Bearbetar MovieClips",
+        "Shapes converting": "Bearbetar Shapes"
+    }
+}

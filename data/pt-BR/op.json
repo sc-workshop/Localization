@@ -1,0 +1,12 @@
+{
+    "create": "Aguarde...",
+    "ready": "{{success, emoji}} Pronto",
+    "takeAWhile": "Isso pode levar um tempo, por favor aguarde. ",
+    "sending": "{{send, emoji}} Enviando...",
+    "done": "{{success, emoji}} Concluído",
+    "fileReady": "{{success, emoji}} Aqui está **`{{filename}}`**",
+    "fileReady_versioned": "{{success, emoji}} Aqui está **`{{filename}}`** de **`{{version}}`**",
+    "downloadLinkExpire": "{{arrowDown, emoji}} O link de download expirará {{countdown}}",
+    "download": "Baixar",
+    "tooManyAssets": "Muitos assets! Tente detalhar melhor a sua solicitação"
+}

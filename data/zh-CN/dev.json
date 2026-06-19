@@ -1,0 +1,7 @@
+{
+    "progress": {
+        "doneTextures": "已完成纹理：{{count}}",
+        "doneTextures_two": "已完成纹理：{{count}}",
+        "doneTextures_many": "已完成纹理：{{count}}"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "description": ".sc dosyasından sprite sheet'leri okur ve bunları .png'ye dönüştürür",
+    "notATextureError": "Görünüşe göre bu dosya herhangi bir doku verisi içermiyor. Bu dosyanın SC2 olduğundan veya adının _tex.sc ile bittiğinden emin olun",
+    "packToZipOption": "Sonuç dosyalarını zip arşivine paketler",
+    "progress": {
+        "doneTextures": "Tamamlanan dokular: {{count}}",
+        "doneTextures_two": "Tamamlanan dokular: {{count}}",
+        "doneTextures_many": "Tamamlanan dokular: {{count}}"
+    }
+}

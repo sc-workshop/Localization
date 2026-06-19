@@ -1,0 +1,8 @@
+{
+    "title": "Paieškos rezultatai: {{wildcard}}",
+    "title_versioned": "Paieškos rezultatai: {{wildcard}} iš {{version}}",
+    "description": "Ieško asseto pasirinkto žaidimo ir versijos duomenų bazėje",
+    "assetOverview": "Iš viso rasta {{count}} assetų ({{size}}~)",
+    "assetOverview_one": "Iš viso rasta {{count}} assetų ({{size}}~)",
+    "wrongDownloadArgsError": "Neteisingi atsisiuntimo argumentai. Įsitikinkite, kad nurodėte teisingą versiją"
+}

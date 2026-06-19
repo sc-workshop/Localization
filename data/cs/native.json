@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Neplatný soubor: {{value}}",
+    "notExistingFileError": "Nepodařilo se získat soubor: {{value}}",
+    "genericError": "Během zpracování operace došlo k výjimce: {{value}}",
+    "unknownError": "Během zpracování operace došlo k neznámé chybě",
+    "notAnImageError": "Není to obrázek nebo nepodporovaný formát",
+    "notAnScFile": "Neplatný soubor SC1/SC2",
+    "notAnSc2File": "Neplatný soubor SC2",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Nebylo nalezeno nic ke konverzi. Ujistěte se, že jste správně nastavili argumenty skupin!",
+        "LZMA missing end marker!": "Tento soubor pravděpodobně není komprimovaný nebo je poškozený"
+    }
+}

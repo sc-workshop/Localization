@@ -1,0 +1,9 @@
+{
+    "description": "接收 png 图集并将其转换为 _tex.sc，或将纹理嵌入 .sc 文件",
+    "invalidFilesError": "没有可转换的内容！请确保附加了有效图像",
+    "progress": {
+        "swfLoading": "正在加载源 SupercellSWF：{{filepath}}",
+        "imageLoading": "正在加载图像：{{filepath}}",
+        "saving": "正在保存纹理..."
+    }
+}

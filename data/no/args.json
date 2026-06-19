@@ -1,0 +1,23 @@
+{
+    "dbAssets": {
+        "desc": "Filbeskrivelse i formatet `filename [version] [game]`",
+        "assetOption": "name",
+        "assetOptionDesc": "Et nøkkelord for assetsøk",
+        "versionOption": "version",
+        "versionOptionDesc": "Spillversjon. Godtar verdier som \"62\" eller \"62.156\"",
+        "serverOption": "server",
+        "serverOptionDesc": "Servernavn å søke i",
+        "notFoundError": "Fant ikke de forespurte assetene!",
+        "invalidVersionError": "Versjonen finnes ikke! Bruk dbinfo-kommandoen for å sjekke tilgjengelige versjoner"
+    },
+    "userAssets": {
+        "desc": "Brukerfiler / zip-arkiver",
+        "mixedDesc": "Filbeskrivelse i formatet `filename [version] [game]` eller brukerfiler / zip-arkiver",
+        "inputOption": "filename",
+        "inputOptionDesc": "Inndatafil som skal behandles, eller .zip-arkiv med filer",
+        "emptyFilesError": "Du har ikke oppgitt noen filer. Skriv inn et assetnavn eller legg ved en fil eller et .zip-arkiv"
+    },
+    "assetServer": {
+        "desc": "Navn på asset-server"
+    }
+}

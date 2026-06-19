@@ -1,0 +1,9 @@
+{
+    "description": "png atlaslarını kabul eder ve bunları _tex.scye dönüştürür veya dokuları .sc dosyasına gömer",
+    "invalidFilesError": "Dönüştürülecek bir şey yok! Geçerli görseller eklediğinizden emin olun",
+    "progress": {
+        "swfLoading": "Kaynak SupercellSWF yükleniyor: {{filepath}}",
+        "imageLoading": "Görsel yükleniyor: {{filepath}}",
+        "saving": "Dokular kaydediliyor..."
+    }
+}

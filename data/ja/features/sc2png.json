@@ -1,0 +1,10 @@
+{
+    "description": ".sc ファイルからスプライトシートを読み取り、.png に変換します",
+    "notATextureError": "このファイルにはテクスチャデータが含まれていないようです。ファイルが SC2 であるか、名前が _tex.sc で終わっていることを確認してください",
+    "packToZipOption": "結果ファイルを zip アーカイブにまとめます",
+    "progress": {
+        "doneTextures": "完了したテクスチャ: {{count}}",
+        "doneTextures_two": "完了したテクスチャ: {{count}}",
+        "doneTextures_many": "完了したテクスチャ: {{count}}"
+    }
+}

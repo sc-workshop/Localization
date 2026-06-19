@@ -1,0 +1,10 @@
+{
+    "description": "Διαβάζει sprite sheets από αρχείο .sc και τα μετατρέπει σε .png",
+    "notATextureError": "Φαίνεται ότι αυτό το αρχείο δεν περιέχει δεδομένα υφής. Βεβαιωθείτε ότι το αρχείο είναι SC2 ή ότι τελειώνει σε _tex.sc",
+    "packToZipOption": "Συμπιέζει τα αρχεία αποτελέσματος σε αρχείο zip",
+    "progress": {
+        "doneTextures": "Έτοιμες υφές: {{count}}",
+        "doneTextures_two": "Έτοιμες υφές: {{count}}",
+        "doneTextures_many": "Έτοιμες υφές: {{count}}"
+    }
+}

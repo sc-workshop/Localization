@@ -1,0 +1,5 @@
+{
+    "desc": "Dekomprimuje soubor podle zdrojového argumentu nebo automaticky rozpozná typ komprese souboru",
+    "optionSourceDesc": "Název komprese souboru",
+    "invalidFileError": "Poškozený nebo nekomprimovaný soubor"
+}

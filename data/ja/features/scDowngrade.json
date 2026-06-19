@@ -1,0 +1,11 @@
+{
+    "description": ".sc ファイルを古いバージョンにダウングレードします",
+    "versionOption": "ダウングレード先のバージョン",
+    "signatureOption": "ダウングレード後ファイルの目標シグネチャ (圧縮形式)",
+    "externalTextureOption": "別個の _tex.sc ファイルを作成します",
+    "wrongSignatureError": "シグネチャが正しくありません！使用可能なシグネチャ: Lzma、Lzham、Zstandart",
+    "wrongVersionError": "バージョンが正しくありません！使用可能なバージョン: -1.0 (自動検出)、1.0、0.5",
+    "progress": {
+        "swfLoaded": "SupercellSWF が読み込まれました。保存中..."
+    }
+}

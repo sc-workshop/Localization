@@ -1,0 +1,10 @@
+{
+    "description": "Leest sprite sheets uit een .sc-bestand en converteert ze naar .png",
+    "notATextureError": "Het lijkt erop dat dit bestand geen texturedata bevat. Zorg ervoor dat dit bestand SC2 is of eindigt op _tex.sc",
+    "packToZipOption": "Verpakt resultaatbestanden in een zip-archief",
+    "progress": {
+        "doneTextures": "Voltooide textures: {{count}}",
+        "doneTextures_two": "Voltooide textures: {{count}}",
+        "doneTextures_many": "Voltooide textures: {{count}}"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "desc": "Neko 에셋 데이터베이스 정보를 보냅니다",
+    "notFoundError": "{name} 이름의 데이터베이스를 찾을 수 없습니다",
+    "embed": {
+        "title": "📚 데이터베이스: {{dbName}}",
+        "desc": "데이터베이스와 버전에 대한 일반 정보",
+        "size": "💾 총 크기",
+        "versionTitle": "🧩 버전",
+        "footer": "데이터베이스 정보"
+    }
+}

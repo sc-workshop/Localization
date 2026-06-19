@@ -1,0 +1,13 @@
+{
+    "invalidFileError": "Fichier invalide : {{value}}",
+    "notExistingFileError": "Impossible de récupérer le fichier : {{value}}",
+    "genericError": "Une exception s'est produite pendant le traitement de l'opération : {{value}}",
+    "unknownError": "Une erreur inconnue s'est produite pendant le traitement de l'opération",
+    "notAnImageError": "Ce n'est pas une image ou le format n'est pas pris en charge",
+    "notAnScFile": "Fichier SC1/SC2 invalide",
+    "notAnSc2File": "Fichier SC2 invalide",
+    "fallback": {
+        "There is nothing to convert! Make sure to properly setting up groups settings": "Rien à convertir n'a été trouvé. Assurez-vous d'avoir correctement configuré les arguments de groupe !",
+        "LZMA missing end marker!": "Ce fichier n'est probablement pas compressé ou est endommagé"
+    }
+}

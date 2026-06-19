@@ -1,0 +1,5 @@
+{
+    "desc": "根据来源参数解压文件，或自动检测文件的压缩类型",
+    "optionSourceDesc": "文件压缩名称",
+    "invalidFileError": "损坏的文件或未压缩文件"
+}

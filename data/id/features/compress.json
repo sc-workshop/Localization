@@ -1,0 +1,8 @@
+{
+    "desc": "Mengompresi file dengan kompresi yang dipilih",
+    "variantDesc": "Nama jenis kompresi tujuan",
+    "variants": "Belum diimplementasikan",
+    "variants_zstd": "Mengompresi file dengan zstd",
+    "variants_lzma": "Mengompresi file dengan lzma",
+    "wrongDestinationError": "Nama kompresi tujuan salah! Kompresi yang didukung: {{format}}"
+}
