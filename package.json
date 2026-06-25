@@ -14,8 +14,8 @@
     }
   },
   "scripts": {
-    "start:dev": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --emit-ts-declarations --watch",
-    "generate": "paraglide-js compile --project ./project.inlang --outdir ./source\\generated --emit-ts-declarations",
+    "start:dev": "paraglide-js compile --project ./project.inlang --outdir ./source/generated --emit-ts-declarations --watch",
+    "generate": "paraglide-js compile --project ./project.inlang --outdir ./source/generated --emit-ts-declarations",
     "build:ts": "tsdown",
     "build": "pnpm generate && pnpm build:ts",
     "translate": "pnpm inlang machine translate --project ./project.inlang"
