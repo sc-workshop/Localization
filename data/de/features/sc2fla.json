@@ -20,7 +20,7 @@
         "MovieClips converting": "MovieClip-Verarbeitung",
         "Shapes converting": "Shape-Verarbeitung"
     },
-    "splitToFoldersOption": "Erstellt eine .fla-Datei mit dem Ordner \"Assets\", der in zusätzliche verschachtelte Ordner unterteilt ist",
+    "splitToFoldersOption": "Erstellt eine .fla-Datei mit verschachtelten Unterordnern im \"Assets\"-Ordner",
     "splitToFoldersOption_details": [
         "Erstellt eine .fla-Datei mit dem Ordner \"Assets\", der in zusätzliche verschachtelte Ordner unterteilt ist",
         "   - Dies funktioniert fast wie die Aufteilung nach Namen in separate .fla-Dateien, jedoch innerhalb eines einzigen .fla-Projekts",

@@ -1,7 +1,7 @@
 {
     "description": "Convertit .sc en projet Adobe Animate",
     "splitByNameOption": "Découpe .fla en petits projets selon les noms d'export de .sc",
-    "groupsOption": "Tableau d'expressions régulières définies par l'utilisateur pour répartir .fla en groupes de projets",
+    "groupsOption": "Tableau d'expressions régulières utilisateur pour répartir les .fla en projets.",
     "groupsOption_details": [
         "Un tableau d'expressions régulières définies par l'utilisateur pour diviser le .fla en groupes de projets",
         "   - Par exemple, cette commande exporte tous les noms d'export commençant par \"bgr\" : `n!sc2fla file.sc .group=^bgr.*`",
