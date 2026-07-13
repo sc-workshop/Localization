@@ -4,5 +4,16 @@
     "description": "Söker efter ett asset i databasen för det valda spelet och versionen",
     "assetOverview": "Totalt hittades {{count}} assets ({{size}}~)",
     "assetOverview_one": "Totalt hittades {{count}} assets ({{size}}~)",
-    "wrongDownloadArgsError": "Felaktiga nedladdningsargument. Kontrollera att du angav rätt version"
+    "wrongDownloadArgsError": "Felaktiga nedladdningsargument. Kontrollera att du angav rätt version",
+    "button": {
+        "prev": "Föregående sida",
+        "next": "Nästa sida",
+        "downloadAll": "Ladda ner alla filer",
+        "downloadPage": "Ladda ner bara denna sida"
+    },
+    "pageIndicator": "Sida {{current}} av {{total}}",
+    "requestedBy": "Begärd av {{user}}",
+    "selectMenu": {
+        "placeholder": "Gå till sida..."
+    }
 }

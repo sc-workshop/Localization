@@ -1,8 +1,18 @@
 {
     "description": "Converts .sc into Adobe Animate project",
     "splitByNameOption": "Split .fla to small projects according to .sc export names",
+    "splitToFoldersOption": "Creates a .fla file with \"Assets\" folder divided into additional nested folders",
+    "splitToFoldersOption_details": [
+        "Creates a .fla file with \"Assets\" folder divided into additional nested folders",
+        "   - It works almost like split by name into separate .fla, but within single .fla project",
+        "   - Helps optimize workflow in Animate if there are too many items in \"Assets\" folder"
+    ],
     "groupsOption": "An array of user-defined regular expressions to split .fla into project groups",
-    "groupsOption_details": "An array of user-defined regular expressions to split .fla into project groups\nExample, this command will export all export names starting with \"bgr\": \n`n!sc2fla file.sc .group=^bgr.*`\nYou can also use multiple expressions, but you need to specify group name then, for example: \n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'''",
+    "groupsOption_details": [
+        "An array of user-defined regular expressions to split .fla into project groups",
+        "   - Example, this command will export all export names starting with \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - You can also use multiple expressions, but you need to specify group name then, for example: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Creates an ActionScript document for the .fla project",
     "as3DocOption_details": "Creates an ActionScript document for the .fla project, instead of the SupercellSWF document, for cases where the SupercellSWF plugin is not available",
     "progress": {

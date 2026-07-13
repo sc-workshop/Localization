@@ -2,7 +2,11 @@
     "description": "Convertit .sc en projet Adobe Animate",
     "splitByNameOption": "Découpe .fla en petits projets selon les noms d'export de .sc",
     "groupsOption": "Tableau d'expressions régulières définies par l'utilisateur pour répartir .fla en groupes de projets",
-    "groupsOption_details": "Tableau d'expressions régulières définies par l'utilisateur pour répartir .fla en groupes de projets\nExemple, cette commande exportera tous les noms d'export commençant par \"bgr\" :\n`n!sc2fla file.sc .group=^bgr.*`\nVous pouvez également utiliser plusieurs expressions, mais vous devez alors indiquer un nom de groupe, par exemple :\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Un tableau d'expressions régulières définies par l'utilisateur pour diviser le .fla en groupes de projets",
+        "   - Par exemple, cette commande exporte tous les noms d'export commençant par \"bgr\" : `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Vous pouvez également utiliser plusieurs expressions, mais vous devez alors spécifier le nom du groupe, par exemple : `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Crée un document ActionScript pour le projet .fla",
     "as3DocOption_details": "Crée un document ActionScript pour le projet .fla au lieu du document SupercellSWF lorsque le plugin SupercellSWF n'est pas disponible",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Progression",
         "MovieClips converting": "Traitement des MovieClips",
         "Shapes converting": "Traitement des Shapes"
-    }
+    },
+    "splitToFoldersOption": "Crée un fichier .fla avec le dossier \"Assets\" divisé en sous-dossiers supplémentaires",
+    "splitToFoldersOption_details": [
+        "Crée un fichier .fla avec le dossier \"Assets\" divisé en sous-dossiers supplémentaires",
+        "   - Cela fonctionne presque comme la division par noms en fichiers .fla séparés, mais au sein d'un seul projet .fla",
+        "   - Aide à optimiser le flux de travail dans Animate s'il y a trop d'éléments dans le dossier \"Assets\""
+    ]
 }

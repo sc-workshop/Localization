@@ -4,5 +4,16 @@
     "description": "Pretražuje resurs u bazi podataka odabrane igre i verzije",
     "assetOverview": "Ukupno pronađeno {{count}} asseta ({{size}}~)",
     "assetOverview_one": "Ukupno pronađeno {{count}} asseta ({{size}}~)",
-    "wrongDownloadArgsError": "Neispravni argumenti za preuzimanje. Provjerite jeste li naveli točnu verziju"
+    "wrongDownloadArgsError": "Neispravni argumenti za preuzimanje. Provjerite jeste li naveli točnu verziju",
+    "button": {
+        "prev": "Prethodna stranica",
+        "next": "Sljedeća stranica",
+        "downloadAll": "Preuzmi sve datoteke",
+        "downloadPage": "Preuzmi samo ovu stranicu"
+    },
+    "pageIndicator": "Stranica {{current}} od {{total}}",
+    "requestedBy": "Zatražio {{user}}",
+    "selectMenu": {
+        "placeholder": "Idi na stranicu..."
+    }
 }

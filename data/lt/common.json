@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Boto delsa",
         "apiLatency": "API delsa",
-        "uptime": "Boto veikimo laikas"
+        "uptime": "Boto veikimo laikas",
+        "latency": "Delsa",
+        "readySince": "Paruoštas nuo",
+        "stats": {
+            "servers": "Serveriai",
+            "users": "Vartotojai",
+            "channels": "Kanalai",
+            "memory": "Atmintis"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Neteisingas komandos pavadinimas!",

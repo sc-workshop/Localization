@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "बॉट विलंबता",
         "apiLatency": "API विलंबता",
-        "uptime": "बॉट अपटाइम"
+        "uptime": "बॉट अपटाइम",
+        "latency": "विलंब",
+        "readySince": "तैयार है जबसे",
+        "stats": {
+            "servers": "सर्वर",
+            "users": "उपयोगकर्ता",
+            "channels": "चैनल",
+            "memory": "मेमोरी"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} अमान्य कमांड नाम!",

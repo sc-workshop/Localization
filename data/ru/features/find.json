@@ -4,5 +4,16 @@
     "description": "Проводит поиск актива в базе данных выбранной игры и версии",
     "assetOverview": "Всего найдено {{count}} активов ({{size}}~)",
     "assetOverview_one": "Всего найден {{count}} актив ({{size}}~)",
-    "wrongDownloadArgsError": "Неверные аргументы загрузки. Убедитесь что вы выбрали верную версию"
+    "wrongDownloadArgsError": "Неверные аргументы загрузки. Убедитесь что вы выбрали верную версию",
+    "button": {
+        "prev": "Предыдущая страница",
+        "next": "Следующая страница",
+        "downloadAll": "Скачать все файлы",
+        "downloadPage": "Скачать только эту страницу"
+    },
+    "pageIndicator": "Страница {{current}} из {{total}}",
+    "requestedBy": "Запрос от {{user}}",
+    "selectMenu": {
+        "placeholder": "Перейти к странице..."
+    }
 }

@@ -4,5 +4,16 @@
     "description": "Αναζητά ένα asset στη βάση δεδομένων του επιλεγμένου παιχνιδιού και της έκδοσης",
     "assetOverview": "Βρέθηκαν συνολικά {{count}} assets ({{size}}~)",
     "assetOverview_one": "Βρέθηκαν συνολικά {{count}} assets ({{size}}~)",
-    "wrongDownloadArgsError": "Λανθασμένα ορίσματα λήψης. Βεβαιωθείτε ότι καθορίσατε τη σωστή έκδοση"
+    "wrongDownloadArgsError": "Λανθασμένα ορίσματα λήψης. Βεβαιωθείτε ότι καθορίσατε τη σωστή έκδοση",
+    "button": {
+        "prev": "Προηγούμενη σελίδα",
+        "next": "Επόμενη σελίδα",
+        "downloadAll": "Λήψη όλων των αρχείων",
+        "downloadPage": "Λήψη μόνο αυτής της σελίδας"
+    },
+    "pageIndicator": "Σελίδα {{current}} από {{total}}",
+    "requestedBy": "Ζητήθηκε από {{user}}",
+    "selectMenu": {
+        "placeholder": "Μετάβαση σε σελίδα..."
+    }
 }

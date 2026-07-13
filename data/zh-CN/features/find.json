@@ -4,5 +4,16 @@
     "description": "在所选游戏和版本的数据库中搜索资源",
     "assetOverview": "共找到 {{count}} 个资源（{{size}}~）",
     "assetOverview_one": "共找到 {{count}} 个资源（{{size}}~）",
-    "wrongDownloadArgsError": "下载参数不正确。请确认你指定了正确的版本"
+    "wrongDownloadArgsError": "下载参数不正确。请确认你指定了正确的版本",
+    "button": {
+        "prev": "上一页",
+        "next": "下一页",
+        "downloadAll": "下载所有文件",
+        "downloadPage": "仅下载此页"
+    },
+    "pageIndicator": "第 {{current}} 页，共 {{total}} 页",
+    "requestedBy": "{{user}} 请求",
+    "selectMenu": {
+        "placeholder": "跳转到页面..."
+    }
 }

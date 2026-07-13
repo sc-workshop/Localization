@@ -2,7 +2,11 @@
     "description": "Mengonversi .sc menjadi proyek Adobe Animate",
     "splitByNameOption": "Membagi .fla menjadi proyek kecil sesuai nama ekspor .sc",
     "groupsOption": "Daftar ekspresi reguler buatan pengguna untuk membagi .fla ke dalam grup proyek",
-    "groupsOption_details": "Daftar ekspresi reguler buatan pengguna untuk membagi .fla ke dalam grup proyek\nContoh, perintah ini akan mengekspor semua nama ekspor yang diawali dengan \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nAnda juga dapat menggunakan beberapa ekspresi, tetapi Anda perlu menentukan nama grup, misalnya:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Array ekspresi reguler yang ditentukan pengguna untuk membagi .fla menjadi grup proyek",
+        "   - Contoh: perintah ini mengekspor semua nama ekspor yang dimulai dengan \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Anda juga dapat menggunakan beberapa ekspresi, tetapi perlu menentukan nama grup, misalnya: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Membuat dokumen ActionScript untuk proyek .fla",
     "as3DocOption_details": "Membuat dokumen ActionScript untuk proyek .fla, alih-alih dokumen SupercellSWF, saat plugin SupercellSWF tidak tersedia",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Progres",
         "MovieClips converting": "Memproses MovieClip",
         "Shapes converting": "Memproses Shape"
-    }
+    },
+    "splitToFoldersOption": "Membuat file .fla dengan folder \"Assets\" yang dibagi menjadi subfolder bersarang tambahan",
+    "splitToFoldersOption_details": [
+        "Membuat file .fla dengan folder \"Assets\" yang dibagi menjadi subfolder bersarang tambahan",
+        "   - Ini bekerja hampir seperti pembagian berdasarkan nama ke file .fla terpisah, tetapi dalam satu proyek .fla",
+        "   - Membantu mengoptimalkan alur kerja di Animate jika ada terlalu banyak item di folder \"Assets\""
+    ]
 }

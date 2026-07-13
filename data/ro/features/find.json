@@ -4,5 +4,16 @@
     "description": "Caută un asset în baza de date a jocului și versiunii selectate",
     "assetOverview": "Au fost găsite în total {{count}} asseturi ({{size}}~)",
     "assetOverview_one": "Au fost găsite în total {{count}} asseturi ({{size}}~)",
-    "wrongDownloadArgsError": "Argumente de descărcare incorecte. Asigură-te că ai specificat versiunea corectă"
+    "wrongDownloadArgsError": "Argumente de descărcare incorecte. Asigură-te că ai specificat versiunea corectă",
+    "button": {
+        "prev": "Pagina anterioară",
+        "next": "Pagina următoare",
+        "downloadAll": "Descarcă toate fișierele",
+        "downloadPage": "Descarcă doar această pagină"
+    },
+    "pageIndicator": "Pagina {{current}} din {{total}}",
+    "requestedBy": "Solicitat de {{user}}",
+    "selectMenu": {
+        "placeholder": "Mergi la pagina..."
+    }
 }

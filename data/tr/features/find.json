@@ -4,5 +4,16 @@
     "description": "Seçilen oyun ve sürümün veritabanında asset arar",
     "assetOverview": "Toplam {{count}} asset bulundu ({{size}}~)",
     "assetOverview_one": "Toplam {{count}} asset bulundu ({{size}}~)",
-    "wrongDownloadArgsError": "Geçersiz indirme argümanları. Doğru sürümü belirttiğinizden emin olun"
+    "wrongDownloadArgsError": "Geçersiz indirme argümanları. Doğru sürümü belirttiğinizden emin olun",
+    "button": {
+        "prev": "Önceki sayfa",
+        "next": "Sonraki sayfa",
+        "downloadAll": "Tüm dosyaları indir",
+        "downloadPage": "Sadece bu sayfayı indir"
+    },
+    "pageIndicator": "Sayfa {{current}} / {{total}}",
+    "requestedBy": "{{user}} tarafından istendi",
+    "selectMenu": {
+        "placeholder": "Sayfaya git..."
+    }
 }

@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Bot gecikmesi",
         "apiLatency": "API gecikmesi",
-        "uptime": "Bot çalışma süresi"
+        "uptime": "Bot çalışma süresi",
+        "latency": "Gecikme",
+        "readySince": "Hazır olma zamanı",
+        "stats": {
+            "servers": "Sunucular",
+            "users": "Kullanıcılar",
+            "channels": "Kanallar",
+            "memory": "Bellek"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Geçersiz komut adı!",

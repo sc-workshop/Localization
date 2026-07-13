@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Botlatentie",
         "apiLatency": "API-latentie",
-        "uptime": "Uptime van bot"
+        "uptime": "Uptime van bot",
+        "latency": "Latentie",
+        "readySince": "Klaar sinds",
+        "stats": {
+            "servers": "Servers",
+            "users": "Gebruikers",
+            "channels": "Kanalen",
+            "memory": "Geheugen"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Ongeldige opdrachtnnaam!",

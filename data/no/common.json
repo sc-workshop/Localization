@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Botforsinkelse",
         "apiLatency": "API-forsinkelse",
-        "uptime": "Botens oppetid"
+        "uptime": "Botens oppetid",
+        "latency": "Forsinkelse",
+        "readySince": "Klar siden",
+        "stats": {
+            "servers": "Servere",
+            "users": "Brukere",
+            "channels": "Kanaler",
+            "memory": "Minne"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Ugyldig kommandonavn!",

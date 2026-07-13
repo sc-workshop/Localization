@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "봇 지연 시간",
         "apiLatency": "API 지연 시간",
-        "uptime": "봇 가동 시간"
+        "uptime": "봇 가동 시간",
+        "latency": "지연 시간",
+        "readySince": "준비된 시각",
+        "stats": {
+            "servers": "서버",
+            "users": "사용자",
+            "channels": "채널",
+            "memory": "메모리"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} 잘못된 명령 이름입니다!",

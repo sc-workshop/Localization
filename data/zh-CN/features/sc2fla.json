@@ -2,7 +2,11 @@
     "description": "将 .sc 转换为 Adobe Animate 项目",
     "splitByNameOption": "根据 .sc 导出名称将 .fla 拆分为小项目",
     "groupsOption": "一组用户定义的正则表达式，用于将 .fla 拆分为项目分组",
-    "groupsOption_details": "一组用户定义的正则表达式，用于将 .fla 拆分为项目分组\n例如，此命令会导出所有以 \"bgr\" 开头的导出名称：\n`n!sc2fla file.sc .group=^bgr.*`\n你也可以使用多个表达式，但那样就需要指定分组名称，例如：\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "用于将 .fla 分割为项目组的用户自定义正则表达式数组",
+        "   - 例如，此命令将导出所有以 \"bgr\" 开头的导出名称：`n!sc2fla file.sc .group=^bgr.*`",
+        "   - 你也可以使用多个表达式，但需要指定组名，例如：`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "为 .fla 项目创建 ActionScript 文档",
     "as3DocOption_details": "当 SupercellSWF 插件不可用时，为 .fla 项目创建 ActionScript 文档，而不是 SupercellSWF 文档",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "进度",
         "MovieClips converting": "处理 MovieClip",
         "Shapes converting": "处理 Shape"
-    }
+    },
+    "splitToFoldersOption": "创建一个 .fla 文件，其 \"Assets\" 文件夹被划分为额外的嵌套子文件夹",
+    "splitToFoldersOption_details": [
+        "创建一个 .fla 文件，其 \"Assets\" 文件夹被划分为额外的嵌套子文件夹",
+        "   - 这几乎等同于按名称分割为单独的 .fla，但在单个 .fla 项目内进行",
+        "   - 如果 \"Assets\" 文件夹中项目过多，有助于优化 Animate 中的工作流程"
+    ]
 }

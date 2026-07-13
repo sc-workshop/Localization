@@ -4,5 +4,16 @@
     "description": "Mencari aset dalam basis data game dan versi yang dipilih",
     "assetOverview": "Total ditemukan {{count}} aset ({{size}}~)",
     "assetOverview_one": "Total ditemukan {{count}} aset ({{size}}~)",
-    "wrongDownloadArgsError": "Argumen unduhan tidak benar. Pastikan Anda menentukan versi yang benar"
+    "wrongDownloadArgsError": "Argumen unduhan tidak benar. Pastikan Anda menentukan versi yang benar",
+    "button": {
+        "prev": "Halaman sebelumnya",
+        "next": "Halaman berikutnya",
+        "downloadAll": "Unduh semua file",
+        "downloadPage": "Unduh halaman ini saja"
+    },
+    "pageIndicator": "Halaman {{current}} dari {{total}}",
+    "requestedBy": "Diminta oleh {{user}}",
+    "selectMenu": {
+        "placeholder": "Lompat ke halaman..."
+    }
 }

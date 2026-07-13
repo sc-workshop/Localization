@@ -4,5 +4,16 @@
     "description": "Wyszukuje asset w bazie danych wybranej gry i wersji",
     "assetOverview": "Łącznie znaleziono {{count}} assetów ({{size}}~)",
     "assetOverview_one": "Łącznie znaleziono {{count}} assetów ({{size}}~)",
-    "wrongDownloadArgsError": "Nieprawidłowe argumenty pobierania. Upewnij się, że podano właściwą wersję"
+    "wrongDownloadArgsError": "Nieprawidłowe argumenty pobierania. Upewnij się, że podano właściwą wersję",
+    "button": {
+        "prev": "Poprzednia strona",
+        "next": "Następna strona",
+        "downloadAll": "Pobierz wszystkie pliki",
+        "downloadPage": "Pobierz tylko tę stronę"
+    },
+    "pageIndicator": "Strona {{current}} z {{total}}",
+    "requestedBy": "Żądanie od {{user}}",
+    "selectMenu": {
+        "placeholder": "Przejdź do strony..."
+    }
 }

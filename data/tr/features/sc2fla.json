@@ -2,7 +2,11 @@
     "description": ".sc dosyasını Adobe Animate projesine dönüştürür",
     "splitByNameOption": ".fla'yı .sc export adlarına göre küçük projelere böler",
     "groupsOption": ".fla'yı proje gruplarına ayırmak için kullanıcı tanımlı düzenli ifadeler dizisi",
-    "groupsOption_details": ".fla'yı proje gruplarına ayırmak için kullanıcı tanımlı düzenli ifadeler dizisi\nÖrneğin, bu komut \"bgr\" ile başlayan tüm export adlarını dışa aktarır:\n`n!sc2fla file.sc .group=^bgr.*`\nBirden fazla ifade de kullanabilirsiniz, ancak bu durumda grup adını belirtmeniz gerekir, örneğin:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        ".fla'yı proje gruplarına bölmek için kullanıcı tanımlı düzenli ifadeler dizisi",
+        "   - Örneğin, bu komut \"bgr\" ile başlayan tüm dışa aktarma adlarını dışa aktarır: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Birden fazla ifade de kullanabilirsiniz, ancak o zaman grup adını belirtmeniz gerekir, örneğin: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": ".fla projesi için bir ActionScript belgesi oluşturur",
     "as3DocOption_details": "SupercellSWF eklentisinin mevcut olmadığı durumlarda .fla projesi için SupercellSWF belgesi yerine bir ActionScript belgesi oluşturur",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "İlerleme",
         "MovieClips converting": "MovieClip işleniyor",
         "Shapes converting": "Shape işleniyor"
-    }
+    },
+    "splitToFoldersOption": "\"Assets\" klasörünü ek iç içe klasörlere bölünmüş bir .fla dosyası oluşturur",
+    "splitToFoldersOption_details": [
+        "\"Assets\" klasörünü ek iç içe klasörlere bölünmüş bir .fla dosyası oluşturur",
+        "   - Bu, ada göre ayrı .fla dosyalarına bölmeye neredeyse benzer, ancak tek bir .fla projesi içinde yapılır",
+        "   - \"Assets\" klasöründe çok fazla öğe varsa Animate'taki iş akışını optimize etmeye yardımcı olur"
+    ]
 }

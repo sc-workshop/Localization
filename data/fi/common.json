@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Botin viive",
         "apiLatency": "API-viive",
-        "uptime": "Botin käyttöaika"
+        "uptime": "Botin käyttöaika",
+        "latency": "Viive",
+        "readySince": "Valmiina alkaen",
+        "stats": {
+            "servers": "Palvelimet",
+            "users": "Käyttäjät",
+            "channels": "Kanavat",
+            "memory": "Muisti"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Virheellinen komennon nimi!",

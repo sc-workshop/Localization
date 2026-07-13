@@ -4,5 +4,16 @@
     "description": "Etsii assetia valitun pelin ja version tietokannasta",
     "assetOverview": "Yhteensä löytyi {{count}} assetia ({{size}}~)",
     "assetOverview_one": "Yhteensä löytyi {{count}} assetia ({{size}}~)",
-    "wrongDownloadArgsError": "Virheelliset latausargumentit. Varmista, että määritit oikean version"
+    "wrongDownloadArgsError": "Virheelliset latausargumentit. Varmista, että määritit oikean version",
+    "button": {
+        "prev": "Edellinen sivu",
+        "next": "Seuraava sivu",
+        "downloadAll": "Lataa kaikki tiedostot",
+        "downloadPage": "Lataa vain tämä sivu"
+    },
+    "pageIndicator": "Sivu {{current}} / {{total}}",
+    "requestedBy": "Pyytänyt {{user}}",
+    "selectMenu": {
+        "placeholder": "Siirry sivulle..."
+    }
 }

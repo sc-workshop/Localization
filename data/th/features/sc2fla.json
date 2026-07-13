@@ -2,7 +2,11 @@
     "description": "แปลง .sc เป็นโปรเจกต์ Adobe Animate",
     "splitByNameOption": "แยก .fla เป็นโปรเจกต์ย่อยตามชื่อ export ของ .sc",
     "groupsOption": "อาร์เรย์ของ regular expressions ที่ผู้ใช้กำหนดเองเพื่อแยก .fla เป็นกลุ่มโปรเจกต์",
-    "groupsOption_details": "อาร์เรย์ของ regular expressions ที่ผู้ใช้กำหนดเองเพื่อแยก .fla เป็นกลุ่มโปรเจกต์\nตัวอย่าง คำสั่งนี้จะ export ชื่อ export ทั้งหมดที่ขึ้นต้นด้วย \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nคุณสามารถใช้หลาย expression ได้เช่นกัน แต่ในกรณีนั้นคุณต้องระบุชื่อกลุ่ม เช่น:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "อาร์เรย์ของนิพจน์ปกติที่ผู้ใช้กำหนดเพื่อแบ่ง .fla เป็นกลุ่มโปรเจกต์",
+        "   - ตัวอย่าง: คำสั่งนี้จะส่งออกชื่อส่งออกทั้งหมดที่ขึ้นต้นด้วย \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - คุณยังสามารถใช้หลายนิพจน์ได้ แต่ต้องระบุชื่อกลุ่ม เช่น: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "สร้างเอกสาร ActionScript สำหรับโปรเจกต์ .fla",
     "as3DocOption_details": "สร้างเอกสาร ActionScript สำหรับโปรเจกต์ .fla แทนเอกสาร SupercellSWF ในกรณีที่ปลั๊กอิน SupercellSWF ไม่พร้อมใช้งาน",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "ความคืบหน้า",
         "MovieClips converting": "กำลังประมวลผล MovieClips",
         "Shapes converting": "กำลังประมวลผล Shapes"
-    }
+    },
+    "splitToFoldersOption": "สร้างไฟล์ .fla ที่มีโฟลเดอร์ \"Assets\" แบ่งออกเป็นโฟลเดอร์ย่อยซ้อนกันเพิ่มเติม",
+    "splitToFoldersOption_details": [
+        "สร้างไฟล์ .fla ที่มีโฟลเดอร์ \"Assets\" แบ่งออกเป็นโฟลเดอร์ย่อยซ้อนกันเพิ่มเติม",
+        "   - ทำงานเกือบเหมือนการแบ่งตามชื่อเป็นไฟล์ .fla แยก แต่ภายในโปรเจกต์ .fla เดียว",
+        "   - ช่วยเพิ่มประสิทธิภาพการทำงานของ Animate หากมีรายการในโฟลเดอร์ \"Assets\" มากเกินไป"
+    ]
 }

@@ -2,7 +2,11 @@
     "description": "Converteert .sc naar een Adobe Animate-project",
     "splitByNameOption": "Splitst .fla op in kleine projecten volgens .sc-exportnamen",
     "groupsOption": "Een reeks door de gebruiker gedefinieerde reguliere expressies om .fla in projectgroepen te verdelen",
-    "groupsOption_details": "Een reeks door de gebruiker gedefinieerde reguliere expressies om .fla in projectgroepen te verdelen\nBijvoorbeeld: dit commando exporteert alle exportnamen die beginnen met \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nJe kunt ook meerdere expressies gebruiken, maar dan moet je een groepsnaam opgeven, bijvoorbeeld:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Een reeks door de gebruiker gedefinieerde reguliere expressies om .fla op te splitsen in projectgroepen",
+        "   - Bijvoorbeeld: dit commando exporteert alle exportnamen die beginnen met \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Je kunt ook meerdere expressies gebruiken, maar dan moet je de groepsnaam opgeven, bijvoorbeeld: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Maakt een ActionScript-document voor het .fla-project",
     "as3DocOption_details": "Maakt een ActionScript-document voor het .fla-project in plaats van het SupercellSWF-document wanneer de SupercellSWF-plugin niet beschikbaar is",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Voortgang",
         "MovieClips converting": "MovieClip-verwerking",
         "Shapes converting": "Shape-verwerking"
-    }
+    },
+    "splitToFoldersOption": "Maakt een .fla-bestand met de map \"Assets\" opgedeeld in extra geneste submappen",
+    "splitToFoldersOption_details": [
+        "Maakt een .fla-bestand met de map \"Assets\" opgedeeld in extra geneste submappen",
+        "   - Dit werkt bijna hetzelfde als opsplitsen op naam in aparte .fla-bestanden, maar binnen één .fla-project",
+        "   - Helpt de workflow in Animate te optimaliseren als er te veel items in de map \"Assets\" staan"
+    ]
 }

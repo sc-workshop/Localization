@@ -4,5 +4,16 @@
     "description": "선택한 게임과 버전의 데이터베이스에서 에셋을 검색합니다",
     "assetOverview": "총 {{count}}개의 에셋을 찾았습니다 ({{size}}~)",
     "assetOverview_one": "총 {{count}}개의 에셋을 찾았습니다 ({{size}}~)",
-    "wrongDownloadArgsError": "잘못된 다운로드 인수입니다. 올바른 버전을 지정했는지 확인하세요"
+    "wrongDownloadArgsError": "잘못된 다운로드 인수입니다. 올바른 버전을 지정했는지 확인하세요",
+    "button": {
+        "prev": "이전 페이지",
+        "next": "다음 페이지",
+        "downloadAll": "모든 파일 다운로드",
+        "downloadPage": "이 페이지만 다운로드"
+    },
+    "pageIndicator": "{{total}} 페이지 중 {{current}}",
+    "requestedBy": "{{user}} 요청",
+    "selectMenu": {
+        "placeholder": "페이지로 이동..."
+    }
 }

@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Latence bota",
         "apiLatency": "Latence API",
-        "uptime": "Doba běhu bota"
+        "uptime": "Doba běhu bota",
+        "latency": "Odezva",
+        "readySince": "Připraven od",
+        "stats": {
+            "servers": "Servery",
+            "users": "Uživatelé",
+            "channels": "Kanály",
+            "memory": "Paměť"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Neplatný název příkazu!",

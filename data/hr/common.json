@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Latencija bota",
         "apiLatency": "Latencija API-ja",
-        "uptime": "Vrijeme rada bota"
+        "uptime": "Vrijeme rada bota",
+        "latency": "Latencija",
+        "readySince": "Spreman od",
+        "stats": {
+            "servers": "Serveri",
+            "users": "Korisnici",
+            "channels": "Kanali",
+            "memory": "Memorija"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Neispravan naziv naredbe!",

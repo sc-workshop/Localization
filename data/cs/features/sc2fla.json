@@ -2,7 +2,11 @@
     "description": "Převede .sc do projektu Adobe Animate",
     "splitByNameOption": "Rozdělí .fla na malé projekty podle exportních názvů v .sc",
     "groupsOption": "Pole uživatelsky definovaných regulárních výrazů pro rozdělení .fla do skupin projektů",
-    "groupsOption_details": "Pole uživatelsky definovaných regulárních výrazů pro rozdělení .fla do skupin projektů\nNapříklad tento příkaz exportuje všechny exportní názvy začínající na \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nMůžete také použít více výrazů, ale pak musíte zadat název skupiny, například:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Pole uživatelsky definovaných regulárních výrazů pro rozdělení .fla do skupin projektů",
+        "   - Například tento příkaz exportuje všechny exportní názvy začínající na \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Můžete také použít více výrazů, ale musíte zadat název skupiny, například: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Vytvoří ActionScript dokument pro projekt .fla",
     "as3DocOption_details": "Vytvoří ActionScript dokument pro projekt .fla namísto dokumentu SupercellSWF v případech, kdy plugin SupercellSWF není k dispozici",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Průběh",
         "MovieClips converting": "Zpracování MovieClipů",
         "Shapes converting": "Zpracování tvarů"
-    }
+    },
+    "splitToFoldersOption": "Vytvoří .fla soubor se složkou \"Assets\" rozdělenou na další vnořené podsložky",
+    "splitToFoldersOption_details": [
+        "Vytvoří .fla soubor se složkou \"Assets\" rozdělenou na další vnořené podsložky",
+        "   - Funguje to téměř jako rozdělení podle názvu na samostatné .fla soubory, ale v rámci jednoho .fla projektu",
+        "   - Pomáhá optimalizovat pracovní postup v Animate, pokud je ve složce \"Assets\" příliš mnoho položek"
+    ]
 }

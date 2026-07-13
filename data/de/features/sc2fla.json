@@ -2,7 +2,11 @@
     "description": "Konvertiert .sc in ein Adobe Animate-Projekt",
     "splitByNameOption": "Teilt .fla anhand der .sc-Exportnamen in kleinere Projekte auf",
     "groupsOption": "Ein Array benutzerdefinierter regulärer Ausdrücke, um .fla in Projektgruppen aufzuteilen",
-    "groupsOption_details": "Ein Array benutzerdefinierter regulärer Ausdrücke, um .fla in Projektgruppen aufzuteilen\nBeispiel: Dieser Befehl exportiert alle Exportnamen, die mit \"bgr\" beginnen:\n`n!sc2fla file.sc .group=^bgr.*`\nSie können auch mehrere Ausdrücke verwenden, müssen dann aber einen Gruppennamen angeben, zum Beispiel:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Ein Array benutzerdefinierter regulärer Ausdrücke zum Aufteilen von .fla in Projektgruppen",
+        "   - Beispiel: Dieser Befehl exportiert alle Exportnamen, die mit \"bgr\" beginnen: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Sie können auch mehrere Ausdrücke verwenden, müssen dann aber den Gruppennamen angeben, z. B.: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Erstellt ein ActionScript-Dokument für das .fla-Projekt",
     "as3DocOption_details": "Erstellt ein ActionScript-Dokument für das .fla-Projekt anstelle des SupercellSWF-Dokuments, wenn das SupercellSWF-Plugin nicht verfügbar ist",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Fortschritt",
         "MovieClips converting": "MovieClip-Verarbeitung",
         "Shapes converting": "Shape-Verarbeitung"
-    }
+    },
+    "splitToFoldersOption": "Erstellt eine .fla-Datei mit dem Ordner \"Assets\", der in zusätzliche verschachtelte Ordner unterteilt ist",
+    "splitToFoldersOption_details": [
+        "Erstellt eine .fla-Datei mit dem Ordner \"Assets\", der in zusätzliche verschachtelte Ordner unterteilt ist",
+        "   - Dies funktioniert fast wie die Aufteilung nach Namen in separate .fla-Dateien, jedoch innerhalb eines einzigen .fla-Projekts",
+        "   - Hilft, den Arbeitsablauf in Animate zu optimieren, wenn zu viele Elemente im Ordner \"Assets\" vorhanden sind"
+    ]
 }

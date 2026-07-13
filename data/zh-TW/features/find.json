@@ -4,5 +4,16 @@
     "description": "在所選遊戲與版本的資料庫中搜尋資源",
     "assetOverview": "共找到 {{count}} 個資源（{{size}}~）",
     "assetOverview_one": "共找到 {{count}} 個資源（{{size}}~）",
-    "wrongDownloadArgsError": "下載參數不正確。請確認你指定了正確的版本"
+    "wrongDownloadArgsError": "下載參數不正確。請確認你指定了正確的版本",
+    "button": {
+        "prev": "上一頁",
+        "next": "下一頁",
+        "downloadAll": "下載所有檔案",
+        "downloadPage": "僅下載此頁"
+    },
+    "pageIndicator": "第 {{current}} 頁，共 {{total}} 頁",
+    "requestedBy": "{{user}} 請求",
+    "selectMenu": {
+        "placeholder": "跳轉到頁面..."
+    }
 }

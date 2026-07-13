@@ -4,5 +4,16 @@
     "description": "Cerca un asset nel database del gioco e della versione selezionati",
     "assetOverview": "Trovati in totale {{count}} asset ({{size}}~)",
     "assetOverview_one": "Trovati in totale {{count}} asset ({{size}}~)",
-    "wrongDownloadArgsError": "Argomenti di download errati. Assicurati di aver specificato la versione corretta"
+    "wrongDownloadArgsError": "Argomenti di download errati. Assicurati di aver specificato la versione corretta",
+    "button": {
+        "prev": "Pagina precedente",
+        "next": "Pagina successiva",
+        "downloadAll": "Scarica tutti i file",
+        "downloadPage": "Scarica solo questa pagina"
+    },
+    "pageIndicator": "Pagina {{current}} di {{total}}",
+    "requestedBy": "Richiesto da {{user}}",
+    "selectMenu": {
+        "placeholder": "Vai alla pagina..."
+    }
 }

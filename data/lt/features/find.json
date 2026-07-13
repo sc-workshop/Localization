@@ -4,5 +4,16 @@
     "description": "Ieško asseto pasirinkto žaidimo ir versijos duomenų bazėje",
     "assetOverview": "Iš viso rasta {{count}} assetų ({{size}}~)",
     "assetOverview_one": "Iš viso rasta {{count}} assetų ({{size}}~)",
-    "wrongDownloadArgsError": "Neteisingi atsisiuntimo argumentai. Įsitikinkite, kad nurodėte teisingą versiją"
+    "wrongDownloadArgsError": "Neteisingi atsisiuntimo argumentai. Įsitikinkite, kad nurodėte teisingą versiją",
+    "button": {
+        "prev": "Ankstesnis puslapis",
+        "next": "Kitas puslapis",
+        "downloadAll": "Atsisiųsti visus failus",
+        "downloadPage": "Atsisiųsti tik šį puslapį"
+    },
+    "pageIndicator": "Puslapis {{current}} iš {{total}}",
+    "requestedBy": "Prašė {{user}}",
+    "selectMenu": {
+        "placeholder": "Eiti į puslapį..."
+    }
 }

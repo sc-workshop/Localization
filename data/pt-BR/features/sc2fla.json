@@ -2,7 +2,11 @@
     "description": "Converte .sc em um projeto do Adobe Animate",
     "splitByNameOption": "Divide o .fla em pequenos projetos de acordo com os nomes de exportação do .sc",
     "groupsOption": "Uma matriz de expressões regulares definidas pelo usuário para dividir .fla em grupos de projetos",
-    "groupsOption_details": "Uma matriz de expressões regulares definidas pelo usuário para dividir .fla em grupos de projetos\nExemplo: este comando exportará todos os nomes de exportação que começam com \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nVocê também pode usar várias expressões, mas então precisa especificar o nome do grupo, por exemplo:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Uma matriz de expressões regulares definidas pelo usuário para dividir o .fla em grupos de projetos",
+        "   - Por exemplo, este comando exporta todos os nomes de exportação que começam com \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Você também pode usar várias expressões, mas precisa especificar o nome do grupo, por exemplo: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Cria um documento ActionScript para o projeto .fla",
     "as3DocOption_details": "Cria um documento ActionScript para o projeto .fla em vez do documento SupercellSWF quando o plugin SupercellSWF não está disponível",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Progresso",
         "MovieClips converting": "Processando MovieClips",
         "Shapes converting": "Processando Shapes"
-    }
+    },
+    "splitToFoldersOption": "Cria um arquivo .fla com a pasta \"Assets\" dividida em subpastas aninhadas adicionais",
+    "splitToFoldersOption_details": [
+        "Cria um arquivo .fla com a pasta \"Assets\" dividida em subpastas aninhadas adicionais",
+        "   - Funciona quase como a divisão por nomes em arquivos .fla separados, mas dentro de um único projeto .fla",
+        "   - Ajuda a otimizar o fluxo de trabalho no Animate se houver muitos itens na pasta \"Assets\""
+    ]
 }

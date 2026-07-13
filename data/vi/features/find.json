@@ -4,5 +4,16 @@
     "description": "Tìm kiếm asset trong cơ sở dữ liệu của trò chơi và phiên bản đã chọn",
     "assetOverview": "Tổng cộng tìm thấy {{count}} asset ({{size}}~)",
     "assetOverview_one": "Tổng cộng tìm thấy {{count}} asset ({{size}}~)",
-    "wrongDownloadArgsError": "Đối số tải xuống không đúng. Hãy đảm bảo bạn đã chỉ định đúng phiên bản"
+    "wrongDownloadArgsError": "Đối số tải xuống không đúng. Hãy đảm bảo bạn đã chỉ định đúng phiên bản",
+    "button": {
+        "prev": "Trang trước",
+        "next": "Trang sau",
+        "downloadAll": "Tải tất cả tệp",
+        "downloadPage": "Chỉ tải trang này"
+    },
+    "pageIndicator": "Trang {{current}} / {{total}}",
+    "requestedBy": "Yêu cầu bởi {{user}}",
+    "selectMenu": {
+        "placeholder": "Đi đến trang..."
+    }
 }

@@ -4,5 +4,16 @@
     "description": "Searches for an asset in the database of the selected game and version",
     "assetOverview": "Total found {{count}} assets ({{size}}~)",
     "assetOverview_one": "Found just {{count}} asset ({{size}}~)",
-    "wrongDownloadArgsError": "Incorrect download arguments. Make sure that you specified correct version"
+    "wrongDownloadArgsError": "Incorrect download arguments. Make sure that you specified correct version",
+    "button": {
+        "prev": "Previous page",
+        "next": "Next page",
+        "downloadAll": "Download all files",
+        "downloadPage": "Download just this page"
+    },
+    "pageIndicator": "Page {{current}} of {{total}}",
+    "requestedBy": "Requested by {{user}}",
+    "selectMenu": {
+        "placeholder": "Jump to page..."
+    }
 }

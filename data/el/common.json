@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Καθυστέρηση bot",
         "apiLatency": "Καθυστέρηση API",
-        "uptime": "Χρόνος λειτουργίας bot"
+        "uptime": "Χρόνος λειτουργίας bot",
+        "latency": "Καθυστέρηση",
+        "readySince": "Έτοιμο από",
+        "stats": {
+            "servers": "Διακομιστές",
+            "users": "Χρήστες",
+            "channels": "Κανάλια",
+            "memory": "Μνήμη"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Μη έγκυρο όνομα εντολής!",

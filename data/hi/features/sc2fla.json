@@ -2,7 +2,11 @@
     "description": ".sc को Adobe Animate project में बदलता है",
     "splitByNameOption": ".sc export names के अनुसार .fla को छोटे projects में बांटता है",
     "groupsOption": ".fla को project groups में बांटने के लिए user-defined regular expressions की array",
-    "groupsOption_details": ".fla को project groups में बांटने के लिए user-defined regular expressions की array\nउदाहरण के लिए, यह command उन सभी export names को export करेगी जो \"bgr\" से शुरू होते हैं:\n`n!sc2fla file.sc .group=^bgr.*`\nआप कई expressions भी उपयोग कर सकते हैं, लेकिन तब आपको group name देना होगा, उदाहरण के लिए:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        ".fla को प्रोजेक्ट समूहों में विभाजित करने के लिए उपयोगकर्ता-परिभाषित रेगुलर एक्सप्रेशन की एक सरणी",
+        "   - उदाहरण: यह कमांड \"bgr\" से शुरू होने वाले सभी एक्सपोर्ट नामों को निर्यात करेगा: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - आप कई एक्सप्रेशन भी उपयोग कर सकते हैं, लेकिन तब आपको समूह का नाम निर्दिष्ट करना होगा, उदाहरण: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": ".fla project के लिए ActionScript document बनाता है",
     "as3DocOption_details": "जब SupercellSWF plugin उपलब्ध न हो, तब SupercellSWF document की जगह .fla project के लिए ActionScript document बनाता है",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "प्रगति",
         "MovieClips converting": "MovieClips processing",
         "Shapes converting": "Shapes processing"
-    }
+    },
+    "splitToFoldersOption": "\"Assets\" फ़ोल्डर को अतिरिक्त नेस्टेड फ़ोल्डरों में विभाजित करके एक .fla फ़ाइल बनाता है",
+    "splitToFoldersOption_details": [
+        "\"Assets\" फ़ोल्डर को अतिरिक्त नेस्टेड फ़ोल्डरों में विभाजित करके एक .fla फ़ाइल बनाता है",
+        "   - यह नाम के आधार पर अलग-अलग .fla में विभाजित करने जैसा ही काम करता है, लेकिन एक ही .fla प्रोजेक्ट के भीतर",
+        "   - \"Assets\" फ़ोल्डर में बहुत ज़्यादा आइटम होने पर Animate में वर्कफ़्लो को अनुकूलित करने में मदद करता है"
+    ]
 }

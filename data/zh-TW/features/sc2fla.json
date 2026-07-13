@@ -2,7 +2,11 @@
     "description": "將 .sc 轉換為 Adobe Animate 專案",
     "splitByNameOption": "根據 .sc 匯出名稱將 .fla 拆分成小型專案",
     "groupsOption": "一組使用者定義的正則表達式，用來將 .fla 拆分為專案群組",
-    "groupsOption_details": "一組使用者定義的正則表達式，用來將 .fla 拆分為專案群組\n例如，此命令會匯出所有以 \"bgr\" 開頭的匯出名稱：\n`n!sc2fla file.sc .group=^bgr.*`\n你也可以使用多個表達式，但那樣就需要指定群組名稱，例如：\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "用於將 .fla 分割為專案群組的使用者自訂正規表達式陣列",
+        "   - 例如，此指令將匯出所有以 \"bgr\" 開頭的匯出名稱：`n!sc2fla file.sc .group=^bgr.*`",
+        "   - 你也可以使用多個表達式，但需要指定群組名稱，例如：`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "為 .fla 專案建立 ActionScript 文件",
     "as3DocOption_details": "當 SupercellSWF 外掛不可用時，為 .fla 專案建立 ActionScript 文件，而不是 SupercellSWF 文件",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "進度",
         "MovieClips converting": "處理 MovieClip",
         "Shapes converting": "處理 Shape"
-    }
+    },
+    "splitToFoldersOption": "建立一個 .fla 檔案，其 \"Assets\" 資料夾被劃分為額外的巢狀子資料夾",
+    "splitToFoldersOption_details": [
+        "建立一個 .fla 檔案，其 \"Assets\" 資料夾被劃分為額外的巢狀子資料夾",
+        "   - 這幾乎等同於按名稱分割為單獨的 .fla，但在單一 .fla 專案內進行",
+        "   - 如果 \"Assets\" 資料夾中項目過多，有助於最佳化 Animate 中的工作流程"
+    ]
 }

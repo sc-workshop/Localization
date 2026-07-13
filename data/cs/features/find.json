@@ -4,5 +4,16 @@
     "description": "Vyhledává asset v databázi vybrané hry a verze",
     "assetOverview": "Celkem nalezeno {{count}} assetů ({{size}}~)",
     "assetOverview_one": "Celkem nalezeno {{count}} assetů ({{size}}~)",
-    "wrongDownloadArgsError": "Neplatné argumenty pro stažení. Ujistěte se, že jste zadali správnou verzi"
+    "wrongDownloadArgsError": "Neplatné argumenty pro stažení. Ujistěte se, že jste zadali správnou verzi",
+    "button": {
+        "prev": "Předchozí stránka",
+        "next": "Další stránka",
+        "downloadAll": "Stáhnout všechny soubory",
+        "downloadPage": "Stáhnout pouze tuto stránku"
+    },
+    "pageIndicator": "Stránka {{current}} z {{total}}",
+    "requestedBy": "Požadováno uživatelem {{user}}",
+    "selectMenu": {
+        "placeholder": "Přejít na stránku..."
+    }
 }

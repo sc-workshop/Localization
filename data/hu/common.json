@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Bot késleltetés",
         "apiLatency": "API késleltetés",
-        "uptime": "Bot üzemidő"
+        "uptime": "Bot üzemidő",
+        "latency": "Késleltetés",
+        "readySince": "Kész óta",
+        "stats": {
+            "servers": "Szerverek",
+            "users": "Felhasználók",
+            "channels": "Csatornák",
+            "memory": "Memória"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Érvénytelen parancsnév!",

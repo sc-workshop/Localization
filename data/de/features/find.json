@@ -4,5 +4,16 @@
     "description": "Sucht ein Asset in der Datenbank des ausgewählten Spiels und der Version",
     "assetOverview": "Insgesamt {{count}} Assets gefunden ({{size}}~)",
     "assetOverview_one": "Insgesamt {{count}} Assets gefunden ({{size}}~)",
-    "wrongDownloadArgsError": "Ungültige Download-Argumente. Stellen Sie sicher, dass Sie die richtige Version angegeben haben"
+    "wrongDownloadArgsError": "Ungültige Download-Argumente. Stellen Sie sicher, dass Sie die richtige Version angegeben haben",
+    "button": {
+        "prev": "Vorherige Seite",
+        "next": "Nächste Seite",
+        "downloadAll": "Alle Dateien herunterladen",
+        "downloadPage": "Nur diese Seite herunterladen"
+    },
+    "pageIndicator": "Seite {{current}} von {{total}}",
+    "requestedBy": "Angefragt von {{user}}",
+    "selectMenu": {
+        "placeholder": "Zu Seite springen..."
+    }
 }

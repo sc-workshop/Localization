@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Độ trễ bot",
         "apiLatency": "Độ trễ API",
-        "uptime": "Thời gian hoạt động của bot"
+        "uptime": "Thời gian hoạt động của bot",
+        "latency": "Độ trễ",
+        "readySince": "Sẵn sàng từ",
+        "stats": {
+            "servers": "Máy chủ",
+            "users": "Người dùng",
+            "channels": "Kênh",
+            "memory": "Bộ nhớ"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Tên lệnh không hợp lệ!",

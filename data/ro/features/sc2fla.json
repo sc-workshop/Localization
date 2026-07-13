@@ -2,7 +2,11 @@
     "description": "Convertește .sc într-un proiect Adobe Animate",
     "splitByNameOption": "Împarte .fla în proiecte mici în funcție de numele de export din .sc",
     "groupsOption": "O listă de expresii regulate definite de utilizator pentru împărțirea .fla în grupuri de proiecte",
-    "groupsOption_details": "O listă de expresii regulate definite de utilizator pentru împărțirea .fla în grupuri de proiecte\nExemplu: această comandă va exporta toate numele de export care încep cu \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nPoți folosi și mai multe expresii, dar atunci trebuie să specifici numele grupului, de exemplu:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Un șir de expresii regulate definite de utilizator pentru a împărți .fla în grupuri de proiecte",
+        "   - De exemplu, această comandă exportă toate numele de export care încep cu \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Poți folosi și mai multe expresii, dar trebuie să specifici numele grupului, de exemplu: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Creează un document ActionScript pentru proiectul .fla",
     "as3DocOption_details": "Creează un document ActionScript pentru proiectul .fla în locul documentului SupercellSWF, în cazurile în care pluginul SupercellSWF nu este disponibil",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Progres",
         "MovieClips converting": "Procesare MovieClip-uri",
         "Shapes converting": "Procesare Shape-uri"
-    }
+    },
+    "splitToFoldersOption": "Creează un fișier .fla cu folderul \"Assets\" împărțit în subfoldere imbricate suplimentare",
+    "splitToFoldersOption_details": [
+        "Creează un fișier .fla cu folderul \"Assets\" împărțit în subfoldere imbricate suplimentare",
+        "   - Funcționează aproape ca împărțirea după nume în fișiere .fla separate, dar în cadrul unui singur proiect .fla",
+        "   - Ajută la optimizarea fluxului de lucru în Animate dacă sunt prea multe elemente în folderul \"Assets\""
+    ]
 }

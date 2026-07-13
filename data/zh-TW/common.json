@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "機器人延遲",
         "apiLatency": "API 延遲",
-        "uptime": "機器人運行時間"
+        "uptime": "機器人運行時間",
+        "latency": "延遲",
+        "readySince": "就緒時間",
+        "stats": {
+            "servers": "伺服器",
+            "users": "使用者",
+            "channels": "頻道",
+            "memory": "記憶體"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} 無效的命令名稱！",

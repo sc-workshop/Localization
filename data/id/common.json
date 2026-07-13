@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Latensi bot",
         "apiLatency": "Latensi API",
-        "uptime": "Waktu aktif bot"
+        "uptime": "Waktu aktif bot",
+        "latency": "Latensi",
+        "readySince": "Siap sejak",
+        "stats": {
+            "servers": "Server",
+            "users": "Pengguna",
+            "channels": "Saluran",
+            "memory": "Memori"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Nama perintah tidak valid!",

@@ -2,7 +2,11 @@
     "description": "Konvertuoja .sc į Adobe Animate projektą",
     "splitByNameOption": "Padalija .fla į mažus projektus pagal .sc eksportavimo pavadinimus",
     "groupsOption": "Naudotojo apibrėžtų reguliariųjų reiškinių masyvas, skirtas .fla padalyti į projektų grupes",
-    "groupsOption_details": "Naudotojo apibrėžtų reguliariųjų reiškinių masyvas, skirtas .fla padalyti į projektų grupes\nPavyzdžiui, ši komanda eksportuos visus eksportavimo pavadinimus, prasidedančius \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nTaip pat galite naudoti kelis reiškinius, tačiau tuomet reikia nurodyti grupės pavadinimą, pavyzdžiui:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Vartotojo apibrėžtų reguliariųjų reiškinių masyvas, skirtas .fla padalyti į projektų grupes",
+        "   - Pavyzdžiui, ši komanda eksportuos visus eksportavimo pavadinimus, prasidedančius \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Taip pat galite naudoti kelis reiškinius, bet turite nurodyti grupės pavadinimą, pavyzdžiui: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Sukuria ActionScript dokumentą .fla projektui",
     "as3DocOption_details": "Sukuria ActionScript dokumentą .fla projektui vietoje SupercellSWF dokumento, kai SupercellSWF papildinys nepasiekiamas",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Eiga",
         "MovieClips converting": "MovieClip apdorojimas",
         "Shapes converting": "Shape apdorojimas"
-    }
+    },
+    "splitToFoldersOption": "Sukuria .fla failą su \"Assets\" aplanku, padalintu į papildomus įdėtuosius poaplankius",
+    "splitToFoldersOption_details": [
+        "Sukuria .fla failą su \"Assets\" aplanku, padalintu į papildomus įdėtuosius poaplankius",
+        "   - Tai veikia beveik kaip padalijimas pagal pavadinimą į atskirus .fla failus, bet vieno .fla projekto ribose",
+        "   - Padeda optimizuoti darbo eigą \"Animate\", jei aplanke \"Assets\" yra per daug elementų"
+    ]
 }

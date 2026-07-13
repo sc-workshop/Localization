@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Latența botului",
         "apiLatency": "Latența API",
-        "uptime": "Timp de funcționare al botului"
+        "uptime": "Timp de funcționare al botului",
+        "latency": "Latență",
+        "readySince": "Gata de la",
+        "stats": {
+            "servers": "Servere",
+            "users": "Utilizatori",
+            "channels": "Canale",
+            "memory": "Memorie"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Nume de comandă invalid!",

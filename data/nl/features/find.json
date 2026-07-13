@@ -4,5 +4,16 @@
     "description": "Zoekt naar een asset in de database van het geselecteerde spel en de geselecteerde versie",
     "assetOverview": "In totaal {{count}} assets gevonden ({{size}}~)",
     "assetOverview_one": "In totaal {{count}} assets gevonden ({{size}}~)",
-    "wrongDownloadArgsError": "Ongeldige downloadargumenten. Controleer of je de juiste versie hebt opgegeven"
+    "wrongDownloadArgsError": "Ongeldige downloadargumenten. Controleer of je de juiste versie hebt opgegeven",
+    "button": {
+        "prev": "Vorige pagina",
+        "next": "Volgende pagina",
+        "downloadAll": "Alle bestanden downloaden",
+        "downloadPage": "Alleen deze pagina downloaden"
+    },
+    "pageIndicator": "Pagina {{current}} van {{total}}",
+    "requestedBy": "Aangevraagd door {{user}}",
+    "selectMenu": {
+        "placeholder": "Ga naar pagina..."
+    }
 }

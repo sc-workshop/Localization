@@ -2,7 +2,11 @@
     "description": "Converte .sc in un progetto Adobe Animate",
     "splitByNameOption": "Divide .fla in piccoli progetti in base ai nomi di esportazione di .sc",
     "groupsOption": "Un array di espressioni regolari definite dall'utente per dividere .fla in gruppi di progetto",
-    "groupsOption_details": "Un array di espressioni regolari definite dall'utente per dividere .fla in gruppi di progetto\nEsempio: questo comando esporterà tutti i nomi di esportazione che iniziano con \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nPuoi anche usare più espressioni, ma in quel caso devi specificare il nome del gruppo, per esempio:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Un array di espressioni regolari definite dall'utente per dividere il .fla in gruppi di progetti",
+        "   - Ad esempio, questo comando esporta tutti i nomi di esportazione che iniziano con \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Puoi anche usare più espressioni, ma devi specificare il nome del gruppo, ad esempio: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Crea un documento ActionScript per il progetto .fla",
     "as3DocOption_details": "Crea un documento ActionScript per il progetto .fla invece del documento SupercellSWF quando il plugin SupercellSWF non è disponibile",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Avanzamento",
         "MovieClips converting": "Elaborazione MovieClip",
         "Shapes converting": "Elaborazione Shape"
-    }
+    },
+    "splitToFoldersOption": "Crea un file .fla con la cartella \"Assets\" suddivisa in ulteriori sottocartelle annidate",
+    "splitToFoldersOption_details": [
+        "Crea un file .fla con la cartella \"Assets\" suddivisa in ulteriori sottocartelle annidate",
+        "   - Funziona quasi come la divisione per nome in file .fla separati, ma all'interno di un singolo progetto .fla",
+        "   - Aiuta a ottimizzare il flusso di lavoro in Animate se ci sono troppi elementi nella cartella \"Assets\""
+    ]
 }

@@ -4,5 +4,16 @@
     "description": "Assetet keres a kiválasztott játék és verzió adatbázisában",
     "assetOverview": "Összesen {{count}} asset található ({{size}}~)",
     "assetOverview_one": "Összesen {{count}} asset található ({{size}}~)",
-    "wrongDownloadArgsError": "Hibás letöltési argumentumok. Ellenőrizd, hogy a megfelelő verziót adtad-e meg"
+    "wrongDownloadArgsError": "Hibás letöltési argumentumok. Ellenőrizd, hogy a megfelelő verziót adtad-e meg",
+    "button": {
+        "prev": "Előző oldal",
+        "next": "Következő oldal",
+        "downloadAll": "Összes fájl letöltése",
+        "downloadPage": "Csak ezen oldal letöltése"
+    },
+    "pageIndicator": "{{current}} / {{total}}. oldal",
+    "requestedBy": "{{user}} kérése",
+    "selectMenu": {
+        "placeholder": "Ugrás az oldalra..."
+    }
 }

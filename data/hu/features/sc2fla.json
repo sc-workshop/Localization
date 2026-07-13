@@ -2,7 +2,11 @@
     "description": ".sc fájlt Adobe Animate projektté alakít",
     "splitByNameOption": "A .fla-t kisebb projektekre bontja a .sc exportnevei alapján",
     "groupsOption": "Felhasználó által megadott reguláris kifejezések tömbje a .fla projektekre bontásához",
-    "groupsOption_details": "Felhasználó által megadott reguláris kifejezések tömbje a .fla projektekre bontásához\nPéldául ez a parancs minden olyan exportnevet exportál, amely \"bgr\" előtaggal kezdődik:\n`n!sc2fla file.sc .group=^bgr.*`\nTöbb kifejezést is használhatsz, de ekkor meg kell adnod a csoport nevét, például:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Felhasználó által definiált reguláris kifejezések tömbje a .fla projektcsoportokra bontásához",
+        "   - Például ez a parancs az összes \"bgr\" kezdetű exportnevet exportálja: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Több kifejezést is használhatsz, de akkor meg kell adnod a csoport nevét, például: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "ActionScript dokumentumot hoz létre a .fla projekthez",
     "as3DocOption_details": "ActionScript dokumentumot hoz létre a .fla projekthez a SupercellSWF dokumentum helyett, ha a SupercellSWF bővítmény nem érhető el",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Folyamat",
         "MovieClips converting": "MovieClipek feldolgozása",
         "Shapes converting": "Shape-ek feldolgozása"
-    }
+    },
+    "splitToFoldersOption": "Létrehoz egy .fla fájlt, amelyben az \"Assets\" mappa további beágyazott almappákra van osztva",
+    "splitToFoldersOption_details": [
+        "Létrehoz egy .fla fájlt, amelyben az \"Assets\" mappa további beágyazott almappákra van osztva",
+        "   - Ez szinte ugyanúgy működik, mint a név szerinti felosztás külön .fla fájlokra, de egyetlen .fla projekten belül",
+        "   - Segít optimalizálni a munkafolyamatot az Animate-ben, ha túl sok elem van az \"Assets\" mappában"
+    ]
 }

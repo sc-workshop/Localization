@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Забавяне на бота",
         "apiLatency": "Забавяне на API",
-        "uptime": "Време на работа на бота"
+        "uptime": "Време на работа на бота",
+        "latency": "Забавяне",
+        "readySince": "Готов от",
+        "stats": {
+            "servers": "Сървъри",
+            "users": "Потребители",
+            "channels": "Канали",
+            "memory": "Памет"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Невалидно име на команда!",

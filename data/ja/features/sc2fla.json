@@ -2,7 +2,11 @@
     "description": ".sc を Adobe Animate プロジェクトに変換します",
     "splitByNameOption": ".sc のエクスポート名に応じて .fla を小さなプロジェクトに分割します",
     "groupsOption": ".fla をプロジェクトグループに分割するためのユーザー定義正規表現の配列です",
-    "groupsOption_details": ".fla をプロジェクトグループに分割するためのユーザー定義正規表現の配列です\n例: このコマンドは \"bgr\" で始まるすべてのエクスポート名を出力します:\n`n!sc2fla file.sc .group=^bgr.*`\n複数の式も使えますが、その場合はグループ名を指定する必要があります。例:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        ".fla をプロジェクトグループに分割するためのユーザー定義正規表現の配列",
+        "   - 例: このコマンドは \"bgr\" で始まるすべてのエクスポート名をエクスポートします: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - 複数の式を使用することもできますが、その場合はグループ名を指定する必要があります。例: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": ".fla プロジェクト用の ActionScript ドキュメントを作成します",
     "as3DocOption_details": "SupercellSWF プラグインが利用できない場合、SupercellSWF ドキュメントの代わりに .fla プロジェクト用の ActionScript ドキュメントを作成します",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "進行状況",
         "MovieClips converting": "MovieClip を処理中",
         "Shapes converting": "Shape を処理中"
-    }
+    },
+    "splitToFoldersOption": "\"Assets\" フォルダーを追加のネストされたフォルダーに分割した .fla ファイルを作成します",
+    "splitToFoldersOption_details": [
+        "\"Assets\" フォルダーを追加のネストされたフォルダーに分割した .fla ファイルを作成します",
+        "   - 名前で分割して別々の .fla にする方法とほぼ同じですが、単一の .fla プロジェクト内で行われます",
+        "   - \"Assets\" フォルダーにアイテムが多すぎる場合、Animate でのワークフローの最適化に役立ちます"
+    ]
 }

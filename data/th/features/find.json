@@ -4,5 +4,16 @@
     "description": "ค้นหา asset ในฐานข้อมูลของเกมและเวอร์ชันที่เลือก",
     "assetOverview": "พบ asset ทั้งหมด {{count}} รายการ ({{size}}~)",
     "assetOverview_one": "พบ asset ทั้งหมด {{count}} รายการ ({{size}}~)",
-    "wrongDownloadArgsError": "อาร์กิวเมนต์สำหรับดาวน์โหลดไม่ถูกต้อง โปรดตรวจสอบว่าคุณระบุเวอร์ชันถูกต้อง"
+    "wrongDownloadArgsError": "อาร์กิวเมนต์สำหรับดาวน์โหลดไม่ถูกต้อง โปรดตรวจสอบว่าคุณระบุเวอร์ชันถูกต้อง",
+    "button": {
+        "prev": "หน้าก่อนหน้า",
+        "next": "หน้าถัดไป",
+        "downloadAll": "ดาวน์โหลดไฟล์ทั้งหมด",
+        "downloadPage": "ดาวน์โหลดเฉพาะหน้านี้"
+    },
+    "pageIndicator": "หน้า {{current}} จาก {{total}}",
+    "requestedBy": "ร้องขอโดย {{user}}",
+    "selectMenu": {
+        "placeholder": "ไปที่หน้า..."
+    }
 }

@@ -2,7 +2,11 @@
     "description": "Chuyển đổi .sc thành dự án Adobe Animate",
     "splitByNameOption": "Chia .fla thành các dự án nhỏ theo tên export của .sc",
     "groupsOption": "Mảng biểu thức chính quy do người dùng định nghĩa để chia .fla thành các nhóm dự án",
-    "groupsOption_details": "Mảng biểu thức chính quy do người dùng định nghĩa để chia .fla thành các nhóm dự án\nVí dụ, lệnh này sẽ xuất tất cả các tên export bắt đầu bằng \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nBạn cũng có thể dùng nhiều biểu thức, nhưng khi đó cần chỉ định tên nhóm, ví dụ:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Một mảng các biểu thức chính quy do người dùng định nghĩa để chia .fla thành các nhóm dự án",
+        "   - Ví dụ: lệnh này xuất tất cả các tên xuất bắt đầu bằng \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Bạn cũng có thể sử dụng nhiều biểu thức, nhưng cần chỉ định tên nhóm, ví dụ: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Tạo tài liệu ActionScript cho dự án .fla",
     "as3DocOption_details": "Tạo tài liệu ActionScript cho dự án .fla thay cho tài liệu SupercellSWF trong trường hợp plugin SupercellSWF không khả dụng",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Tiến trình",
         "MovieClips converting": "Đang xử lý MovieClip",
         "Shapes converting": "Đang xử lý Shape"
-    }
+    },
+    "splitToFoldersOption": "Tạo tệp .fla với thư mục \"Assets\" được chia thành các thư mục con lồng nhau bổ sung",
+    "splitToFoldersOption_details": [
+        "Tạo tệp .fla với thư mục \"Assets\" được chia thành các thư mục con lồng nhau bổ sung",
+        "   - Cách này hoạt động gần giống như chia theo tên thành các tệp .fla riêng biệt, nhưng trong một dự án .fla duy nhất",
+        "   - Giúp tối ưu hóa quy trình làm việc trong Animate nếu có quá nhiều mục trong thư mục \"Assets\""
+    ]
 }

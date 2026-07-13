@@ -4,5 +4,16 @@
     "description": "選択したゲームとバージョンのデータベースでアセットを検索します",
     "assetOverview": "合計 {{count}} 個のアセットが見つかりました ({{size}}~)",
     "assetOverview_one": "合計 {{count}} 個のアセットが見つかりました ({{size}}~)",
-    "wrongDownloadArgsError": "ダウンロード引数が正しくありません。正しいバージョンを指定してください"
+    "wrongDownloadArgsError": "ダウンロード引数が正しくありません。正しいバージョンを指定してください",
+    "button": {
+        "prev": "前のページ",
+        "next": "次のページ",
+        "downloadAll": "すべてのファイルをダウンロード",
+        "downloadPage": "このページだけダウンロード"
+    },
+    "pageIndicator": "{{current}} / {{total}} ページ",
+    "requestedBy": "{{user}} のリクエスト",
+    "selectMenu": {
+        "placeholder": "ページに移動..."
+    }
 }

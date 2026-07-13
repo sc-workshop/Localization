@@ -4,9 +4,17 @@
     "ping": {
         "description": "Replies pong!",
         "title": "Pong nya~{{pong, emoji}}",
+        "latency": "Latency",
         "botLatency": "Bot Latency",
         "apiLatency": "API Latency",
-        "uptime": "Bot uptime"
+        "uptime": "Bot Uptime",
+        "readySince": "Ready since",
+        "stats": {
+            "servers": "Servers",
+            "users": "Users",
+            "channels": "Channels",
+            "memory": "Memory"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Invalid command name!",

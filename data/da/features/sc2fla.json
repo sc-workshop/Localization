@@ -2,7 +2,11 @@
     "description": "Konverterer .sc til et Adobe Animate-projekt",
     "splitByNameOption": "Opdeler .fla i små projekter efter .sc-eksportnavne",
     "groupsOption": "En liste over brugerdefinerede regulære udtryk til at opdele .fla i projektgrupper",
-    "groupsOption_details": "En liste over brugerdefinerede regulære udtryk til at opdele .fla i projektgrupper\nEksempel: Denne kommando eksporterer alle eksportnavne, der starter med \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nDu kan også bruge flere udtryk, men så skal du angive et gruppenavn, for eksempel:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Et array af brugerdefinerede regulære udtryk til at opdele .fla i projektgrupper",
+        "   - For eksempel eksporterer denne kommando alle eksportnavne, der starter med \"bgr\": `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Du kan også bruge flere udtryk, men du skal angive gruppenavnet, f.eks.: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Opretter et ActionScript-dokument til .fla-projektet",
     "as3DocOption_details": "Opretter et ActionScript-dokument til .fla-projektet i stedet for SupercellSWF-dokumentet, når SupercellSWF-pluginet ikke er tilgængeligt",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Fremskridt",
         "MovieClips converting": "Behandler MovieClips",
         "Shapes converting": "Behandler Shapes"
-    }
+    },
+    "splitToFoldersOption": "Opretter en .fla-fil med mappen \"Assets\" opdelt i yderligere indlejrede undermapper",
+    "splitToFoldersOption_details": [
+        "Opretter en .fla-fil med mappen \"Assets\" opdelt i yderligere indlejrede undermapper",
+        "   - Dette fungerer næsten som opdeling efter navn i separate .fla-filer, men inden for ét .fla-projekt",
+        "   - Hjælper med at optimere arbejdsgangen i Animate, hvis der er for mange elementer i mappen \"Assets\""
+    ]
 }

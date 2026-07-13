@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Botのレイテンシ",
         "apiLatency": "APIのレイテンシ",
-        "uptime": "Botの稼働時間"
+        "uptime": "Botの稼働時間",
+        "latency": "レイテンシ",
+        "readySince": "起動時刻",
+        "stats": {
+            "servers": "サーバー",
+            "users": "ユーザー",
+            "channels": "チャンネル",
+            "memory": "メモリ"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} 無効なコマンド名です！",

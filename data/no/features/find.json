@@ -4,5 +4,16 @@
     "description": "Søker etter et asset i databasen til valgt spill og versjon",
     "assetOverview": "Fant totalt {{count}} assets ({{size}}~)",
     "assetOverview_one": "Fant totalt {{count}} assets ({{size}}~)",
-    "wrongDownloadArgsError": "Feil nedlastingsargumenter. Kontroller at du har oppgitt riktig versjon"
+    "wrongDownloadArgsError": "Feil nedlastingsargumenter. Kontroller at du har oppgitt riktig versjon",
+    "button": {
+        "prev": "Forrige side",
+        "next": "Neste side",
+        "downloadAll": "Last ned alle filer",
+        "downloadPage": "Last ned kun denne siden"
+    },
+    "pageIndicator": "Side {{current}} av {{total}}",
+    "requestedBy": "Forespurt av {{user}}",
+    "selectMenu": {
+        "placeholder": "Gå til side..."
+    }
 }

@@ -2,7 +2,11 @@
     "description": "Muuntaa .sc-tiedoston Adobe Animate -projektiksi",
     "splitByNameOption": "Jakaa .fla:n pieniin projekteihin .sc:n vientinimien mukaan",
     "groupsOption": "Taulukko käyttäjän määrittämiä säännöllisiä lausekkeita .fla:n jakamiseen projektiryhmiin",
-    "groupsOption_details": "Taulukko käyttäjän määrittämiä säännöllisiä lausekkeita .fla:n jakamiseen projektiryhmiin\nEsimerkki: tämä komento vie kaikki vientinimet, jotka alkavat \"bgr\":\n`n!sc2fla file.sc .group=^bgr.*`\nVoit käyttää myös useita lausekkeita, mutta silloin sinun täytyy määrittää ryhmän nimi, esimerkiksi:\n`n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`\n",
+    "groupsOption_details": [
+        "Käyttäjän määrittelemien säännöllisten lausekkeiden taulukko .fla:n jakamiseksi projektiryhmiin",
+        "   - Esimerkiksi tämä komento vie kaikki \"bgr\"-alkuiset vientinimet: `n!sc2fla file.sc .group=^bgr.*`",
+        "   - Voit myös käyttää useita lausekkeita, mutta sinun on määritettävä ryhmän nimi, esimerkiksi: `n!sc2fla file.sc .group=background:^bgr.* .group=character:^char.*`'"
+    ],
     "as3DocOption": "Luo ActionScript-dokumentin .fla-projektille",
     "as3DocOption_details": "Luo ActionScript-dokumentin .fla-projektille SupercellSWF-dokumentin sijaan tilanteissa, joissa SupercellSWF-liitännäistä ei ole saatavilla",
     "progress": {
@@ -15,5 +19,11 @@
         "Progress": "Edistyminen",
         "MovieClips converting": "Käsitellään MovieClipejä",
         "Shapes converting": "Käsitellään Shapeja"
-    }
+    },
+    "splitToFoldersOption": "Luo .fla-tiedoston, jossa \"Assets\"-kansio on jaettu ylimääräisiin sisäkkäisiin alikansioihin",
+    "splitToFoldersOption_details": [
+        "Luo .fla-tiedoston, jossa \"Assets\"-kansio on jaettu ylimääräisiin sisäkkäisiin alikansioihin",
+        "   - Toimii lähes samoin kuin nimen mukainen jako erillisiin .fla-tiedostoihin, mutta yhden .fla-projektin sisällä",
+        "   - Auttaa optimoimaan työnkulun Animatessa, jos \"Assets\"-kansiossa on liian monta kohdetta"
+    ]
 }

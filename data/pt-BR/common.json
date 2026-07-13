@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Latência do bot",
         "apiLatency": "Latência da API",
-        "uptime": "Tempo de atividade do bot"
+        "uptime": "Tempo de atividade do bot",
+        "latency": "Latência",
+        "readySince": "Pronto desde",
+        "stats": {
+            "servers": "Servidores",
+            "users": "Usuários",
+            "channels": "Canais",
+            "memory": "Memória"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Nome de comando inválido!",

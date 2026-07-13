@@ -6,7 +6,15 @@
         "title": "Pong nya~{{pong, emoji}}",
         "botLatency": "Botlatens",
         "apiLatency": "API-latens",
-        "uptime": "Botens drifttid"
+        "uptime": "Botens drifttid",
+        "latency": "Latens",
+        "readySince": "Redo sedan",
+        "stats": {
+            "servers": "Servrar",
+            "users": "Användare",
+            "channels": "Kanaler",
+            "memory": "Minne"
+        }
     },
     "commandSelector": {
         "invalidCommand": "{{error, emoji}} Ogiltigt kommandonamn!",

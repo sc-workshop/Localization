@@ -4,5 +4,16 @@
     "description": "चुने गए game और version के database में asset खोजता है",
     "assetOverview": "कुल {{count}} assets मिले ({{size}}~)",
     "assetOverview_one": "कुल {{count}} assets मिले ({{size}}~)",
-    "wrongDownloadArgsError": "गलत download arguments। सुनिश्चित करें कि आपने सही version दिया है"
+    "wrongDownloadArgsError": "गलत download arguments। सुनिश्चित करें कि आपने सही version दिया है",
+    "button": {
+        "prev": "पिछला पेज",
+        "next": "अगला पेज",
+        "downloadAll": "सभी फ़ाइलें डाउनलोड करें",
+        "downloadPage": "केवल यह पेज डाउनलोड करें"
+    },
+    "pageIndicator": "पेज {{current}} / {{total}}",
+    "requestedBy": "{{user}} द्वारा अनुरोधित",
+    "selectMenu": {
+        "placeholder": "पेज पर जाएं..."
+    }
 }

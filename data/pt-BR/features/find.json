@@ -4,5 +4,16 @@
     "description": "Procura um asset no banco de dados do jogo e da versão selecionados",
     "assetOverview": "Total de {{count}} assets encontrados ({{size}}~)",
     "assetOverview_one": "Total de {{count}} assets encontrados ({{size}}~)",
-    "wrongDownloadArgsError": "Argumentos de download incorretos. Verifique se você especificou a versão correta"
+    "wrongDownloadArgsError": "Argumentos de download incorretos. Verifique se você especificou a versão correta",
+    "button": {
+        "prev": "Página anterior",
+        "next": "Próxima página",
+        "downloadAll": "Baixar todos os arquivos",
+        "downloadPage": "Baixar apenas esta página"
+    },
+    "pageIndicator": "Página {{current}} de {{total}}",
+    "requestedBy": "Solicitado por {{user}}",
+    "selectMenu": {
+        "placeholder": "Ir para a página..."
+    }
 }
